@@ -1,0 +1,415 @@
+{
+  "documents": {
+    "integrated": "感恩奖学金复习整合资料（资料+挖空试题）.docx",
+    "preparation": "感恩中国近现代科学家奖学金准备.docx",
+    "handbook": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx",
+    "elan": "感恩笔试真题_ELAN整理版.pdf",
+    "upstream": "原项目 questions.js（来源标签沿用原作者，未据此认定为官方真题）"
+  },
+  "officialReferences": {
+    "C01": {
+      "title": "[C01] 四川大学档案馆 历史文化长廊解说",
+      "url": "https://archives.scu.edu.cn/info/1026/2056.htm"
+    },
+    "C02": {
+      "title": "[C02] 四川大学 学校简介",
+      "url": "https://www.scu.edu.cn/old/xxgknew/xxjj.htm"
+    },
+    "C03": {
+      "title": "[C03] 四川大学 校名校徽校训等标识",
+      "url": "https://www.scu.edu.cn/xxgk/cdbs.htm"
+    },
+    "C04": {
+      "title": "[C04] 四川大学档案馆 校风",
+      "url": "https://archives.scu.edu.cn/xf.htm"
+    },
+    "C05": {
+      "title": "[C05] 四川大学130周年 强国建设 川大有为",
+      "url": "https://news.scu.edu.cn/xxzyhx/info/1141/1015.htm"
+    },
+    "C06": {
+      "title": "[C06] 四川大学档案馆 不惧难题的柯召",
+      "url": "https://archives.scu.edu.cn/info/1015/1995.htm"
+    },
+    "C07": {
+      "title": "[C07] 四川大学 徐僖 人生乐趣在于无私奉献",
+      "url": "https://www.scu.edu.cn/info/1892/35184.htm"
+    },
+    "C08": {
+      "title": "[C08] 四川大学报 化学工程教育先驱张洪沅",
+      "url": "https://newspaper.scu.edu.cn/info/1879/3959.htm"
+    },
+    "C09": {
+      "title": "[C09] 四川大学新闻网 皮革教育宗师张铨",
+      "url": "https://news.scu.edu.cn/info/1142/20495.htm"
+    },
+    "C10": {
+      "title": "[C10] 四川大学档案馆 方文培 学心托杜鹃",
+      "url": "https://archives.scu.edu.cn/info/1015/1985.htm"
+    },
+    "C11": {
+      "title": "[C11] 四川大学校史宣传片 刘承钊与华西医学等",
+      "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
+    },
+    "C12": {
+      "title": "[C12] 四川大学生命科学学院 赵尔宓院士生平",
+      "url": "https://life.scu.edu.cn/info/1020/1120.htm"
+    },
+    "C13": {
+      "title": "[C13] 四川大学档案馆 陈志潜与定县模式",
+      "url": "https://archives.scu.edu.cn/info/1015/2793.htm"
+    },
+    "C14": {
+      "title": "[C14] 四川大学华西医院 陈文贵",
+      "url": "https://www.wchscu.cn/ysg/social_responsibility/59164.html"
+    },
+    "C15": {
+      "title": "[C15] 四川大学校史宣传片 乐以成等杰出校友",
+      "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
+    },
+    "C16": {
+      "title": "[C16] 四川大学化学工程学院 王方定院士",
+      "url": "https://ce.scu.edu.cn/info/1038/2699.htm"
+    },
+    "C17": {
+      "title": "[C17] 四川大学化学工程学院 傅依备院士",
+      "url": "https://ce.scu.edu.cn/info/1038/2698.htm"
+    },
+    "C18": {
+      "title": "[C18] 四川大学物理学院 彭堃墀",
+      "url": "https://physics.scu.edu.cn/info/1079/3643.htm"
+    },
+    "C19": {
+      "title": "[C19] 四川大学人事处 张兴栋",
+      "url": "https://rsc.scu.edu.cn/info/1185/1796.htm"
+    },
+    "C20": {
+      "title": "[C20] 四川大学 创新2035先导计划与科学家研究方向",
+      "url": "https://wlb.scu.edu.cn/info/1014/3788.htm"
+    },
+    "C21": {
+      "title": "[C21] 四川大学化学学院 冯小明与冯催化剂",
+      "url": "https://chem.scu.edu.cn/info/1036/5573.htm"
+    },
+    "C22": {
+      "title": "[C22] 四川大学化学学院 院士研究方向",
+      "url": "https://chem.scu.edu.cn/ys.jsp?urltype=tree.TreeTempUrl&wbtreeid=1257"
+    },
+    "C23": {
+      "title": "[C23] 四川大学新闻网 2026年思政课与交叉科研",
+      "url": "https://news.scu.edu.cn/info/1135/54506.htm"
+    },
+    "C24": {
+      "title": "[C24] 四川大学新闻网 三校历史与杰出校友",
+      "url": "https://news.scu.edu.cn/info/1142/20471.htm"
+    },
+    "C25": {
+      "title": "[C25] 四川大学新闻网 江竹筠在川大",
+      "url": "https://news.scu.edu.cn/info/1135/52049.htm"
+    },
+    "C26": {
+      "title": "[C26] 四川大学 鹿传霖与四川大学创建",
+      "url": "https://www.scu.edu.cn/info/1875/34817.htm"
+    },
+    "C27": {
+      "title": "[C27] 四川大学2026级新生开学第一课 办学传统",
+      "url": "https://www.scu.edu.cn/info/1207/40629.htm"
+    },
+    "S01": {
+      "title": "[S01] 四川大学教育基金会 第九届评选通知 2026年10月9日",
+      "url": "https://foundation.scu.edu.cn/info/1024/6357.htm"
+    },
+    "S02": {
+      "title": "[S02] 立德树人中心 第九届评选通知 2026年9月10日",
+      "url": "https://ldsrw.swjtu.edu.cn/info/1009/3893.htm"
+    },
+    "S03": {
+      "title": "[S03] 科技部 关于进一步弘扬科学家精神加强作风和学风建设的意见",
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2019/201906/t20190612_147045.html"
+    },
+    "S04": {
+      "title": "[S04] 中国科学院 两弹一星先进群体及23位元勋名单",
+      "url": "https://www.cas.cn/jh/201909/t20190926_4717997.shtml"
+    },
+    "S05": {
+      "title": "[S05] 国家航天局 两弹一星历史节点与精神",
+      "url": "https://www.cnsa.gov.cn/n6758823/n6758838/c6771449/content.html"
+    },
+    "S06": {
+      "title": "[S06] 科技部 历届国家最高科学技术奖获奖人",
+      "url": "https://most.gov.cn/ztzl/kjrw/index.html"
+    },
+    "S07": {
+      "title": "[S07] 四川大学 2025年第八届感恩中国近现代科学家奖助学金评选通知",
+      "url": "https://xgb.scu.edu.cn/info/1003/5094.htm"
+    },
+    "S13": {
+      "title": "[S13] 中国科学院 于敏研究贡献与事迹",
+      "url": "https://www.cas.cn/zt/rwzt/qmj2020/ym/jnwz/202004/t20200402_4739719.shtml"
+    },
+    "S14": {
+      "title": "[S14] 中国科学院 王大珩生平",
+      "url": "https://www.cas.cn/zt/rwzt/gwcyz_1/wangdaheng/201203/t20120330_3546577.shtml"
+    },
+    "S15": {
+      "title": "[S15] 中国科学院 王希季 我愿做太空的铺路石",
+      "url": "https://www.cas.cn/xzfc/202507/t20250728_5077930.shtml"
+    },
+    "S16": {
+      "title": "[S16] 中国科学院 纪念朱光亚院士",
+      "url": "https://kxrsbn.casad.cas.cn/2024/xwdt/202403/t20240306_5007653.html"
+    },
+    "S17": {
+      "title": "[S17] 中国科学院 孙家栋的航天传奇",
+      "url": "https://www.cas.cn/kxyj/kj/zg/2009n/sjd/mtbd/201001/t20100112_2724762.shtml"
+    },
+    "S18": {
+      "title": "[S18] 中国科学院 任新民 中国航天总总师",
+      "url": "https://www.cas.cn/xzfc/202109/t20210915_4805843.shtml"
+    },
+    "S19": {
+      "title": "[S19] 立德树人网 吴自良专题",
+      "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_wzl.htm"
+    },
+    "S20": {
+      "title": "[S20] 中国科学院 陈芳允 两弹元勋奠基北斗",
+      "url": "https://www.cas.cn/xzfc/202302/t20230208_4874347.shtml"
+    },
+    "S21": {
+      "title": "[S21] 中国工程物理研究院 深切缅怀陈能宽院士",
+      "url": "https://www.caep.cn/zwxx/zdzt/sqmhldyxgxcnkys/jnwz/532176.shtml"
+    },
+    "S22": {
+      "title": "[S22] 中国科学院 杨嘉墀 科学人生百年",
+      "url": "https://kxrsbn.casad.cas.cn/2019n/bnysml/yjc/"
+    },
+    "S23": {
+      "title": "[S23] 中国科学院 周光召与中国核武器科技事业",
+      "url": "https://scicn.casad.cas.cn/wz/202408/t20240819_5029021.html"
+    },
+    "S24": {
+      "title": "[S24] 立德树人网 五年漫漫归国路 十年艰辛两弹成",
+      "url": "https://ldsrw.swjtu.edu.cn/info/1017/3623.htm"
+    },
+    "S25": {
+      "title": "[S25] 中国数字科技馆 东风五号导弹与屠守锷",
+      "url": "https://www.cdstm.cn/museum/zphc/kcbnjd100znkjcjkpz/art/2021/art_5c945eccd17b45f29fc0c0cfbfd278bb.html"
+    },
+    "S26": {
+      "title": "[S26] 中国科学院文献情报中心 黄纬禄的故事",
+      "url": "https://kxcb.las.ac.cn/ldyx_news_detail/900.html"
+    },
+    "S27": {
+      "title": "[S27] 国防科工局 叶培建 程开甲获人民科学家称号",
+      "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10159569/content.html"
+    },
+    "S28": {
+      "title": "[S28] 中国科学院理论物理所 彭桓武的治学精神",
+      "url": "https://itp.cas.cn/djykxwh/kxwh/djff_171440/phw_171441/202010/t20201007_5713856.html"
+    },
+    "S29": {
+      "title": "[S29] 中国科学院高能所 中微子研究的历史与未来",
+      "url": "https://www.ihep.cas.cn/dkxzz/juno/kpyd/201809/P020180910355586004097.pdf"
+    },
+    "S30": {
+      "title": "[S30] 立德树人网 邓稼先专题",
+      "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_djx.htm"
+    },
+    "S31": {
+      "title": "[S31] 中国科学院 赵九章传",
+      "url": "https://www.ad.cas.cn/xbcg/kxwhxl/yscj/zjzz/"
+    },
+    "S32": {
+      "title": "[S32] 立德树人网 姚桐斌专题",
+      "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_ytb.htm"
+    },
+    "S33": {
+      "title": "[S33] 国家空间科学中心 钱骥与我国空间技术事业",
+      "url": "https://cssar.cas.cn/ztzl2015/zgkjkxzl2015/kjkxzldx/202004/t20200430_5567423.html"
+    },
+    "S34": {
+      "title": "[S34] 中国科学院 钱三强与我国原子能事业",
+      "url": "https://www.cas.cn/xzfc/202206/t20220630_4840013.shtml"
+    },
+    "S35": {
+      "title": "[S35] 中国科学院 郭永怀 甘做祖国力学事业铺路石",
+      "url": "https://isl.cas.cn/kxcbn/kpwz/201810/t20181016_6798933.html"
+    },
+    "S36": {
+      "title": "[S36] 全国政协 追星逐月 叶培建",
+      "url": "https://www.cppcc.gov.cn/zxww/2025/01/20/ARTI1737364897717460.shtml"
+    },
+    "S37": {
+      "title": "[S37] 中国科学院 吴文俊 创中国方法 为世界算数",
+      "url": "https://www.cas.cn/xzfc/202501/t20250114_5044886.shtml"
+    },
+    "S38": {
+      "title": "[S38] 国家应急广播网 人民科学家顾方舟",
+      "url": "https://www.cneb.gov.cn/2019/10/06/VIDE1570340749593655.shtml"
+    },
+    "S39": {
+      "title": "[S39] 立德树人网 南仁东专题",
+      "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_nrd.htm"
+    },
+    "S40": {
+      "title": "[S40] 中国工程院 多吉与羊八井地热",
+      "url": "https://www.cae.cn/cae/html/main/col1/2017-11/13/20171113100056706543575_1.html"
+    },
+    "S41": {
+      "title": "[S41] 中国科学院古脊椎所 张弥曼九十华诞特展",
+      "url": "https://ivpp.cas.cn/xwdt/zhxw/202604/t20260417_8187232.html"
+    },
+    "S42": {
+      "title": "[S42] 中国工程院 邹学校",
+      "url": "https://www.cae.cn/cae/html/main/colys/67789743.html"
+    },
+    "S43": {
+      "title": "[S43] 中国工程院 倪光南 一生追求中国芯",
+      "url": "https://www.cae.cn/cae/html/main/col336/2022-04/11/20220411134259523806148_1.html"
+    },
+    "S44": {
+      "title": "[S44] 科普中国 黄才发的基层科普实践",
+      "url": "https://img3.kepuchina.cn/person/jcrs/201908/t20190813_1095576.shtml"
+    },
+    "S45": {
+      "title": "[S45] 中国科学院 陈云霁与深度学习处理器",
+      "url": "https://www.qtgz.cas.cn/zgzj/xfmf/202204/t20220429_4833346.html"
+    },
+    "S46": {
+      "title": "[S46] 央视网 姬秋梅与牦牛科研",
+      "url": "https://news.cctv.cn/2019/08/15/ARTIbtpkvgLg0RR7gq2WomZS190815.shtml"
+    },
+    "S47": {
+      "title": "[S47] 中国水利网 杨海燕 水电玫瑰",
+      "url": "https://www.chinawater.com.cn/newscenter/rw/201908/t20190815_737513.html"
+    },
+    "S48": {
+      "title": "[S48] 中国科协 2019年最美科技工作者祁兴磊",
+      "url": "https://rczx.cast.org.cn/jljj/kjgzzfc/zmkjgzz/art/2022/art_070dd6494bf24807a9a5896f814784da.html"
+    },
+    "S49": {
+      "title": "[S49] 西南交通大学 徐恭义入选全国最美科技工作者",
+      "url": "https://news.swjtu.edu.cn/info/1011/27836.htm"
+    },
+    "S50": {
+      "title": "[S50] 西安交通大学 陶文铨人物资料",
+      "url": "https://szpt.xjtu.edu.cn/j/g/a/content_258.shtml"
+    },
+    "S51": {
+      "title": "[S51] 北京大学期刊平台 陈孝平先进事迹",
+      "url": "https://ccj.pku.edu.cn/Article/info?aid=334287939"
+    },
+    "S52": {
+      "title": "[S52] 国家能源局 邢继 华龙一号总设计师",
+      "url": "https://www.nea.gov.cn/2019-08/07/c_138290912.htm"
+    },
+    "S53": {
+      "title": "[S53] 上海科技党建 梁建英与中国高速列车",
+      "url": "https://www.shkjdw.gov.cn/c/2019-08-15/517272.shtml"
+    },
+    "S54": {
+      "title": "[S54] 西北工业大学 李贺军碳碳复合材料团队",
+      "url": "https://z.nwpu.edu.cn/info/1753/16412.htm"
+    },
+    "S55": {
+      "title": "[S55] 中国文明网 李兴钢先进事迹",
+      "url": "https://www.wenming.cn/zmrwfbt/yw_01/201806/t20180615_4725573.shtml"
+    },
+    "S56": {
+      "title": "[S56] 全国标准信息公共服务平台 王杜娟专业资料",
+      "url": "https://std.samr.gov.cn/search/personDetailedCNF?id=3150D0E850DEDB99971529794E99EC3B"
+    },
+    "S57": {
+      "title": "[S57] 北京协和医学院 秦川研究方向",
+      "url": "https://yzbss.pumc.edu.cn/basicinfo/tutorinfo/tutordetail/J2009110071"
+    },
+    "S58": {
+      "title": "[S58] 科技部 蔚保国与北斗研发",
+      "url": "https://www.most.gov.cn/ztzl/hyagfdjs/xwbd/201810/t20181029_142470.html"
+    },
+    "S59": {
+      "title": "[S59] 北京大学 严纯华研究介绍",
+      "url": "https://www.pku.edu.cn/detail/402.html"
+    },
+    "S60": {
+      "title": "[S60] 中国科学院 师昌绪与2010年度最高奖",
+      "url": "https://www.cas.cn/kxyj/kj/zg/2010gjzgkxjsj/shichangxu/"
+    },
+    "S61": {
+      "title": "[S61] 中国科学院 周同惠院士生平",
+      "url": "https://casad.cas.cn/zt2022/mhys/2020/202002/t20200225_4735694.html"
+    },
+    "S62": {
+      "title": "[S62] 复旦大学 陈灏珠等人物资料",
+      "url": "https://www.fudan.edu.cn/_upload/article/files/d5/5f/a796230f4525a74d8025cb41df32/e1539069-99bf-4272-9b38-77bf54cbe427.pdf"
+    },
+    "S63": {
+      "title": "[S63] 中国科学院高能所 方守贤生平",
+      "url": "https://ihep.cas.cn/kydw/yszj/ygys/202210/t20221010_6521757.html"
+    },
+    "S64": {
+      "title": "[S64] 南京大学 程镕时生平简介",
+      "url": "https://chem.nju.edu.cn/c7/cf/c41332a509903/page.htm"
+    },
+    "S65": {
+      "title": "[S65] 科技部 2008年度最高奖 王忠诚",
+      "url": "https://www.most.gov.cn/cxfw/kjjlcx/kjjl2008/200905/t20090531_69966.html"
+    },
+    "S66": {
+      "title": "[S66] 中国农业大学 陈文新院士生平",
+      "url": "https://cbs.cau.edu.cn/col/col42818/index.html"
+    },
+    "S67": {
+      "title": "[S67] 科技部 2000年度最高奖 吴文俊与袁隆平",
+      "url": "https://www.most.gov.cn/cxfw/kjjlcx/kjjl2000/200802/t20080214_59059.html"
+    },
+    "S68": {
+      "title": "[S68] 上海交通大学 钟兆琳 电机工业拓荒者",
+      "url": "https://news.sjtu.edu.cn/ztzl_jdms/20180414/70981.html"
+    },
+    "S69": {
+      "title": "[S69] 科技部 2011年度最高奖 谢家麟",
+      "url": "https://www.most.gov.cn/ztzl/kjrw/201202/t20120214_92444.html"
+    },
+    "S70": {
+      "title": "[S70] 中国工程院 徐玉如专业贡献",
+      "url": "https://www.cae.cn/cae/html/main/colys/21202911.html"
+    },
+    "S71": {
+      "title": "[S71] 中国工程院 吴中伟专业贡献",
+      "url": "https://www.cae.cn/cae/html/main/colys/18158138.html"
+    },
+    "S72": {
+      "title": "[S72] 中国科学院 华罗庚人物介绍",
+      "url": "https://www.amss.cas.cn/ryszl/hlg/rwjs/"
+    },
+    "S73": {
+      "title": "[S73] 科技部 2003年度最高奖 刘东生",
+      "url": "https://www.most.gov.cn/cxfw/kjjlcx/kjjl2003/200802/t20080214_59051.html"
+    },
+    "S74": {
+      "title": "[S74] 立德树人网 詹天佑专题",
+      "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_zty.htm"
+    },
+    "S75": {
+      "title": "[S75] 南京大学 童第周研究介绍",
+      "url": "https://www.nju.edu.cn/info/3891/407301.htm"
+    },
+    "S76": {
+      "title": "[S76] 中国科学院 叶笃正专题",
+      "url": "https://www.cas.cn/kxyj/kj/zg/2005n/ydz/"
+    }
+  },
+  "verifiedOn": "2026-10-22",
+  "verificationLinks": {
+    "钱学森1955年回国": "https://www.moe.gov.cn/jyb_xwfb/xw_zt/moe_357/s5129/s6118/s6123/200910/t20091031_127811.html",
+    "原子弹至氢弹两年八个月": "https://www.cas.cn/zj/ys1/bn/200909/t20090928_2529145.shtml",
+    "科学家精神六方面": "https://www.xinhuanet.com/politics/2019-06/11/c_1124609190.htm",
+    "2026年川大评选通知": "https://foundation.scu.edu.cn/info/1024/6357.htm",
+    "2025年度国家科技奖": "https://www.most.gov.cn/ztzl/gjkxjsjldh/jldh2025/jljd/202607/t20260708_196972.html",
+    "2026年中国航天日": "https://www.spacechina.com/n25/n2014789/n2414549/c4597899/content.html",
+    "川大校长": "https://www.scu.edu.cn/info/1802/33254.htm",
+    "川大党委书记": "https://www.scu.edu.cn/info/1207/40629.htm",
+    "川大211口径": "https://archives.scu.edu.cn/info/1001/2232.htm"
+  }
+}

@@ -95,6 +95,17 @@
   .empty{text-align:center;color:var(--sub);padding:60px 0}
   .foot{text-align:center;color:var(--sub);font-size:12px;margin-top:36px;opacity:.7}
   @media(max-width:560px){.hero h1{font-size:26px;letter-spacing:3px}.stats{grid-template-columns:repeat(3,1fr);gap:8px}.stat .num{font-size:20px}}
+  a{color:var(--blue)}
+  .search-row{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-start;margin:14px 0}
+  .search-row input{flex:1;min-width:180px;margin:0}
+  .search-row select{background:var(--bg2);color:var(--txt);padding:12px;border:1px solid var(--line);border-radius:10px;max-width:180px}
+  .source-details{font-size:12px;color:var(--sub);margin-top:16px;overflow-wrap:anywhere}
+  .source-details p{margin:6px 0}
+  .catalog-card{margin-top:12px;padding:18px;overflow-wrap:anywhere}
+  summary{cursor:pointer}
+  .catalog-card summary>.qmeta{display:flex}
+  .qtext,.ansbox,.note{white-space:pre-line;overflow-wrap:anywhere}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}#stars{display:none}}
 </style>
 </head>
 <body>
@@ -102,7 +113,9 @@
 <div class="wrap" id="app"></div>
 <div class="foot" style="position:relative;z-index:1">问天求索，星河一叶 · 感恩中国近现代科学家奖助学金笔试刷题舱 · 数据仅供学习交流</div>
 
+<script src="core.js"></script>
 <script src="questions.js"></script>
+<script src="my-school.js"></script>
 <script>
 /* ================= 星空背景 ================= */
 (function(){
@@ -135,7 +148,7 @@ function mergeSchoolBank(){
 const TYPE_NAME={single:'单选题',multiple:'多选题',fill:'填空题',flash:'简答闪卡'};
 const store={
   get(){try{return JSON.parse(localStorage.getItem('wentian_v1'))||{}}catch(e){return{}}},
-  set(d){localStorage.setItem('wentian_v1',JSON.stringify(d))}
+  set(d){try{localStorage.setItem('wentian_v1',JSON.stringify(d))}catch(e){console.warn('进度未能保存',e)}}
 };
 let data=Object.assign({rec:{},wrong:[]},store.get());
 function save(){store.set(data)}
@@ -146,9 +159,9 @@ function mark(id,ok){
   save();
 }
 const stats=()=>{
-  const total=BANK.length, done=Object.keys(data.rec).length;
+  const total=BANK.filter(q=>q.status!=='pending').length, done=BANK.filter(q=>data.rec[q.id]).length;
   const mastered=BANK.filter(q=>{const r=data.rec[q.id];return r&&r.c>0&&r.c>=r.w}).length;
-  return {total,done,mastered,wrongCount:data.wrong.length};
+  return {total,done,mastered,wrongCount:data.wrong.filter(id=>BANK.some(q=>q.id===id)).length};
 };
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const $=s=>document.querySelector(s);
@@ -156,7 +169,7 @@ const app=$('#app');
 
 /* ================= 路由 ================= */
 let view={name:'home'};
-function go(v){view=v;render();scrollTo(0,0)}
+function go(v){if(view.name==='exam'&&v.name!=='exam'&&EX.timer)clearInterval(EX.timer);view=v;render();scrollTo(0,0)}
 
 function render(){
   if(view.name==='home')renderHome();
@@ -164,6 +177,7 @@ function render(){
   else if(view.name==='wrongbook')renderWrongbook();
   else if(view.name==='exam')renderExam();
   else if(view.name==='examResult')renderExamResult();
+  else if(view.name==='catalog')renderCatalog();
 }
 
 /* ================= 首页 ================= */
@@ -175,18 +189,25 @@ function renderHome(){
     <p>${META.name}</p>
   </div>
   <div class="rule-card">📋 <b>考核规则</b>：${META.rule}。<br>
-    本仓库只收录<b>各校通用的普适题</b>（科学家事迹 / 两弹一星元勋 / 国家最高科学技术奖 / 航天里程碑）；
-    <b>校情题</b>自行配置 —— 把 <code>school.example.js</code> 复制成 <code>my-school.js</code>、改成自己学校的题目，刷新页面即自动合并进题库。
-    ${META.school?`<br>✅ 当前已加载校情题：<b>${META.school}</b>`:''}</div>
+    覆盖科学家事迹、两弹一星、人民科学家、最美科技工作者、科技史、川大校史及论述练习。<br>
+    <b>${BANK.length} 道题</b>，其中 ${BANK.filter(q=>q.status==='pending').length} 道待核查题单列。资料原有题与新编练习均保留出处；待核查与历史口径题不进入模拟卷。
+    <br>模拟卷采用 60 分钟、100 分练习配置，不代表川大本届正式题量或时长。
+    <br><a href="docs/COVERAGE.md" target="_blank" rel="noopener">查看资料覆盖</a> · <a href="docs/CORRECTIONS.md" target="_blank" rel="noopener">易错点与勘误</a>
+    </div>
   <div class="stats">
     <div class="stat"><div class="num">${s.total}</div><div class="lbl">题库总量</div></div>
     <div class="stat"><div class="num">${s.done}</div><div class="lbl">已刷题数</div></div>
     <div class="stat"><div class="num">${s.wrongCount}</div><div class="lbl">待攻克错题</div></div>
   </div>
+  <div class="btns" style="justify-content:center;margin-bottom:20px">
+    <button class="btn btn-main" onclick="go({name:'catalog'})">🔎 搜索题库与考点</button>
+    <button class="btn btn-ghost" onclick="startPending()">查看待核查题</button>
+    <a class="btn btn-ghost" href="data/bank.json" download>下载完整题库</a>
+  </div>
   <div class="modes">
-    <div class="mode" onclick="startPractice(false)"><span class="tag">打基础</span><div class="icon">🛰️</div><h3>顺序刷题</h3><p>按题型分区过一遍，选择自动判分，填空智能批改，简答闪卡记忆</p></div>
+    <div class="mode" onclick="startPractice(false)"><span class="tag">打基础</span><div class="icon">🛰️</div><h3>顺序刷题</h3><p>按题型分区过一遍，选择自动判分，填空按规范答案或关键词核对，简答闪卡记忆</p></div>
     <div class="mode" onclick="startPractice(true)"><span class="tag">防遗忘</span><div class="icon">🌠</div><h3>随机刷题</h3><p>打乱顺序随机抽题，模拟真实考场的「题目陌生感」</p></div>
-    <div class="mode" onclick="startExam()"><span class="tag">全真模拟</span><div class="icon">⏱️</div><h3>模拟考试</h3><p>限时60分钟·满分100分：20单选+5多选+10填空+2简答，还原笔试现场</p></div>
+    <div class="mode" onclick="startExam()"><span class="tag">自测卷</span><div class="icon">⏱️</div><h3>模拟考试</h3><p>限时60分钟·满分100分：20单选+5多选+10填空+2简答，按练习配置抽题</p></div>
     <div class="mode" onclick="go({name:'wrongbook'})"><span class="tag">${s.wrongCount}题</span><div class="icon">📕</div><h3>错题本</h3><p>答错的题自动收录，重做答对后自动移出，考前只看这一本</p></div>
   </div>`;
 }
@@ -195,25 +216,28 @@ function renderHome(){
 let P={};
 function startPractice(random,pool){
   const qs=pool||BANK;
-  P={qs:random?shuffle(qs):[...qs],i:0,filter:{sec:'all',type:'all'},random,pool:!!pool};
+  P={qs:random?shuffle(qs):[...qs],i:0,filter:{sec:'all',type:'all',topic:'all',status:'study'},query:'',random,pool:!!pool};
   if(!pool){P.qs=random?shuffle(BANK.filter(q=>true)):[...BANK];}
   applyFilter(); go({name:'practice'});
 }
 function applyFilter(){
   const base=P.pool?P.qs:BANK;
-  let qs=base.filter(q=>(P.filter.sec==='all'||q.section===P.filter.sec)&&(P.filter.type==='all'||q.type===P.filter.type));
-  P.list=P.random?shuffle(qs):qs; P.i=0;P.answered=false;P.sel=[];P.selfChecked=false;
+  let qs=base.filter(q=>(P.filter.sec==='all'||q.section===P.filter.sec)&&(P.filter.type==='all'||q.type===P.filter.type)&&(P.filter.topic==='all'||q.topic===P.filter.topic)&&(P.filter.status==='all'||(P.filter.status==='study'?q.status!=='pending':q.status===P.filter.status))&&(!P.query||QuizCore.normalize(q.question+' '+answerText(q)+' '+q.topic).includes(QuizCore.normalize(P.query))));
+  P.list=P.random?shuffle(qs):qs; P.i=0;P.answered=false;P.sel=[];P.selfChecked=false;P.autoGrade=undefined;P.fillValue='';
 }
 function chipRow(){
   const secs=[['all','全部'],['scientist','🌌 科学家普适']];
   if(HAS_SCHOOL)secs.push(['school',`🏫 ${META.school}校情`]);
+  const topics=[...new Set(BANK.map(q=>q.topic))];
   const types=[['all','全部题型'],['single','单选'],['multiple','多选'],['fill','填空'],['flash','简答闪卡']];
   return `<div class="chips">${secs.map(([k,n])=>`<span class="chip ${P.filter.sec===k?'on':''}" onclick="setF('sec','${k}')">${n}</span>`).join('')}</div>
-  <div class="chips">${types.map(([k,n])=>`<span class="chip ${P.filter.type===k?'on':''}" onclick="setF('type','${k}')">${n}</span>`).join('')}</div>`;
+  <div class="chips">${types.map(([k,n])=>`<button class="chip ${P.filter.type===k?'on':''}" onclick="setF('type','${k}')">${n}</button>`).join('')}</div>
+  <div class="chips"><button class="chip ${P.filter.topic==='all'?'on':''}" onclick="setF('topic','all')">全部专题</button>${topics.map(n=>`<button class="chip ${P.filter.topic===n?'on':''}" onclick="setF('topic','${n}')">${n}</button>`).join('')}</div>
+  <form class="search-row" onsubmit="event.preventDefault();searchPractice(this.elements.query.value)"><input class="fill-input" name="query" aria-label="搜索题目或人物" placeholder="搜索人物、成果或考点" value="${escapeHTML(P.query||'')}"><button class="btn btn-main">搜索</button></form>`;
 }
 window.setF=(k,v)=>{P.filter[k]=v;applyFilter();render()};
-window.nextQ=()=>{P.i++;P.answered=false;P.sel=[];render()};
-window.prevQ=()=>{if(P.i>0){P.i--;P.answered=false;P.sel=[];render()}};
+window.nextQ=()=>{if(P.i<P.list.length-1)P.i++;P.answered=false;P.sel=[];P.autoGrade=undefined;P.fillValue='';render()};
+window.prevQ=()=>{if(P.i>0){P.i--;P.answered=false;P.sel=[];P.autoGrade=undefined;P.fillValue='';render()}};
 
 function renderPractice(){
   const list=P.list;
@@ -226,11 +250,17 @@ function renderPractice(){
 function topbar(title,extra=''){
   return `<div class="topbar"><button class="back" onclick="go({name:'home'})">← 返回</button><h2>${title}</h2>${extra}</div>`;
 }
+function escapeHTML(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function metaBadges(q){
-  return `<div class="qmeta"><span class="badge t-${q.type}">${TYPE_NAME[q.type]}</span>
-  <span class="badge ${q.section==='school'?'sec-school':''}">${q.section==='school'?'校情题':'科学家普适'}</span>
-  <span class="badge">${q.source||''}</span></div>`;
+  const status=q.status==='pending'?'待核查 · 不计分':q.status==='historical'?'历史口径':'资料练习';
+  return `<div class="qmeta"><span class="badge t-${q.type}">${q.judgment?'判断题':TYPE_NAME[q.type]}</span><span class="badge ${q.section==='school'?'sec-school':''}">${escapeHTML(q.topic)}</span><span class="badge">${status}</span><span class="badge">${q.id}</span></div>`;
 }
+function sourceHTML(q){
+  const names={handbook:'川大版复习手册',integrated:'复习整合资料',preparation:'奖学金准备',elan:'ELAN整理版',upstream:'原项目题库'};
+  return `<details class="source-details"><summary>资料出处与核对说明</summary>${q.references.map(r=>`<p>${names[r.document]||r.document} · ${escapeHTML(r.location)}</p>`).join('')}${q.upstreamSource?`<p>原作者题源标签：${escapeHTML(q.upstreamSource)}（未据此认定官方真题）</p>`:''}${(q.links||[]).map(r=>`<p><a href="${escapeHTML(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(r.title)}</a></p>`).join('')}<p>资料未标注为已独立核实的内容按复习材料口径使用。勘误见项目说明。</p></details>`;
+}
+window.searchPractice=value=>{P.query=value;applyFilter();render()};
+window.startPending=()=>{startPractice(false);P.filter.status='pending';P.filter.topic='待核查';applyFilter();render()};
 /* 生成单题 HTML。interactive=练习模式即时判分；exam 模式只记录答案 */
 function questionHTML(q,interactive,examState){
   const E=examState||{};
@@ -255,7 +285,7 @@ function questionHTML(q,interactive,examState){
       body+=multi?`<div class="flash-hint">多选题：点选所有正确选项</div>`:'';
     }
   }else if(q.type==='fill'){
-    const val=interactive?'':(E.text||'');
+    const val=interactive?(P.fillValue||''):(E.text||'');
     body=`<input class="fill-input" id="fillIn" placeholder="在横线处填入答案，多个空用空格或逗号隔开" value="${val.replace(/"/g,'&quot;')}" ${interactive&&P.answered?'disabled':''}
       oninput="${interactive?'':'examText(this.value)'}">`;
     if(interactive&&!P.answered)body+=`<div class="btns"><button class="btn btn-main" onclick="gradeFill()">核对答案</button></div>`;
@@ -271,14 +301,16 @@ function questionHTML(q,interactive,examState){
   if((interactive&&P.answered)||E.showAns){
     ans=`<div class="ansbox"><b>参考答案</b><br>${answerText(q)}${q.note?`<div class="note">💡 ${q.note}</div>`:''}</div>`;
     if(interactive){
-      if(q.type==='fill'||q.type==='flash'){
+      if(q.status==='pending'){ans+='<p class="flash-hint">本题待核查，不记入掌握或错题。</p>';}
+      else if(q.type==='fill'||q.type==='flash'){
         ans+=`<div class="btns"><button class="btn btn-green" onclick="selfMark(true)">✓ 我答对了</button><button class="btn btn-red" onclick="selfMark(false)">✗ 没答上来</button></div>`;
       }
       ans+=`<div class="btns">${P.i<P.list.length-1?`<button class="btn btn-main" onclick="nextQ()">下一题 →</button>`:`<button class="btn btn-main" onclick="go({name:'home'})">完成 🎉</button>`}${P.i>0?`<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>`:''}</div>`;
     }
   }
   const qtext=(interactive&&q.type==='flash'&&P.answered)?`<div class="qtext">${q.question}</div>`:(q.type!=='flash'||!interactive?`<div class="qtext">${q.question}</div>`:'');
-  return metaBadges(q)+qtext+body+ans;
+  if(P.autoGrade!==undefined&&interactive&&q.type==='fill'&&P.answered)ans=`<p class="flash-hint">自动核对：${P.autoGrade?'正确':'未匹配参考答案'}。如为合理同义答案，可在下方自评修正。</p>`+ans;
+  return metaBadges(q)+qtext+body+ans+((interactive&&P.answered)||E.showAns?sourceHTML(q):'');
 }
 function answerText(q){
   if(q.type==='single')return `${'ABCD'[q.answer]}. ${q.options[q.answer]}`;
@@ -301,11 +333,20 @@ window.reveal=()=>{
   render();
 };
 window.gradeFill=()=>{
-  const q=currentQ();const v=($('#fillIn').value||'').replace(/\s/g,'');
-  const ok=q.keywords.every(k=>v.includes(k));
-  P.answered=true;mark(q.id,ok);render();
+  const q=currentQ();P.fillValue=$('#fillIn').value||'';
+  const ok=QuizCore.checkFill(q,P.fillValue);
+  P.beforeGrade={record:data.rec[q.id]?{...data.rec[q.id]}:null,wrong:data.wrong.includes(q.id)};
+  P.autoGrade=ok;P.answered=true;mark(q.id,ok);render();
 };
-window.selfMark=ok=>{mark(currentQ().id,ok); if(P.i<P.list.length-1){P.i++;P.answered=false;P.sel=[]}render()};
+function restoreGrade(q,snapshot){
+  if(snapshot.record)data.rec[q.id]={...snapshot.record};else delete data.rec[q.id];
+  data.wrong=data.wrong.filter(id=>id!==q.id);if(snapshot.wrong)data.wrong.push(q.id);
+}
+window.selfMark=ok=>{
+  const q=currentQ();if(q.status==='pending')return;
+  if(P.autoGrade!==undefined){if(P.autoGrade!==ok){restoreGrade(q,P.beforeGrade);mark(q.id,ok)}}else mark(q.id,ok);
+  if(P.i<P.list.length-1)nextQ();else go({name:'home'});
+};
 function currentQ(){return view.name==='exam'?EX.list[EX.i]:P.list[P.i]}
 
 /* ================= 错题本 ================= */
@@ -322,10 +363,11 @@ function renderWrongbook(){
 /* ================= 模拟考试 ================= */
 let EX={};
 function startExam(){
-  const singles=shuffle(BANK.filter(q=>q.type==='single')).slice(0,20);
-  const multis=shuffle(BANK.filter(q=>q.type==='multiple')).slice(0,5);
-  const fills=shuffle(BANK.filter(q=>q.type==='fill')).slice(0,10);
-  const flash=shuffle(BANK.filter(q=>q.type==='flash')).slice(0,2);
+  if(EX.timer)clearInterval(EX.timer);
+  const singles=shuffle(BANK.filter(q=>q.status!=='pending'&&q.examEligible!==false&&q.type==='single')).slice(0,20);
+  const multis=shuffle(BANK.filter(q=>q.status!=='pending'&&q.examEligible!==false&&q.type==='multiple')).slice(0,5);
+  const fills=shuffle(BANK.filter(q=>q.status!=='pending'&&q.examEligible!==false&&q.type==='fill')).slice(0,10);
+  const flash=shuffle(BANK.filter(q=>q.status!=='pending'&&q.examEligible!==false&&q.type==='flash')).slice(0,2);
   EX={list:[...singles,...multis,...fills,...flash],i:0,ans:{},end:Date.now()+60*60*1000,timer:null,over:false};
   go({name:'exam'});
   EX.timer=setInterval(()=>{
@@ -361,29 +403,30 @@ function renderExam(){
       </div></div>`;
 }
 window.submitExam=()=>{
+  if(EX.over)return;EX.over=true;
   if(EX.timer)clearInterval(EX.timer);
   let score=0;EX.review=[];
   for(const q of EX.list){
     const a=EX.ans[q.id]||{};let got=0,max=0,ok=null;
     if(q.type==='single'){max=2;ok=a.sel&&a.sel[0]===q.answer;got=ok?2:0}
     else if(q.type==='multiple'){max=4;const s=a.sel||[];ok=s.length===q.answer.length&&q.answer.every(i=>s.includes(i));got=ok?4:0}
-    else if(q.type==='fill'){max=2;const v=(a.text||'').replace(/\s/g,'');ok=v&&q.keywords.every(k=>v.includes(k));got=ok?2:0}
+    else if(q.type==='fill'){max=2;const v=(a.text||'').replace(/\s/g,'');ok=QuizCore.checkFill(q,v);got=ok?2:0}
     else{max=10;ok=null;got=null}
     if(ok!==null){score+=got;mark(q.id,ok)}
-    EX.review.push({q,got,max,ok});
+    EX.review.push({q,got,max,ok,beforeScore:{record:data.rec[q.id]?{...data.rec[q.id]}:null,wrong:data.wrong.includes(q.id)}});
   }
   EX.score=score;EX.selfAdded=0;go({name:'examResult'});
 };
 window.selfScore=(idx,pts)=>{
-  EX.review[idx].got=pts;EX.review[idx].ok=pts>0;
-  mark(EX.review[idx].q.id,pts>0);render();
+  const r=EX.review[idx];if(r.got!==null)restoreGrade(r.q,r.beforeScore);r.got=pts;r.ok=pts>0;
+  mark(r.q.id,pts>0);render();
 };
 function renderExamResult(){
   const auto=EX.review.filter(r=>r.got!==null).reduce((s,r)=>s+r.got,0);
   const flashPending=EX.review.filter(r=>r.got===null).length;
   const rows=EX.review.map((r,i)=>{
     const g=r.got===null?`<span style="color:var(--sub)">待自评</span>`:(r.ok?`<span style="color:var(--green)">+${r.got}</span>`:`<span style="color:var(--red)">0</span>`);
-    return `<div class="opt" style="cursor:default"><span class="key">${i+1}</span><span style="flex:1">${r.q.question.slice(0,38)}${r.q.question.length>38?'…':''}</span><span>${g}/${r.max}</span></div>`;
+    return `<div class="opt" style="cursor:default"><span class="key">${i+1}</span><span style="flex:1">${r.q.question.slice(0,38)}${r.q.question.length>38?'…':''}</span><span>${g}/${r.max}</span></div><details class="qcard" style="margin-bottom:12px"><summary>查看本题答案与解析</summary><p>${r.q.question}</p><div class="ansbox">${answerText(r.q)}${r.q.note?`<p class="note">${r.q.note}</p>`:''}</div>${sourceHTML(r.q)}</details>`;
   }).join('');
   const flashCards=EX.review.map((r,i)=>({r,i})).filter(x=>x.r.q.type==='flash').map(({r,i})=>`
     <div class="qcard" style="margin-top:14px">${metaBadges(r.q)}<div class="qtext">${r.q.question}</div>
@@ -405,21 +448,24 @@ function renderExamResult(){
     <h3 style="margin:22px 0 10px;font-size:15px">逐题明细</h3>${rows}`;
 }
 
+
+let C={query:'',topic:'all',status:'study',page:0};
+function renderCatalog(){
+  const topics=[...new Set(BANK.map(q=>q.topic))];
+  const rows=BANK.filter(q=>(C.topic==='all'||q.topic===C.topic)&&(C.status==='all'||(C.status==='study'?q.status!=='pending':q.status===C.status))&&(!C.query||QuizCore.normalize(q.question+' '+answerText(q)).includes(QuizCore.normalize(C.query))));
+  const pages=Math.max(1,Math.ceil(rows.length/30));C.page=Math.min(C.page,pages-1);
+  app.innerHTML=topbar('题库与考点目录')+`<form class="search-row" onsubmit="event.preventDefault();catalogSearch(this)"><input class="fill-input" name="query" aria-label="搜索全部题目" placeholder="输入科学家、成果或关键词" value="${escapeHTML(C.query)}"><select name="topic" aria-label="专题"><option value="all">全部专题</option>${topics.map(t=>`<option ${C.topic===t?'selected':''}>${escapeHTML(t)}</option>`).join('')}</select><select name="status" aria-label="题目状态"><option value="study" ${C.status==='study'?'selected':''}>可练习题</option><option value="pending" ${C.status==='pending'?'selected':''}>待核查</option><option value="historical" ${C.status==='historical'?'selected':''}>历史口径</option><option value="all" ${C.status==='all'?'selected':''}>全部题目</option></select><button class="btn btn-main">搜索</button></form>
+  <p class="flash-hint">找到 ${rows.length} 题 · 第 ${C.page+1}/${pages} 页 · 点击展开参考答案</p>
+  ${rows.slice(C.page*30,C.page*30+30).map(q=>`<details class="qcard catalog-card"><summary>${metaBadges(q)}${escapeHTML(q.question)}</summary>${q.options?`<p>${q.options.map((o,i)=>`${'ABCD'[i]}. ${escapeHTML(o)}`).join('<br>')}</p>`:''}<div class="ansbox">${answerText(q)}${q.note?`<p class="note">${escapeHTML(q.note)}</p>`:''}</div>${sourceHTML(q)}</details>`).join('')}
+  <div class="btns">${C.page>0?`<button class="btn btn-ghost" onclick="catalogPage(-1)">上一页</button>`:''}${C.page+1<pages?`<button class="btn btn-main" onclick="catalogPage(1)">下一页</button>`:''}<button class="btn btn-ghost" onclick="practiceCatalog()">练习这些题</button></div>`;
+}
+window.catalogSearch=form=>{C.query=form.elements.query.value;C.topic=form.elements.topic.value;C.status=form.elements.status.value;C.page=0;render()};
+window.catalogPage=n=>{C.page+=n;render();scrollTo(0,0)};
+window.practiceCatalog=()=>{const pool=BANK.filter(q=>(C.topic==='all'||q.topic===C.topic)&&(C.status==='all'||(C.status==='study'?q.status!=='pending':q.status===C.status))&&(!C.query||QuizCore.normalize(q.question+' '+answerText(q)).includes(QuizCore.normalize(C.query))));startPractice(false,pool);P.filter.status=C.status;applyFilter();render()};
+
 /* 启动：先合并可选校情题，再渲染（详见 README「接入自己学校的校情题」） */
-window.__boot=()=>{mergeSchoolBank();render()};
+window.__boot=()=>{mergeSchoolBank();const errors=QuizCore.validateBank(BANK);if(errors.length){app.textContent="题库校验失败，请查看控制台。";console.error(errors);return}render()};
 </script>
-<script>
-/* 可选校情题库：同目录下若存在 my-school.js 则加载，加载完成（或不存在而报错）后再启动 */
-(function(){
-  function boot(){ window.__boot && window.__boot(); }
-  let done=false;
-  const once=()=>{ if(done)return; done=true; boot(); };
-  const s=document.createElement('script');
-  s.src='my-school.js';
-  s.onload=once; s.onerror=once;
-  setTimeout(once,1500);                       // 兜底，防止极端情况下卡住
-  document.head.appendChild(s);
-})();
-</script>
+<script>window.__boot();</script>
 </body>
 </html>

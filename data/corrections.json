@@ -1,0 +1,114 @@
+[
+  {
+    "location": "upstream:s06",
+    "change": {
+      "question": "中国天眼FAST是500米口径球面（ ），工程首席科学家兼总工程师是（ ）。"
+    }
+  },
+  {
+    "location": "upstream:s17",
+    "change": {
+      "question": "我国首次实现月球采样返回的探测器是（ ）。"
+    }
+  },
+  {
+    "location": "upstream:f06",
+    "change": {
+      "question": "我国第一座由中国自行设计建造的双层式铁路、公路两用长江大桥是____。",
+      "answer": "南京长江大桥",
+      "keywords": [
+        "南京长江大桥"
+      ]
+    }
+  },
+  {
+    "location": "upstream:f07",
+    "change": {
+      "question": "我国首次独立火星探测任务的探测器是____，搭载的火星车名为____。"
+    }
+  },
+  {
+    "location": "upstream:f31",
+    "change": {
+      "type": "flash",
+      "question": "原题将“无线电泰斗”对应为李白，为什么应核对后再背诵？",
+      "answer": "原题答案缺乏可靠依据；李白通常作为隐蔽战线烈士介绍。本题暂不提供唯一标准答案，待取得原始题目及权威人物传记后再定。",
+      "status": "pending",
+      "examEligible": false,
+      "topic": "待核查"
+    }
+  },
+  {
+    "location": "upstream:f43",
+    "change": {
+      "question": "2022年9月27日，我国“一箭三星”发射试验使用的运载火箭是____，发射地点是____卫星发射中心。"
+    }
+  },
+  {
+    "location": "upstream:f46",
+    "change": {
+      "question": "吴自良领导完成的铀同位素分离关键材料是“____”。",
+      "note": "甲种分离膜用于铀同位素分离，不宜称为原子弹内部的核心部件。"
+    }
+  },
+  {
+    "location": "upstream:f60",
+    "change": {
+      "question": "根据我国载人月球探测工程已公布的目标，计划在____年前实现中国人首次登陆月球。",
+      "examEligible": false,
+      "status": "historical"
+    }
+  },
+  {
+    "location": "upstream:f62",
+    "change": {
+      "question": "首届国家最高科学技术奖的获奖年度为____年，首次颁奖大会举行于____年。",
+      "answer": "2000；2001",
+      "keywords": [
+        "2000",
+        "2001"
+      ]
+    }
+  },
+  {
+    "location": "upstream:f64",
+    "change": {
+      "question": "2016年度国家最高科学技术奖获得者是____和____。"
+    }
+  },
+  {
+    "location": "upstream:f65",
+    "change": {
+      "question": "2023年度国家最高科学技术奖获得者是____和____。"
+    }
+  },
+  {
+    "location": "upstream:f70",
+    "change": {
+      "question": "载人航天精神的四组表述是：特别能吃苦、特别能____、特别能攻关、特别能____。"
+    }
+  },
+  {
+    "location": "upstream:f71",
+    "change": {
+      "type": "flash",
+      "question": "黄大年与“地壳一号”有什么关系？",
+      "answer": "黄大年2009年回国，在吉林大学推动深地探测技术及相关科研组织工作。“地壳一号”由跨单位团队研制，不能归结为一人独立完成。原题“第几年／第几个国家”的统计口径暂不作为自动判分依据。",
+      "examEligible": false
+    }
+  },
+  {
+    "location": "upstream:c07",
+    "change": {
+      "question": "吴自良的研究领域是什么？他领导研制的甲种分离膜用于什么？",
+      "answer": "材料科学、物理冶金；甲种分离膜用于铀同位素分离，为核工业关键材料自主研制作出贡献。"
+    }
+  },
+  {
+    "location": "upstream:c08",
+    "change": {
+      "question": "任新民主要研究什么？举例说明他参与组织的重大航天工程。",
+      "answer": "液体火箭发动机和航天工程总体技术。参与组织卫星发射、卫星通信、风云一号气象卫星及发射外国卫星等重大工程。原题称六项但未列全，本题不要求背诵不完整清单。"
+    }
+  }
+]
