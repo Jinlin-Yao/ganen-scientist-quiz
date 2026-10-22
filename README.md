@@ -10,6 +10,8 @@
 
 两套题库共 **485道选择/判断题、1920个选项** 均有逐项解析：本题关键、每项人物/概念说明、应选或排除理由、来源及对照记忆。选择后自动展开全部选项解析；模拟卷交卷后也可查看。点击“查看解析（不计分）”可直接复习，不新增作答或错题记录，想作答时点“重新作答”。
 
+新增 [人物记忆卡片](https://jinlin-yao.github.io/ganen-scientist-quiz/memory.html#names)：172张人名卡，点击才显示称号、领域、贡献、名言及出处；顶部按钮切换到186张关键词卡（172张工作与贡献卡＋14张名言卡），先看线索再揭晓人物。可按专题筛选、打乱顺序、收起全部答案，并分别记录两个方向的“记住了／还需复习”和上次卡片。关键词搜索仅查卡片正面，避免通过隐藏的人名提前得到提示；掌握标记不影响题库作答记录。
+
 ![题目目录与上次练习](docs/screenshot_directory.png)
 
 ![独立科学家人物专项](docs/screenshot_people.png)
@@ -63,6 +65,8 @@ python3 scripts/build-people.py
 node scripts/test-people.cjs
 python3 scripts/build-explanations.py
 node scripts/test-explanations.cjs
+python3 scripts/build-memory.py
+node scripts/test-memory.cjs
 ```
 
 通用题输出到 `questions.js`，川大题输出到 `my-school.js`；保留 `school.example.js` 作为其他学校模板。题目ID稳定保存，追加新题请使用新的唯一ID。不要将旧题ID转用于其他题目，以免错题进度串题。
@@ -70,6 +74,8 @@ node scripts/test-explanations.cjs
 `data/coverage.json` 保存逐段对应关系；`data/source-catalog.json` 保存文档目录及手册原有官方参考链接；`data/corrections.json` 保存原项目结构化修订。修改时应同时维护相关记录。
 
 逐项解析的数据源为 `data/option-explanations-source.json` 与已有人物资料；生成的 `data/option-explanations.json` 和 `explanations.js` 按稳定题目ID关联，选项顺序与正误标记有完整校验。人物干扰项说明各自真实领域，不将“本题不选”写成“此人没有科学贡献”；跨专题荣誉按具体名称与年份区别。修改题目或人物资料后，最后运行 `scripts/build-explanations.py` 重新生成解析。
+
+记忆卡片是独立静态页面 `memory.html`，轻量数据 `memory-data.js` 由 `data/people.json` 和 `data/memory-additions.json` 生成。后者按川大、两院及研究机构官方介绍补充10位川大人物的详细工作与院士头衔。更新人物资料后同时运行 `scripts/build-memory.py`。两面用同一份人物介绍，反向卡片正面会隐藏已收录人物的姓名；名言卡附领域提示；荣誉年份随介绍显示，不把多人共有的荣誉单独设为唯一人物线索。
 
 ## 原项目与署名
 
