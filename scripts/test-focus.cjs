@@ -9,6 +9,9 @@ function boot(hash=''){
  vm.runInContext('__boot()',c);return {run:s=>vm.runInContext(s,c),app};
 }
 let t=boot('#focus');assert.equal(t.run('view.name'),'focus');assert.match(t.app.innerHTML,/五专题专项题库/);
+const anonymous=t.run('FOCUS.find(q=>q.type==="fill"&&q.topic==="成果"&&!q.question.includes(q.person))');
+const anonymousRow=t.app.innerHTML.split('<button class="question-row"').find(row=>row.includes(anonymous.id)).split('</button>')[0];
+assert.ok(!anonymousRow.includes(anonymous.person),'a clue question does not reveal its answer in directory metadata');
 assert.equal(t.run('FOCUS.length'),363);assert.equal(t.run('focusProfiles.length'),80);
 assert.equal(t.run('FOCUS.filter(q=>q.type==="single").length'),213);assert.equal(t.run('FOCUS.filter(q=>q.type==="fill").length'),150);
 assert.equal(t.run('new Set(FOCUS.map(q=>q.sourceQuestionId)).size'),363);
