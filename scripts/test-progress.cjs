@@ -30,6 +30,9 @@ t=boot();t.run('resumePractice()');assert.equal(t.run('P.manualGrade'),true);ass
 // Completion tabs remain disjoint and include old and new records.
 t.run('go({name:"home"});C.query="";C.topic="all";C.status="study";C.completion="done"');const done=new Set(t.run('catalogRows().map(q=>q.id)'));t.run('C.completion="todo"');const todo=t.run('catalogRows().map(q=>q.id)');assert.equal(todo.some(id=>done.has(id)),false);assert.equal(done.size+todo.length,bank.filter(q=>q.status!=='pending').length);
 for(const q of bank){assert.ok(knowledge[q.id]?.paragraphs?.length,q.id+' material exists');assert.ok(knowledge[q.id].paragraphs.every(p=>p.text.length>0&&p.references.length>0),q.id+' material and source are readable');}
+assert.ok(knowledge.c07.paragraphs.some(p=>p.text.includes('点缺陷')),'review materials add biographical context beyond the bare answer');
+assert.ok(!knowledge.q_a785a877879d.paragraphs.some(p=>p.text.includes('樊锦诗')),'avoid unrelated biographies with similar question wording');
+assert.ok(!knowledge.q_34a6b89ef841.paragraphs.some(p=>p.text.includes('2007 年 10 月 24 日')),'do not confuse Chang’e-1 and Chang’e-2 dates');
 // An obsolete question ID cannot break continuation after a future bank update.
 const state=JSON.parse(storage.wentian_v1);state.practiceSession.ids.unshift('removed-question');storage.wentian_v1=JSON.stringify(state);t=boot();t.run('resumePractice()');assert.ok(t.run('P.list.every(q=>q&&q.id)'));
 console.log('PASS: legacy migration; done/todo tabs; direct question entry; text and checkbox drafts; reload continuation; shuffle order; no repeat scoring; flash self assessment; all 1191 review materials; removed-ID recovery.');

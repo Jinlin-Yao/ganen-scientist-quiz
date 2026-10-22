@@ -61,7 +61,7 @@ for q in bank:
  else:
   for score,c in rank:
    if len(paragraphs)>=2:break
-   if len(paragraphs) and (not (c['terms']-selectedterms)&ts or len(norm(c['text']))>500):continue
+   if len(paragraphs) and len(norm(c['text']))>600:continue
    # Avoid restating exactly the same fact in two differently worded sources.
    if any(len(grams(c['text'])&grams(p['text']))/max(1,len(grams(c['text'])))>.72 for p in paragraphs):continue
    body=c['text']
