@@ -192,10 +192,10 @@ function renderHome(){
     覆盖科学家事迹、两弹一星、人民科学家、最美科技工作者、科技史、川大校史及论述练习。<br>
     <b>${BANK.length} 道题</b>，其中 ${BANK.filter(q=>q.status==='pending').length} 道待核查题单列。资料原有题与新编练习均保留出处；待核查与历史口径题不进入模拟卷。
     <br>模拟卷采用 60 分钟、100 分练习配置，不代表川大本届正式题量或时长。
-    <br><a href="docs/COVERAGE.md" target="_blank" rel="noopener">查看资料覆盖</a> · <a href="docs/CORRECTIONS.md" target="_blank" rel="noopener">易错点与勘误</a>
+    <br><a href="https://github.com/Jinlin-Yao/ganen-scientist-quiz/blob/main/docs/COVERAGE.md" target="_blank" rel="noopener">查看资料覆盖</a> · <a href="https://github.com/Jinlin-Yao/ganen-scientist-quiz/blob/main/docs/CORRECTIONS.md" target="_blank" rel="noopener">易错点与勘误</a>
     </div>
   <div class="stats">
-    <div class="stat"><div class="num">${s.total}</div><div class="lbl">题库总量</div></div>
+    <div class="stat"><div class="num">${s.total}</div><div class="lbl">可练习题数</div></div>
     <div class="stat"><div class="num">${s.done}</div><div class="lbl">已刷题数</div></div>
     <div class="stat"><div class="num">${s.wrongCount}</div><div class="lbl">待攻克错题</div></div>
   </div>
@@ -235,7 +235,7 @@ function chipRow(){
   <div class="chips"><button class="chip ${P.filter.topic==='all'?'on':''}" onclick="setF('topic','all')">全部专题</button>${topics.map(n=>`<button class="chip ${P.filter.topic===n?'on':''}" onclick="setF('topic','${n}')">${n}</button>`).join('')}</div>
   <form class="search-row" onsubmit="event.preventDefault();searchPractice(this.elements.query.value)"><input class="fill-input" name="query" aria-label="搜索题目或人物" placeholder="搜索人物、成果或考点" value="${escapeHTML(P.query||'')}"><button class="btn btn-main">搜索</button></form>`;
 }
-window.setF=(k,v)=>{P.filter[k]=v;applyFilter();render()};
+window.setF=(k,v)=>{P.filter[k]=v;if(k==='topic')P.filter.status=v==='待核查'?'pending':'study';applyFilter();render()};
 window.nextQ=()=>{if(P.i<P.list.length-1)P.i++;P.answered=false;P.sel=[];P.autoGrade=undefined;P.fillValue='';render()};
 window.prevQ=()=>{if(P.i>0){P.i--;P.answered=false;P.sel=[];P.autoGrade=undefined;P.fillValue='';render()}};
 
@@ -422,7 +422,7 @@ window.selfScore=(idx,pts)=>{
   mark(r.q.id,pts>0);render();
 };
 function renderExamResult(){
-  const auto=EX.review.filter(r=>r.got!==null).reduce((s,r)=>s+r.got,0);
+  const auto=EX.review.filter(r=>r.q.type!=='flash'&&r.got!==null).reduce((s,r)=>s+r.got,0);
   const flashPending=EX.review.filter(r=>r.got===null).length;
   const rows=EX.review.map((r,i)=>{
     const g=r.got===null?`<span style="color:var(--sub)">待自评</span>`:(r.ok?`<span style="color:var(--green)">+${r.got}</span>`:`<span style="color:var(--red)">0</span>`);
