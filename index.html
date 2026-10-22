@@ -124,6 +124,9 @@
   .directory-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:15px}.directory-bottom .btns{margin:0}.study-footer{text-align:center;font-size:11px;color:var(--sub);margin:30px 0;line-height:2}
   .text-button{border:0;background:none;color:var(--blue);cursor:pointer}.practice-filters{margin:12px 0 18px;color:var(--sub);font-size:13px}.practice-filters[open] summary{margin-bottom:14px}.practice-nav{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.study-feedback{color:var(--green);margin-top:16px;font-size:13px}
   .knowledge-panel{margin-top:22px;padding-top:22px;border-top:1px solid var(--line)}.knowledge-heading{display:flex;gap:12px;align-items:center;margin-bottom:18px}.knowledge-heading>span{font-size:24px}.knowledge-heading h3{font-size:18px;color:var(--txt)}.knowledge-heading p{font-size:12px;color:var(--sub);margin-top:3px}.knowledge-excerpt{margin:16px 0}.knowledge-excerpt>p{white-space:pre-line;line-height:1.95;font-size:14px;margin:7px 0;overflow-wrap:anywhere}.knowledge-citation{font-size:11px;color:var(--sub);line-height:1.8}
+  .people-entry{display:flex;align-items:center;gap:18px;text-decoration:none;color:var(--txt);padding:22px;margin:18px 0;border:1px solid rgba(192,132,252,.35);border-radius:18px;background:linear-gradient(110deg,rgba(192,132,252,.12),rgba(110,168,254,.06));transition:.2s}.people-entry:hover{border-color:var(--purple);background:rgba(192,132,252,.15)}.people-entry strong{display:block;font-size:20px;margin:3px 0}.people-entry small{font-size:12px;color:var(--sub)}.people-entry-icon{font-size:40px;color:var(--gold)}.people-entry-arrow{margin-left:auto;white-space:nowrap;color:var(--purple);font-size:13px}
+  .people-header h1{font-size:31px}.people-orbit{font-size:78px;color:var(--gold);text-shadow:0 0 45px rgba(255,209,102,.3);line-height:1}.people-numbers{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--sub);font-size:12px;padding-bottom:22px;border-bottom:1px solid var(--line)}.people-numbers b{color:var(--txt);font-size:18px;margin-right:4px}.people-numbers>span:last-child{margin-left:auto;align-self:center;font-size:11px}.people-priority{margin:22px 0;padding:18px;border-left:3px solid var(--gold);background:rgba(255,209,102,.045);border-radius:0 12px 12px 0}.people-priority p{font-size:12px;color:var(--sub);margin:4px 0 12px}.people-priority .chips{margin:0}.people-groups{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0 8px}.people-groups b{font-size:10px;margin-left:5px;opacity:.7}.people-search select{flex:1;min-width:135px;max-width:205px}.people-search input{flex-basis:70%}.people-scope{margin-top:26px;padding:15px 18px;border:1px solid var(--line);border-radius:12px}.people-scope summary{font-size:13px}.people-scope p{line-height:1.9}
+  @media(max-width:560px){.people-entry{gap:12px;padding:16px}.people-entry strong{font-size:17px}.people-entry-icon{font-size:29px}.people-entry-arrow{font-size:11px}.people-header h1{font-size:24px}.people-orbit{font-size:46px}.people-numbers>span:last-child{margin-left:0}.people-search select{min-width:110px;max-width:none}.people-search input{min-width:100%}.directory-title{gap:10px;flex-wrap:wrap}}
   @media(max-width:560px){.directory-header h1{font-size:25px}.resume-card{align-items:stretch;flex-direction:column;gap:12px;padding:16px}.resume-card button{align-self:flex-start}.completion-tab{padding:10px 9px;font-size:13px}.question-row{gap:9px;padding:15px 12px}.question-number{min-width:22px}.question-title{font-size:13px}.row-arrow{display:none}.done-badge{font-size:10px;padding:3px 6px}.directory-bottom .btns .btn{padding:9px 13px;font-size:12px}}
 </style>
 </head>
@@ -136,6 +139,7 @@
 <script src="questions.js"></script>
 <script src="knowledge.js"></script>
 <script src="my-school.js"></script>
+<script src="people.js"></script>
 <script>
 /* ================= 星空背景 ================= */
 (function(){
@@ -173,7 +177,9 @@ const store={
 let data=Object.assign({rec:{},wrong:[]},store.get());
 if(!data.rec||typeof data.rec!=='object'||Array.isArray(data.rec))data.rec={};
 if(!Array.isArray(data.wrong))data.wrong=[];
-const KNOWLEDGE=window.QUESTION_KNOWLEDGE||{};
+const PEOPLE=window.PEOPLE_QUESTIONS||[];
+const KNOWLEDGE={...(window.QUESTION_KNOWLEDGE||{}),...(window.PEOPLE_KNOWLEDGE||{})};
+const allQuestions=()=>[...BANK,...PEOPLE];
 const hasDone=q=>{const r=data.rec[q.id];return !!r&&((r.c||0)+(r.w||0)>0)};
 function save(){store.set(data)}
 function mark(id,ok){
@@ -194,7 +200,7 @@ const app=$('#app');
 
 /* ================= 路由 ================= */
 let view={name:'home'};
-function go(v){if(view.name==='practice')rememberPractice();if(view.name==='exam'&&v.name!=='exam'&&EX.timer)clearInterval(EX.timer);view=v;render();scrollTo(0,0)}
+function go(v){if(view.name==='practice')rememberPractice();if(view.name==='exam'&&v.name!=='exam'&&EX.timer)clearInterval(EX.timer);view=v;if(typeof location!=='undefined'&&(v.name==='people'||v.name==='home'))history.replaceState(null,'',v.name==='people'?'#people':location.pathname+location.search);render();scrollTo(0,0)}
 
 function render(){
   if(view.name==='home')renderHome();
@@ -203,18 +209,20 @@ function render(){
   else if(view.name==='exam')renderExam();
   else if(view.name==='examResult')renderExamResult();
   else if(view.name==='catalog')renderCatalog();
+  else if(view.name==='people')renderPeople();
 }
 
 /* ================= 首页 ================= */
-function resumeCard(){
- const saved=data.practiceSession;if(!saved)return '';
- const q=BANK.find(q=>q.id===saved.currentId);if(!q)return '';
- return `<section class="resume-card"><div><span class="eyebrow">上次练习</span><h3>${escapeHTML(q.question)}</h3><p>${escapeHTML(q.topic)} · 第 ${Math.max(1,saved.ids.indexOf(q.id)+1)} / ${saved.ids.length} 题 · ${saved.draft?.answered?'已查看答案，可继续复习':'尚未完成作答'}</p></div><button class="btn btn-main" onclick="resumePractice()">继续上次练习 →</button></section>`;
+function resumeCard(module='main'){
+ const saved=module==='people'?data.peopleSession:data.practiceSession;if(!saved)return '';
+ const q=allQuestions().find(q=>q.id===saved.currentId);if(!q)return '';
+ return `<section class="resume-card"><div><span class="eyebrow">${module==='people'?'人物专项 · ':''}上次练习</span><h3>${escapeHTML(q.question)}</h3><p>${escapeHTML(q.topic)} · 第 ${Math.max(1,saved.ids.indexOf(q.id)+1)} / ${saved.ids.length} 题 · ${saved.draft?.answered?'已查看答案，可继续复习':'尚未完成作答'}</p></div><button class="btn btn-main" onclick="resumePractice('${module}')">继续上次练习 →</button></section>`;
 }
 function renderHome(){
  const st=stats();
  app.innerHTML=`<header class="directory-header"><div><p class="eyebrow">四川大学 · 感恩奖助学金复习</p><h1>我的题目目录</h1><p>逐题练习，做完再回看知识点。</p></div><span class="total-pill">${BANK.length} 题</span></header>
  ${resumeCard()}
+ ${PEOPLE.length?`<a class="people-entry" href="#people" onclick="event.preventDefault();openPeople()"><span class="people-entry-icon">✦</span><span><span class="eyebrow">独立题库 · 选择 + 填空</span><strong>科学家人物专项</strong><small>${window.PEOPLE_META.entries} 个人物 / 群体 · ${PEOPLE.length} 题 · 领域、成果、头衔、名言</small></span><span class="people-entry-arrow">进入 →</span></a>`:''}
  <div class="stats"><div class="stat"><div class="num">${st.total-st.done}</div><div class="lbl">未做过</div></div><div class="stat"><div class="num">${st.done}</div><div class="lbl">已做过</div></div><div class="stat"><div class="num">${st.wrongCount}</div><div class="lbl">待复习错题</div></div></div>
  <nav class="quick-modes"><button class="chip" onclick="startPractice(false)">顺序刷题</button><button class="chip" onclick="startPractice(true)">随机刷题</button><button class="chip" onclick="startExam()">模拟考试</button><button class="chip" onclick="go({name:'wrongbook'})">错题本</button><button class="chip" onclick="startPending()">待核查题</button></nav>
  ${catalogHTML()}
@@ -227,19 +235,20 @@ function resetDraft(){P.answered=false;P.sel=[];P.selfChecked=false;P.autoGrade=
 function rememberPractice(){
  if(!P.list?.length)return;
  const q=P.list[P.i];if(!q)return;
- data.practiceSession={version:2,ids:P.list.map(q=>q.id),currentId:q.id,random:!!P.random,filter:{...P.filter},query:P.query||'',draft:{answered:!!P.answered,sel:[...(P.sel||[])],fillValue:P.fillValue||'',autoGrade:P.autoGrade,beforeGrade:P.beforeGrade,beforeSelf:P.beforeSelf,manualGrade:P.manualGrade},savedAt:Date.now()};save();
+ data[P.module==='people'?'peopleSession':'practiceSession']={version:2,module:P.module||'main',ids:P.list.map(q=>q.id),currentId:q.id,random:!!P.random,filter:{...P.filter},query:P.query||'',draft:{answered:!!P.answered,sel:[...(P.sel||[])],fillValue:P.fillValue||'',autoGrade:P.autoGrade,beforeGrade:P.beforeGrade,beforeSelf:P.beforeSelf,manualGrade:P.manualGrade},savedAt:Date.now()};save();
 }
-function resumePractice(){
- const snap=data.practiceSession;if(!snap)return go({name:'home'});
- const byId=new Map(BANK.map(q=>[q.id,q]));const list=snap.ids.map(id=>byId.get(id)).filter(Boolean);
- if(!list.length){delete data.practiceSession;save();return go({name:'home'})}
+function resumePractice(module='main'){
+ const key=module==='people'?'peopleSession':'practiceSession',snap=data[key];if(!snap)return go({name:module==='people'?'people':'home'});
+ const byId=new Map((module==='people'?PEOPLE:BANK).map(q=>[q.id,q]));const list=snap.ids.map(id=>byId.get(id)).filter(Boolean);
+ if(!list.length){delete data[key];save();return go({name:module==='people'?'people':'home'})}
  const index=Math.max(0,list.findIndex(q=>q.id===snap.currentId));
  // Do not let go() overwrite the saved session with the practice being left.
  view={name:'home'};
- P={qs:[...list],list,i:index,pool:true,random:!!snap.random,filter:{sec:'all',type:'all',topic:'all',status:'study',...(snap.filter||{})},query:snap.query||''};resetDraft();Object.assign(P,snap.draft||{});go({name:'practice'});
+ P={module,qs:[...list],list,i:index,pool:true,random:!!snap.random,filter:{sec:'all',type:'all',topic:'all',status:'study',...(snap.filter||{})},query:snap.query||''};resetDraft();Object.assign(P,snap.draft||{});go({name:'practice'});
 }
 function startPractice(random,pool){
- const qs=pool||BANK;P={qs:[...qs],i:0,filter:{sec:'all',type:'all',topic:'all',status:'study'},query:'',random,pool:!!pool};applyFilter();go({name:'practice'});
+ if(view.name==='practice')rememberPractice();
+ const qs=pool||BANK;P={module:qs[0]?.module==='people'?'people':'main',qs:[...qs],i:0,filter:{sec:'all',type:'all',topic:'all',status:'study'},query:'',random,pool:!!pool};applyFilter();go({name:'practice'});
 }
 function applyFilter(){
  const base=P.pool?P.qs:BANK;
@@ -249,6 +258,7 @@ function applyFilter(){
 window.resumePractice=resumePractice;
 window.practiceDraft=value=>{P.fillValue=value;rememberPractice()};
 function chipRow(){
+  if(P.module==='people')return `<p>本轮来自人物专项的筛选分组，共 ${P.qs.length} 题。</p><button class="chip" onclick="practiceDirectory()">返回人物目录调整筛选</button>`;
   const secs=[['all','全部'],['scientist','🌌 科学家普适']];
   if(HAS_SCHOOL)secs.push(['school',`🏫 ${META.school}校情`]);
   const topics=[...new Set(BANK.map(q=>q.topic))];
@@ -268,9 +278,11 @@ function renderPractice(){
   const q=list[P.i];rememberPractice();
   app.innerHTML=topbar(P.random?'随机刷题':'逐题练习')+`<details class="practice-filters"><summary>筛选题型与专题</summary>${chipRow()}</details>`+`
     <div class="progress-line"><span>第 ${P.i+1} / ${list.length} 题</span><div class="bar"><i style="width:${(P.i+1)/list.length*100}%"></i></div><span>${Math.round((P.i+1)/list.length*100)}%</span></div>
-    <div class="qcard" id="qbox">${questionHTML(q,true)}</div><div class="practice-nav"><button class="btn btn-ghost" onclick="go({name:'home'})">返回题目目录</button>${!P.answered&&P.i>0?'<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>':''}${!P.answered&&P.i<P.list.length-1?'<button class="btn btn-ghost" onclick="nextQ()">暂跳过，下一题 →</button>':''}</div>`;
+    <div class="qcard" id="qbox">${questionHTML(q,true)}</div><div class="practice-nav"><button class="btn btn-ghost" onclick="practiceDirectory()">返回${P.module==='people'?'人物专项':'题目'}目录</button>${!P.answered&&P.i>0?'<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>':''}${!P.answered&&P.i<P.list.length-1?'<button class="btn btn-ghost" onclick="nextQ()">暂跳过，下一题 →</button>':''}</div>`;
 }
+window.practiceDirectory=()=>go({name:P.module==='people'?'people':'home'});
 function topbar(title,extra=''){
+  if(view.name==='practice'&&P.module==='people')return `<div class="topbar"><button class="back" onclick="practiceDirectory()">← 人物专项</button><h2>人物专项 · ${title}</h2>${extra}</div>`;
   return `<div class="topbar"><button class="back" onclick="go({name:'home'})">← 题目目录</button><h2>${title}</h2>${extra}</div>`;
 }
 function escapeHTML(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
@@ -329,7 +341,7 @@ function questionHTML(q,interactive,examState){
         if(P.manualGrade!==undefined)ans+=`<p class="study-feedback">${P.manualGrade?'✓ 已标记为掌握':'已加入错题，稍后再复习'}，可以先阅读知识点资料，再进入下一题。</p>`;
         ans+=`<div class="btns"><button class="btn btn-green" onclick="selfMark(true)">✓ 我答对了</button><button class="btn btn-red" onclick="selfMark(false)">✗ 没答上来</button></div>`;
       }
-      ans+=`<div class="btns">${P.i<P.list.length-1?`<button class="btn btn-main" onclick="nextQ()">下一题 →</button>`:`<button class="btn btn-main" onclick="go({name:'home'})">完成 🎉</button>`}${P.i>0?`<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>`:''}</div>`;
+      ans+=`<div class="btns">${P.i<P.list.length-1?`<button class="btn btn-main" onclick="nextQ()">下一题 →</button>`:`<button class="btn btn-main" onclick="practiceDirectory()">完成 🎉</button>`}${P.i>0?`<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>`:''}</div>`;
     }
   }
   const qtext=(interactive&&q.type==='flash'&&P.answered)?`<div class="qtext">${q.question}</div>`:(q.type!=='flash'||!interactive?`<div class="qtext">${q.question}</div>`:'');
@@ -516,8 +528,9 @@ function knowledgeHTML(q){
 }
 
 /* 启动：先合并可选校情题，再渲染（详见 README「接入自己学校的校情题」） */
-window.__boot=()=>{mergeSchoolBank();const errors=QuizCore.validateBank(BANK);if(errors.length){app.textContent="题库校验失败，请查看控制台。";console.error(errors);return}render()};
+window.__boot=()=>{mergeSchoolBank();const errors=QuizCore.validateBank(allQuestions());if(errors.length){app.textContent="题库校验失败，请查看控制台。";console.error(errors);return}if(typeof location!=='undefined'&&location.hash==='#people')view={name:'people'};render()};
 </script>
+<script src="people-ui.js"></script>
 <script>window.__boot();</script>
 </body>
 </html>

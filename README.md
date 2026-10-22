@@ -4,6 +4,10 @@
 
 [立即刷题](https://Jinlin-Yao.github.io/ganen-scientist-quiz/) · [资料覆盖](docs/COVERAGE.md) · [勘误与时效说明](docs/CORRECTIONS.md)
 
+新增独立的 [科学家人物专项](https://jinlin-yao.github.io/ganen-scientist-quiz/#people)：**172个人物/群体、768题（401选择＋367填空）**，按领域、成果、头衔、名言复习。涵盖两弹一星23人、人民科学家7人、全国最美科技工作者60人、共和国勋章13人全名单，以及川大、公众号补充人物。“感动中国”选收2021—2025年度科研等相关人物，非科研仅保留苏炳添、郑钦文两位知名代表。[人物范围与出处](docs/PEOPLE.md)。专题人数有交叉。
+
+人物专项支持专题、荣誉年份、人物与考点筛选，另有“人物速查”。原题库和人物专项分别保存草稿、作答位置和随机练习顺序；原1191题及模拟考试保持独立。
+
 ![题目目录与上次练习](docs/screenshot_directory.png)
 
 ## 使用
@@ -49,6 +53,8 @@ node scripts/build.cjs
 python3 scripts/build-knowledge.py
 node scripts/test.cjs
 node scripts/test-progress.cjs
+python3 scripts/build-people.py
+node scripts/test-people.cjs
 ```
 
 通用题输出到 `questions.js`，川大题输出到 `my-school.js`；保留 `school.example.js` 作为其他学校模板。题目ID稳定保存，追加新题请使用新的唯一ID。不要将旧题ID转用于其他题目，以免错题进度串题。

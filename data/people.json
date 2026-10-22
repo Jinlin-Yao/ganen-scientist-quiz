@@ -1,0 +1,5689 @@
+{
+  "updated": "2026-10-22",
+  "people": [
+    {
+      "name": "于敏",
+      "field": "氢弹理论与构型",
+      "bio": "核物理学家。在我国氢弹理论突破中发挥关键作用，组织小组形成氢弹原理、材料到构型的完整物理方案。长期在国内接受教育和开展研究。",
+      "note": "把国家需要作为研究方向，依靠扎实理论和集体攻关解决重大难题。",
+      "groups": [
+        "两弹一星",
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        },
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P60–P63"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S13] 中国科学院 于敏研究贡献与事迹",
+          "url": "https://www.cas.cn/zt/rwzt/qmj2020/ym/jnwz/202004/t20200402_4739719.shtml"
+        },
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [],
+      "quotes": [
+        {
+          "text": "一个人的名字，早晚是要没有的。",
+          "source": {
+            "url": "https://www.cas.cn/zt/rwzt/qmj2020/ym/jnwz/202004/t20200402_4739686.shtml",
+            "title": "中国科学院·于敏言论（节选）"
+          }
+        }
+      ]
+    },
+    {
+      "name": "王大珩",
+      "field": "应用光学与光学仪器",
+      "bio": "我国光学事业奠基人之一，推动光学玻璃、精密光学仪器和国防光学观测设备发展；1986年参与提出发展高技术的建议。",
+      "note": "仪器和基础技术同样关系国家能力；不能把科研创新仅理解成提出理论。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P64–P67"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S14] 中国科学院 王大珩生平",
+          "url": "https://www.cas.cn/zt/rwzt/gwcyz_1/wangdaheng/201203/t20120330_3546577.shtml"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "王希季",
+      "field": "探空火箭与返回式卫星",
+      "bio": "空间技术专家，提出长征一号运载火箭技术方案，领导我国返回式卫星研制。1975年我国首颗返回式卫星发射并成功回收。",
+      "note": "坚持从国情和工程约束出发选择可实现的技术路线。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P68–P71"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S15] 中国科学院 王希季 我愿做太空的铺路石",
+          "url": "https://www.cas.cn/xzfc/202507/t20250728_5077930.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "王希季领导研制的、能够将载荷带回地面的卫星类型是____。",
+          "answer": "返回式卫星",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "朱光亚",
+      "field": "核武器研制的组织领导",
+      "bio": "核物理学家、战略科学家，参与组织领导我国原子弹、氢弹研制和核武器科技事业发展。1950年牵头组织起草给留美同学的公开信，动员回国。",
+      "note": "个人成就之外，更要理解统筹全局、汇集人才和形成合力的贡献。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P72–P75"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S16] 中国科学院 纪念朱光亚院士",
+          "url": "https://kxrsbn.casad.cas.cn/2024/xwdt/202403/t20240306_5007653.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "孙家栋",
+      "field": "东方红一号总体与航天系统工程",
+      "bio": "航天工程专家，我国第一颗人造地球卫星东方红一号总体设计负责人，长期参与并领导应用卫星、北斗导航、探月工程建设。",
+      "note": "面对国家任务能够转换专业方向，以系统思维统筹复杂工程。",
+      "groups": [
+        "两弹一星",
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        },
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P76–P79"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S17] 中国科学院 孙家栋的航天传奇",
+          "url": "https://www.cas.cn/kxyj/kj/zg/2009n/sjd/mtbd/201001/t20100112_2724762.shtml"
+        },
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "孙家栋担任总体设计负责人的我国第一颗人造地球卫星是____。",
+          "answer": "东方红一号",
+          "aliases": [
+            "东方红1号"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "任新民",
+      "field": "液体火箭发动机与航天工程总体",
+      "bio": "导弹与航天技术开拓者之一，在液体发动机和型号总体技术上贡献突出，主持多项重大航天工程，被称为航天“总总师”。",
+      "note": "工程成功需要总体、分系统、试验验证之间的严密协作。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P80–P83"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S18] 中国科学院 任新民 中国航天总总师",
+          "url": "https://www.cas.cn/xzfc/202109/t20210915_4805843.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "任新民因主持多项重大航天工程，被称为航天“____”。",
+          "answer": "总总师",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "吴自良",
+      "field": "铀同位素分离用甲种分离膜",
+      "bio": "材料科学家，领导完成铀同位素分离用甲种分离膜研制，为核工业关键材料自主研制作出贡献。",
+      "note": "从关键材料突破理解自主创新；记住“膜”对应吴自良。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P84–P87"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S19] 立德树人网 吴自良专题",
+          "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_wzl.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "吴自良领导研制的、用于铀同位素分离的关键材料是____。",
+          "answer": "甲种分离膜",
+          "aliases": [
+            "甲种膜"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "陈芳允",
+      "field": "卫星测控与双星定位",
+      "bio": "无线电电子学、空间系统工程专家，制定东方红一号测控方案；提出双星定位通信设想，为北斗系统奠定基础；是863计划四位倡议者之一。",
+      "note": "善于从国情出发提出新方案，将前瞻判断与工程需求结合。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P88–P91"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S20] 中国科学院 陈芳允 两弹元勋奠基北斗",
+          "url": "https://www.cas.cn/xzfc/202302/t20230208_4874347.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "陈芳允提出的____通信设想，为北斗卫星导航系统发展奠定了基础。",
+          "answer": "双星定位",
+          "aliases": [
+            "双星定位通信"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "陈能宽",
+      "field": "金属物理与爆轰试验",
+      "bio": "金属物理学家，参与组织领导我国核武器爆轰物理、试验及相关研究，为原子弹、氢弹突破与武器化作出贡献。",
+      "note": "既重视理论，又重视材料、工艺和试验之间的衔接。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P92–P95"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S21] 中国工程物理研究院 深切缅怀陈能宽院士",
+          "url": "https://www.caep.cn/zwxx/zdzt/sqmhldyxgxcnkys/jnwz/532176.shtml"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "杨嘉墀",
+      "field": "卫星姿态控制",
+      "bio": "空间自动控制学家，主持人造卫星姿态控制系统研究，在三轴稳定返回式卫星和科学探测卫星方面贡献突出；参与倡议863计划。",
+      "note": "区分“姿态控制”与“卫星测控”，都是协同工程中的关键环节。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P96–P99"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S22] 中国科学院 杨嘉墀 科学人生百年",
+          "url": "https://kxrsbn.casad.cas.cn/2019n/bnysml/yjc/"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "杨嘉墀在卫星自动控制领域的代表方向是卫星____控制。",
+          "answer": "姿态",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "周光召",
+      "field": "理论物理与核武器理论研究",
+      "bio": "理论物理学家，赝矢量流部分守恒理论的重要奠基者之一；1961年回国参加国家急需的核武器理论研究，倡导学术民主和讨论。",
+      "note": "敢于质疑、反复核算，用证据和理论判断纠正偏差。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P100–P103"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S23] 中国科学院 周光召与中国核武器科技事业",
+          "url": "https://scicn.casad.cas.cn/wz/202408/t20240819_5029021.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "周光召是赝矢量流____理论的重要奠基者之一。",
+          "answer": "部分守恒",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "钱学森",
+      "field": "空气动力学与导弹航天系统工程",
+      "bio": "1955年冲破阻挠回国，1956年参与创建国防部第五研究院；为我国导弹、航天和系统工程发展作出奠基性贡献。",
+      "note": "归国报国、学科转换、工程组织和培养人才要结合起来记。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P104–P107"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S24] 立德树人网 五年漫漫归国路 十年艰辛两弹成",
+          "url": "https://ldsrw.swjtu.edu.cn/info/1017/3623.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "钱学森被誉为中国“____之父”（填导弹、火箭相关称号中的两个字）。",
+          "answer": "导弹",
+          "aliases": []
+        }
+      ],
+      "quotes": [
+        {
+          "text": "我的事业在中国，我的成就在中国，我的归宿在中国。",
+          "source": {
+            "url": "https://www.moe.gov.cn/jyb_xwfb/xw_zt/moe_357/s5129/s6118/s6124/201112/t20111208_127678.html",
+            "title": "教育部·钱学森同志言论选编"
+          }
+        }
+      ]
+    },
+    {
+      "name": "屠守锷",
+      "field": "洲际导弹与长征二号",
+      "bio": "导弹与火箭技术专家，担任东风五号洲际导弹和长征二号运载火箭总设计师，是航天四老之一。",
+      "note": "从重大型号长期攻关理解严谨细致、持续改进和工程责任。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P108–P111"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S25] 中国数字科技馆 东风五号导弹与屠守锷",
+          "url": "https://www.cdstm.cn/museum/zphc/kcbnjd100znkjcjkpz/art/2021/art_5c945eccd17b45f29fc0c0cfbfd278bb.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "屠守锷担任我国东风五号洲际导弹和____运载火箭总设计师。",
+          "answer": "长征二号",
+          "aliases": [
+            "长征2号"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "黄纬禄",
+      "field": "巨浪一号与导弹控制",
+      "bio": "自动控制和导弹技术专家，担任我国第一代固体潜地战略导弹巨浪一号总设计师，推动水下发射技术突破。",
+      "note": "工程试验必须分阶段验证；规范姓名为黄纬禄。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P112–P115"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S26] 中国科学院文献情报中心 黄纬禄的故事",
+          "url": "https://kxcb.las.ac.cn/ldyx_news_detail/900.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "黄纬禄担任总设计师的我国第一代固体潜地战略导弹是____。",
+          "answer": "巨浪一号",
+          "aliases": [
+            "巨浪1号"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "程开甲",
+      "field": "核试验科学技术",
+      "bio": "我国核试验科学技术的创建者和领路人，长期扎根核试验基地，参与组织多种方式的核试验，被称为“核司令”。",
+      "note": "既要记核武器理论设计者，也要记核试验体系的建设者。",
+      "groups": [
+        "两弹一星",
+        "人民科学家"
+      ],
+      "awards": [
+        {
+          "name": "人民科学家",
+          "year": 2019,
+          "basis": "获授/追授年份"
+        },
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P116–P119"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S27] 国防科工局 叶培建 程开甲获人民科学家称号",
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10159569/content.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "长期扎根核试验基地的程开甲，被称为“____”（三个字）。",
+          "answer": "核司令",
+          "aliases": []
+        }
+      ],
+      "quotes": [
+        {
+          "text": "我这辈子最大的幸福，就是自己所做的一切，都和祖国紧紧地联系在一起。",
+          "source": {
+            "url": "https://www.mod.gov.cn/gfbw/gfjy_index/xjdx/4853888.html?big=fan",
+            "title": "国防部·程开甲"
+          }
+        }
+      ]
+    },
+    {
+      "name": "彭桓武",
+      "field": "理论物理与理论联系实际",
+      "bio": "理论物理学家，参与组织和指导我国原子弹、氢弹理论研究，为理论物理和青年人才培养作出重要贡献。",
+      "note": "反复强调集体协作，把理论研究与解决实际问题相结合。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P120–P123"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S28] 中国科学院理论物理所 彭桓武的治学精神",
+          "url": "https://itp.cas.cn/djykxwh/kxwh/djff_171440/phw_171441/202010/t20201007_5713856.html"
+        }
+      ],
+      "facts": [],
+      "quotes": [
+        {
+          "text": "回国不需要理由，不回国才需要理由。",
+          "source": {
+            "url": "https://itp.cas.cn/ztlm/zszt/ztphw/202208/t20220829_6505131.html",
+            "title": "中国科学院理论物理所·彭桓武"
+          }
+        }
+      ]
+    },
+    {
+      "name": "王淦昌",
+      "field": "实验核物理与核探测",
+      "bio": "实验核物理学家，提出通过铍核俘获电子验证中微子存在的实验建议，参与核武器研制与试验；是863计划四位倡议者之一。",
+      "note": "不能把提出验证建议记成独自发现中微子；重视实验思路。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P124–P127"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S29] 中国科学院高能所 中微子研究的历史与未来",
+          "url": "https://www.ihep.cas.cn/dkxzz/juno/kpyd/201809/P020180910355586004097.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "王淦昌提出通过铍核俘获电子的实验，验证____存在的建议。",
+          "answer": "中微子",
+          "aliases": []
+        }
+      ],
+      "quotes": [
+        {
+          "text": "我愿以身许国。",
+          "source": {
+            "url": "https://mmcs.cast.org.cn/xwz/kxjrl/art/2025/art_913da1e76fe442d2817663a0d9b3f3b5.html",
+            "title": "中国科学家博物馆·王淦昌"
+          }
+        }
+      ]
+    },
+    {
+      "name": "邓稼先",
+      "field": "核武器理论设计与两弹元勋",
+      "bio": "1950年在美国获得博士学位后回国，长期参与组织领导我国核武器理论研究和设计，为原子弹、氢弹研制作出重大贡献。",
+      "note": "把具体研究职责与隐姓埋名、甘于奉献的精神联系起来。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P128–P131"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S30] 立德树人网 邓稼先专题",
+          "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_djx.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "赵九章",
+      "field": "空间物理与卫星事业倡导",
+      "bio": "气象学家、地球物理学家，倡导并推动中国人造卫星事业，领导东方红一号早期方案论证和研制准备工作。",
+      "note": "记“战略倡导与早期组织”，不要把卫星事业归功于单一人物。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P132–P135"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S31] 中国科学院 赵九章传",
+          "url": "https://www.ad.cas.cn/xbcg/kxwhxl/yscj/zjzz/"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "姚桐斌",
+      "field": "导弹航天材料与工艺",
+      "bio": "冶金学、航天材料专家，是我国导弹与航天材料、工艺技术研究机构的重要创建者，推动相关材料和工艺研究体系建设。",
+      "note": "与吴自良同属材料相关人物，但研究对象和工程用途不同。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P136–P139"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S32] 立德树人网 姚桐斌专题",
+          "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_ytb.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "钱骥",
+      "field": "空间探测与卫星总体技术",
+      "bio": "空间技术专家，参与探空火箭、空间探测技术和东方红一号总体方案研究，是我国空间科学技术事业的重要开拓者。",
+      "note": "“钱氏人物”要按领域分辨：钱骥空间探测，钱三强核物理。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P140–P143"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S33] 国家空间科学中心 钱骥与我国空间技术事业",
+          "url": "https://cssar.cas.cn/ztzl2015/zgkjkxzl2015/kjkxzldx/202004/t20200430_5567423.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "钱三强",
+      "field": "核物理与原子能事业组织",
+      "bio": "核物理学家，我国原子能科学事业的重要创始人；组织研究队伍、建设研究设施、培养人才，并前瞻布局氢弹基础研究。",
+      "note": "重点记战略谋划和人才组织，不把团队成果写成个人独立完成。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P144–P147"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S34] 中国科学院 钱三强与我国原子能事业",
+          "url": "https://www.cas.cn/xzfc/202206/t20220630_4840013.shtml"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "郭永怀",
+      "field": "力学与核武器工程",
+      "bio": "力学家、应用数学家，1956年回国，参与我国核武器及有关国防工程研究。1968年飞机失事牺牲，与警卫员牟方东保护重要资料。",
+      "note": "23位元勋中以烈士身份被追授者；事例可用于爱国、奉献和担当。",
+      "groups": [
+        "两弹一星"
+      ],
+      "awards": [
+        {
+          "name": "两弹一星功勋奖章",
+          "year": 1999,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P148–P151"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S35] 中国科学院 郭永怀 甘做祖国力学事业铺路石",
+          "url": "https://isl.cas.cn/kxcbn/kpwz/201810/t20181016_6798933.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "事迹",
+          "question": "1968年郭永怀遇难时，与他共同保护重要资料的警卫员名叫____。",
+          "answer": "牟方东",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "叶培建",
+      "field": "嫦娥一号总设计师兼总指挥",
+      "bio": "空间飞行器总体和信息处理专家，担任嫦娥一号卫星系统总设计师兼总指挥，参与嫦娥系列方案论证、攻关与验证。2019年获人民科学家国家荣誉称号。",
+      "note": "区分叶培建的嫦娥一号卫星系统职责与孙家栋的探月工程总设计师职责。",
+      "groups": [
+        "人民科学家"
+      ],
+      "awards": [
+        {
+          "name": "人民科学家",
+          "year": 2019,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P160–P163"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S36] 全国政协 追星逐月 叶培建",
+          "url": "https://www.cppcc.gov.cn/zxww/2025/01/20/ARTI1737364897717460.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "叶培建担任____卫星系统总设计师兼总指挥。",
+          "answer": "嫦娥一号",
+          "aliases": [
+            "嫦娥1号"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "吴文俊",
+      "field": "拓扑学与数学机械化",
+      "bio": "数学家，在拓扑学取得重要成果，开创数学机械化研究，几何定理机器证明中的方法被称为“吴方法”。获2000年度首届国家最高科学技术奖。",
+      "note": "从新领域开拓理解原创性；晚年转向新的研究方向，体现持续创新。",
+      "groups": [
+        "人民科学家"
+      ],
+      "awards": [
+        {
+          "name": "人民科学家",
+          "year": 2019,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P164–P167"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S37] 中国科学院 吴文俊 创中国方法 为世界算数",
+          "url": "https://www.cas.cn/xzfc/202501/t20250114_5044886.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "吴文俊开创数学机械化研究，几何定理机器证明中的相关方法称为“____”。",
+          "answer": "吴方法",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "顾方舟",
+      "field": "脊髓灰质炎疫苗与糖丸",
+      "bio": "病毒学家，推动我国脊髓灰质炎减毒活疫苗研究、生产与推广，糖丸疫苗方便大规模接种。2019年获人民科学家国家荣誉称号。",
+      "note": "成果意义是预防脊灰和保护儿童；不能把历史自试经历当成今天可照搬的研究规范。",
+      "groups": [
+        "人民科学家"
+      ],
+      "awards": [
+        {
+          "name": "人民科学家",
+          "year": 2019,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P168–P171"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S38] 国家应急广播网 人民科学家顾方舟",
+          "url": "https://www.cneb.gov.cn/2019/10/06/VIDE1570340749593655.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "顾方舟推动研制与推广的糖丸疫苗，用于预防____。",
+          "answer": "脊髓灰质炎",
+          "aliases": [
+            "脊灰",
+            "小儿麻痹症"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "南仁东",
+      "field": "中国天眼 FAST",
+      "bio": "天文学家，FAST工程首席科学家兼总工程师，长期推进选址、论证、工程建设。2016年9月25日，500米口径球面射电望远镜落成启用。",
+      "note": "FAST是射电望远镜，不是光学望远镜；台址在贵州平塘大窝凼。",
+      "groups": [
+        "人民科学家"
+      ],
+      "awards": [
+        {
+          "name": "人民科学家",
+          "year": 2019,
+          "basis": "获授/追授年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P172–P175"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S39] 立德树人网 南仁东专题",
+          "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_nrd.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "南仁东担任首席科学家兼总工程师的中国天眼，英文缩写是____。",
+          "answer": "FAST",
+          "aliases": [
+            "中国天眼",
+            "500米口径球面射电望远镜"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "多吉",
+      "field": "高原地热与羊八井",
+      "bio": "地质专家，主持羊八井高温深井设计和勘探，推动西藏地热资源开发及地质找矿。",
+      "note": "实地调查、扎根边疆、把资源优势转化为发展条件。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P184–P187"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S40] 中国工程院 多吉与羊八井地热",
+          "url": "https://www.cae.cn/cae/html/main/col1/2017-11/13/20171113100056706543575_1.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "多吉主持高温深井设计和勘探的西藏著名地热田是____。",
+          "answer": "羊八井",
+          "aliases": [
+            "羊八井地热田"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "张弥曼",
+      "field": "古鱼类与脊椎动物演化",
+      "bio": "古脊椎动物学家，研究古鱼类和脊椎动物演化，以化石证据研究鱼类到四足动物演化等问题。",
+      "note": "不能凭想象填补演化环节；细致观察与证据链是求实精神。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P188–P191"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S41] 中国科学院古脊椎所 张弥曼九十华诞特展",
+          "url": "https://ivpp.cas.cn/xwdt/zhxw/202604/t20260417_8187232.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "张弥曼主要以化石为证据研究古____类及脊椎动物演化。（填一个字）",
+          "answer": "鱼",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "邹学校",
+      "field": "辣椒种质与育种",
+      "bio": "蔬菜育种专家，长期研究辣椒种质创制、育种技术创新和新品种培育，推动辣椒产业发展。",
+      "note": "区分辣椒、水稻、肉牛等农业对象；科研也要考虑推广应用。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P192–P195"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S42] 中国工程院 邹学校",
+          "url": "https://www.cae.cn/cae/html/main/colys/67789743.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "蔬菜育种专家邹学校长期研究的茄科作物是____。",
+          "answer": "辣椒",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "倪光南",
+      "field": "汉字信息处理与核心技术",
+      "bio": "计算机专家，参与联想式汉卡等研制，长期推动我国计算机核心技术自主发展。",
+      "note": "与陈云霁的深度学习处理器相区分，理解信息技术自主创新的连续性。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P196–P199"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S43] 中国工程院 倪光南 一生追求中国芯",
+          "url": "https://www.cae.cn/cae/html/main/col336/2022-04/11/20220411134259523806148_1.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "倪光南参与研制的汉字信息处理产品中，著名的联想式____为汉字输入等提供了支持。",
+          "answer": "汉卡",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "黄才发",
+      "field": "农村中学科普",
+      "bio": "江西寻乌中学科技教育工作者，长期扎根基层开展科学普及，让山区孩子接触科学、参加科技实践。",
+      "note": "科学普及与人才启蒙也是科技工作的重要组成部分。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P200–P203"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S44] 科普中国 黄才发的基层科普实践",
+          "url": "https://img3.kepuchina.cn/person/jcrs/201908/t20190813_1095576.shtml"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "陈云霁",
+      "field": "寒武纪一号深度学习处理器",
+      "bio": "计算机体系结构研究者，团队研制深度学习处理器芯片寒武纪一号，推动智能处理器基础研究和应用发展。",
+      "note": "区分芯片研究与一般应用软件开发；基础研究能够形成新技术方向。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P204–P207"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S45] 中国科学院 陈云霁与深度学习处理器",
+          "url": "https://www.qtgz.cas.cn/zgzj/xfmf/202204/t20220429_4833346.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "陈云霁团队研制的深度学习处理器芯片名为____。",
+          "answer": "寒武纪一号",
+          "aliases": [
+            "寒武纪1号"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "姬秋梅",
+      "field": "牦牛遗传资源与牧区发展",
+      "bio": "长期在西藏从事牦牛科研，开展遗传资源、养殖和产业发展相关研究，为牧民生产服务。",
+      "note": "“牦牛在西藏”与“夏南牛在河南泌阳”成对记忆。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P208–P211"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S46] 央视网 姬秋梅与牦牛科研",
+          "url": "https://news.cctv.cn/2019/08/15/ARTIbtpkvgLg0RR7gq2WomZS190815.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "姬秋梅长期在西藏研究的高原家畜是____。",
+          "answer": "牦牛",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "杨海燕",
+      "field": "国际水利水电工程",
+      "bio": "水利水电设计专家，参与多个国家水电站与大坝工程建设，服务共建一带一路，被称为“水电玫瑰”。",
+      "note": "记“国际水电工程与合作”，不要混成棉花育种或海洋研究。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P212–P215"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S47] 中国水利网 杨海燕 水电玫瑰",
+          "url": "https://www.chinawater.com.cn/newscenter/rw/201908/t20190815_737513.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "长期投身国际水利水电工程的杨海燕，被称为“____”。",
+          "answer": "水电玫瑰",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "祁兴磊",
+      "field": "夏南牛培育与推广",
+      "bio": "长期扎根河南泌阳基层，带领团队培育夏南牛并研究饲养管理技术，促进肉牛产业和农民增收。",
+      "note": "不仅有育成新品种，还要有标准、推广和生产应用。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P216–P219"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S48] 中国科协 2019年最美科技工作者祁兴磊",
+          "url": "https://rczx.cast.org.cn/jljj/kjgzzfc/zmkjgzz/art/2022/art_070dd6494bf24807a9a5896f814784da.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "祁兴磊扎根河南泌阳，带领团队培育的肉牛品种是____。",
+          "answer": "夏南牛",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "徐恭义",
+      "field": "大跨度桥梁设计",
+      "bio": "桥梁工程专家，长期从事大跨度桥梁特别是悬索桥设计与技术创新，参与重大桥梁工程建设。",
+      "note": "与李兴钢的建筑设计、王杜娟的盾构装备相区分。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P220–P223"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S49] 西南交通大学 徐恭义入选全国最美科技工作者",
+          "url": "https://news.swjtu.edu.cn/info/1011/27836.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "陶文铨",
+      "field": "数值传热与教学",
+      "bio": "工程热物理、数值传热学专家，推动我国数值传热研究与课程教材建设，坚持科研和教学相结合。",
+      "note": "“传热与计算”对应陶文铨；不能误记为数学机械化。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P224–P227"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S50] 西安交通大学 陶文铨人物资料",
+          "url": "https://szpt.xjtu.edu.cn/j/g/a/content_258.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "陶文铨是工程热物理领域的专家，代表研究方向是数值____学。",
+          "answer": "传热",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "陈孝平",
+      "field": "肝胆胰外科",
+      "bio": "外科专家，长期从事肝胆胰疾病手术与研究，开展肝癌治疗、肝移植和相关术式创新，并参与公益医疗。",
+      "note": "与陈志潜的公共卫生、陈文贵的微生物学、陈灏珠的心血管病学分开记。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P228–P231"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S51] 北京大学期刊平台 陈孝平先进事迹",
+          "url": "https://ccj.pku.edu.cn/Article/info?aid=334287939"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "邢继",
+      "field": "华龙一号核电",
+      "bio": "核电工程专家，中核集团华龙一号总设计师，推动我国自主三代压水堆核电技术发展。",
+      "note": "华龙一号是核电技术；不能与核武器或潜射导弹混淆。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P232–P235"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S52] 国家能源局 邢继 华龙一号总设计师",
+          "url": "https://www.nea.gov.cn/2019-08/07/c_138290912.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "邢继担任中核集团____总设计师，推进自主三代压水堆核电技术。",
+          "answer": "华龙一号",
+          "aliases": [
+            "华龙1号"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "梁建英",
+      "field": "高速动车组与复兴号",
+      "bio": "高速列车技术专家，主持和参与高速动车组研制，带领团队推进和谐号、复兴号及相关技术创新。",
+      "note": "研制、线路试验和运行可靠性共同组成工程创新过程。",
+      "groups": [
+        "最美科技工作者",
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2019,
+          "basis": "评选年度"
+        },
+        {
+          "name": "感动中国",
+          "year": 2025,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P236–P239"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S53] 上海科技党建 梁建英与中国高速列车",
+          "url": "https://www.shkjdw.gov.cn/c/2019-08-15/517272.shtml"
+        },
+        {
+          "url": "https://www.centv.cn/p/598296.html",
+          "title": "中国教育电视台·感动中国2025年度人物（2026年公布）"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "梁建英带领团队推进中国标准动车组技术，其代表车型为____号。",
+          "answer": "复兴",
+          "aliases": [
+            "复兴号"
+          ]
+        }
+      ],
+      "work": "带领团队研制高速动车组，推动复兴号等中国高铁技术创新"
+    },
+    {
+      "name": "李贺军",
+      "field": "碳碳复合材料与防护涂层",
+      "bio": "材料科学家，研究高性能碳碳复合材料和耐高温氧化、烧蚀涂层，服务航空航天等重大需求。",
+      "note": "材料研究的关键词是高温、防护、复合材料，不是一般金属冶炼。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P240–P243"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S54] 西北工业大学 李贺军碳碳复合材料团队",
+          "url": "https://z.nwpu.edu.cn/info/1753/16412.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "李贺军研究的耐高温复合材料中，两相均以碳为主要成分的材料简称____复合材料。",
+          "answer": "碳碳",
+          "aliases": [
+            "碳/碳",
+            "C/C"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "李兴钢",
+      "field": "鸟巢与冬奥场馆建筑",
+      "bio": "建筑师，曾任国家体育场鸟巢中方总设计师，参与北京冬奥会延庆赛区等重大工程设计研究。",
+      "note": "兼顾工程技术、使用功能和文化表达；鸟巢设计是团队合作成果。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P244–P247"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S55] 中国文明网 李兴钢先进事迹",
+          "url": "https://www.wenming.cn/zmrwfbt/yw_01/201806/t20180615_4725573.shtml"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "李兴钢曾任北京国家体育场“____”中方总设计师。",
+          "answer": "鸟巢",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "王杜娟",
+      "field": "盾构机与隧道掘进装备",
+      "bio": "长期从事盾构机国产化设计、研发与制造，推动隧道掘进装备重大技术突破和产业化。",
+      "note": "规范姓名是王杜娟；盾构装备与桥梁、动车组分别属于不同工程方向。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P248–P251"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S56] 全国标准信息公共服务平台 王杜娟专业资料",
+          "url": "https://std.samr.gov.cn/search/personDetailedCNF?id=3150D0E850DEDB99971529794E99EC3B"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "王杜娟长期推动____机国产化，该装备主要用于隧道掘进。",
+          "answer": "盾构",
+          "aliases": [
+            "盾构机"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "秦川",
+      "field": "人类疾病动物模型",
+      "bio": "实验动物与比较医学研究者，研制和应用人类疾病动物模型，为疾病机制、药物和疫苗评价提供研究工具。",
+      "note": "动物模型用于研究和评价，不能简单等同于人体临床结论。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P252–P255"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S57] 北京协和医学院 秦川研究方向",
+          "url": "https://yzbss.pumc.edu.cn/basicinfo/tutorinfo/tutordetail/J2009110071"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "秦川通过建立人类疾病____模型，为疾病机制、药物和疫苗评价提供研究工具。",
+          "answer": "动物",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "蔚保国",
+      "field": "北斗地面系统与导航定位",
+      "bio": "长期从事北斗卫星导航地面系统及相关技术研发，推进卫星导航测量和定位服务能力建设。",
+      "note": "区分陈芳允的双星定位设想、孙家栋的系统工程与蔚保国的地面系统。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P256–P259"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S58] 科技部 蔚保国与北斗研发",
+          "url": "https://www.most.gov.cn/ztzl/hyagfdjs/xwbd/201810/t20181029_142470.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "严纯华",
+      "field": "稀土分离与功能材料",
+      "bio": "无机化学、稀土化学专家，发展稀土分离理论与工艺，研究稀土功能材料，推动相关成果应用。",
+      "note": "串级萃取理论的重要开创者徐光宪与发展者严纯华不能混为一人。",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2018,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P260–P263"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S59] 北京大学 严纯华研究介绍",
+          "url": "https://www.pku.edu.cn/detail/402.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "严纯华的无机化学研究以____分离和功能材料为重要方向。",
+          "answer": "稀土",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "师昌绪",
+      "field": "高温合金与材料",
+      "bio": "材料科学家，推动高温合金和新材料研究，服务航空发动机等国家需求。获2010年度国家最高科学技术奖。",
+      "note": "记住材料与服役条件的关系。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P267–P270"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S60] 中国科学院 师昌绪与2010年度最高奖",
+          "url": "https://www.cas.cn/kxyj/kj/zg/2010gjzgkxjsj/shichangxu/"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "周同惠",
+      "field": "药物分析与兴奋剂检测",
+      "bio": "分析化学家，研究药物及中草药有效成分分析、药物代谢分析，推动我国兴奋剂检测体系建设。",
+      "note": "同为药学领域，周同惠偏分析，屠呦呦偏抗疟新药研究。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P271–P274"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S61] 中国科学院 周同惠院士生平",
+          "url": "https://casad.cas.cn/zt2022/mhys/2020/202002/t20200225_4735694.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "周同惠除药物分析外，还推动我国体育赛事中的____检测体系建设。",
+          "answer": "兴奋剂",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "陈灏珠",
+      "field": "心血管病学",
+      "bio": "心血管病学家和医学教育家，推动我国现代心脏病学临床研究、诊疗和人才培养。",
+      "note": "与肝胆外科陈孝平区分。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P275–P278"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S62] 复旦大学 陈灏珠等人物资料",
+          "url": "https://www.fudan.edu.cn/_upload/article/files/d5/5f/a796230f4525a74d8025cb41df32/e1539069-99bf-4272-9b38-77bf54cbe427.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "陈灏珠的主要医学研究方向是____病学，与心脏及血管疾病相关。",
+          "answer": "心血管",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "方守贤",
+      "field": "北京正负电子对撞机",
+      "bio": "加速器物理学家，参与组织北京正负电子对撞机建设与运行，是我国高能加速器事业开拓者之一。",
+      "note": "与谢家麟同属加速器领域，贡献存在合作与接续。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P279–P282"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S63] 中国科学院高能所 方守贤生平",
+          "url": "https://ihep.cas.cn/kydw/yszj/ygys/202210/t20221010_6521757.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "方守贤参与组织建设和运行的高能物理装置是北京____对撞机。",
+          "answer": "正负电子",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "程镕时",
+      "field": "高分子物理与分子表征",
+      "bio": "高分子物理及物理化学家，研究高分子溶液、分子量表征和凝胶色谱等问题。",
+      "note": "与核试验专家程开甲分开记，注意“镕”字。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P283–P286"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S64] 南京大学 程镕时生平简介",
+          "url": "https://chem.nju.edu.cn/c7/cf/c41332a509903/page.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "程镕时主要研究高分子物理、物理化学及分子量表征，而非程开甲的核____。",
+          "answer": "试验",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "王忠诚",
+      "field": "神经外科",
+      "bio": "神经外科专家，推动我国神经外科临床、科研和人才培养。获2008年度国家最高科学技术奖。",
+      "note": "与心脏、肝胆和公共卫生领域人物形成对照。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P287–P290"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S65] 科技部 2008年度最高奖 王忠诚",
+          "url": "https://www.most.gov.cn/cxfw/kjjlcx/kjjl2008/200905/t20090531_69966.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "王忠诚获2008年度国家最高科学技术奖，其代表医学专科是____外科。",
+          "answer": "神经",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "陈文新",
+      "field": "根瘤菌资源与分类",
+      "bio": "土壤与环境微生物学家，系统调查根瘤菌资源，研究分类与豆科植物共生，建设根瘤菌种质资源库。",
+      "note": "通过生物固氮联系农业生产与生态环境。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P291–P294"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S66] 中国农业大学 陈文新院士生平",
+          "url": "https://cbs.cau.edu.cn/col/col42818/index.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "陈文新系统调查和研究与豆科植物共生固氮的____资源。",
+          "answer": "根瘤菌",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "袁隆平",
+      "field": "杂交水稻与粮食安全",
+      "bio": "农业科学家，长期推动杂交水稻研究与推广，常用记忆线索为禾下乘凉梦、杂交水稻覆盖全球梦。获2000年度首届国家最高科学技术奖。",
+      "note": "与吴文俊同获首届最高奖，二者分别对应农业与数学。",
+      "groups": [
+        "公众号补充人物",
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P295–P298"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S67] 科技部 2000年度最高奖 吴文俊与袁隆平",
+          "url": "https://www.most.gov.cn/cxfw/kjjlcx/kjjl2000/200802/t20080214_59059.html"
+        },
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "袁隆平长期研究并推广的粮食作物技术是____水稻。",
+          "answer": "杂交",
+          "aliases": []
+        }
+      ],
+      "quotes": [
+        {
+          "text": "我有两个梦，一个是“禾下乘凉梦”，一个是“杂交稻覆盖全球梦”。",
+          "source": {
+            "url": "https://bjb.cas.cn/tbzt2016/dnzt/sd/jdwz/202006/t20200630_5613808.html",
+            "title": "中国科学院·袁隆平文章《梦想靠科学实现》"
+          }
+        }
+      ]
+    },
+    {
+      "name": "钟兆琳",
+      "field": "电机工程与教育",
+      "bio": "电机工程专家、教育家，长期从事电机工程教学、研究与人才培养，是我国电机教育的重要先驱。",
+      "note": "电机、发电机等关键词对应电气工程，不是核物理。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P299–P302"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S68] 上海交通大学 钟兆琳 电机工业拓荒者",
+          "url": "https://news.sjtu.edu.cn/ztzl_jdms/20180414/70981.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "钟兆琳是我国____工程教育的重要先驱，与电气工程学科相联系。",
+          "answer": "电机",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "谢家麟",
+      "field": "粒子加速器",
+      "bio": "加速器物理学家，参与我国电子直线加速器和北京正负电子对撞机建设。获2011年度国家最高科学技术奖。",
+      "note": "区分获奖年度2011与颁奖时间2012。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P303–P306"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S69] 科技部 2011年度最高奖 谢家麟",
+          "url": "https://www.most.gov.cn/ztzl/kjrw/201202/t20120214_92444.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "谢家麟长期研究粒子____，并参与北京正负电子对撞机建设。",
+          "answer": "加速器",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "徐玉如",
+      "field": "潜器操纵与动力定位",
+      "bio": "船舶与海洋工程专家，研究潜器操纵性和动力定位技术，推动水下机器人等相关工程技术发展。",
+      "note": "与核潜艇总体设计及潜射导弹分别记忆。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P307–P310"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S70] 中国工程院 徐玉如专业贡献",
+          "url": "https://www.cae.cn/cae/html/main/colys/21202911.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "吴中伟",
+      "field": "混凝土与建筑材料",
+      "bio": "建筑材料和土木工程专家，长期研究水泥、混凝土及工程应用，推动混凝土外加剂、膨胀混凝土等技术发展。",
+      "note": "“砼”读tóng，是混凝土的简称。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P311–P314"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S71] 中国工程院 吴中伟专业贡献",
+          "url": "https://www.cae.cn/cae/html/main/colys/18158138.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "吴中伟研究的建筑材料中，通常以“砼”简称的是____。",
+          "answer": "混凝土",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "华罗庚",
+      "field": "数论与数学推广",
+      "bio": "数学家，在解析数论等领域作出重要贡献，推动优选法、统筹法推广，重视青年数学人才培养。",
+      "note": "不能把数学研究限于课堂运算；理论、应用和育人可以结合。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P315–P318"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S72] 中国科学院 华罗庚人物介绍",
+          "url": "https://www.amss.cas.cn/ryszl/hlg/rwjs/"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "华罗庚在推动数学应用中，大力推广优选法和____法。",
+          "answer": "统筹",
+          "aliases": []
+        }
+      ],
+      "quotes": [
+        {
+          "text": "聪明在于勤奋，天才在于积累。",
+          "source": {
+            "url": "https://casad.cas.cn/zt2022/ysksgs/czy/202605/t20260513_5109351.html",
+            "title": "中国科学院学部·华罗庚"
+          }
+        }
+      ]
+    },
+    {
+      "name": "刘东生",
+      "field": "黄土与环境变化",
+      "bio": "地球环境科学家，以黄土研究推进第四纪地质与古环境变化研究。获2003年度国家最高科学技术奖。",
+      "note": "黄土沉积可以记录环境变化，联系野外调查与实验分析。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P319–P322"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S73] 科技部 2003年度最高奖 刘东生",
+          "url": "https://www.most.gov.cn/cxfw/kjjlcx/kjjl2003/200802/t20080214_59051.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "刘东生以____沉积研究推进第四纪地质与古环境变化研究。",
+          "answer": "黄土",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "詹天佑",
+      "field": "京张铁路与工程实践",
+      "bio": "近代铁路工程专家，主持京张铁路建设。记忆人字形线路、隧道施工方法和现场勘测；1905年开工、1909年建成通车。",
+      "note": "小π三篇的主线是报国机会、深入实践、持续服务铁路事业。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P334–P337"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S74] 立德树人网 詹天佑专题",
+          "url": "https://ldsrw.swjtu.edu.cn/kxjyj/kxj_zty.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "詹天佑主持建设、1909年建成通车的铁路是____铁路。",
+          "answer": "京张",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "童第周",
+      "field": "实验胚胎学与刻苦求学",
+      "bio": "实验胚胎学家，推动我国实验胚胎学和发育生物学研究。故事学习要点是基础薄弱时坚持学习、以细致实验回应偏见、长期投入研究。",
+      "note": "科学结论依赖可复核实验，故事性对话不要直接当成史实引语。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P342–P345"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S75] 南京大学 童第周研究介绍",
+          "url": "https://www.nju.edu.cn/info/3891/407301.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "童第周是我国实验____学的重要奠基人之一。",
+          "answer": "胚胎",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "叶笃正",
+      "field": "大气科学与全球变化",
+      "bio": "大气物理学家，推动我国现代气象和大气科学，研究大气环流、青藏高原作用和全球变化。获2005年度国家最高科学技术奖。",
+      "note": "专题三篇连起求学、回国与国际合作，理解气象研究的国家和全球意义。",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P346–P349"
+        }
+      ],
+      "links": [
+        {
+          "title": "[S76] 中国科学院 叶笃正专题",
+          "url": "https://www.cas.cn/kxyj/kj/zg/2005n/ydz/"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "叶笃正长期研究大气环流、青藏高原作用和全球变化，属于____科学领域。",
+          "answer": "大气",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "柯召",
+      "field": "数论与川大数学",
+      "bio": "曾任四川大学校长、名誉校长，长期从事数论等研究，推动川大数学学科与研究机构建设。",
+      "note": "不惧难题、重视学术队伍和青年成长；与校史中的治校经历结合。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P388–P391"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C06] 四川大学档案馆 不惧难题的柯召",
+          "url": "https://archives.scu.edu.cn/info/1015/1995.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "徐僖",
+      "field": "高分子材料与塑料教育",
+      "bio": "川大高分子材料科学重要奠基人，推动我国高校高分子材料专业和研究发展，常被称为“中国塑料之父”。",
+      "note": "记高分子学科创建、科研报国和教学育人。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P392–P395"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C07] 四川大学 徐僖 人生乐趣在于无私奉献",
+          "url": "https://www.scu.edu.cn/info/1892/35184.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "川大高分子科学家徐僖常被誉为“中国____之父”。",
+          "answer": "塑料",
+          "aliases": []
+        }
+      ],
+      "quotes": [
+        {
+          "text": "人生的乐趣在于无私奉献，饮水思源，助人为乐。",
+          "source": {
+            "url": "https://pri.scu.edu.cn/info/1041/1198.htm",
+            "title": "四川大学高分子研究所·徐僖"
+          }
+        }
+      ]
+    },
+    {
+      "name": "张洪沅",
+      "field": "化学工程教育",
+      "bio": "我国化学工程教育先驱，长期在川大及前身学校任教，重视化工单元操作、课程和教材建设。",
+      "note": "年长后仍学习外语获取新知识，体现终身学习。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P396–P399"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C08] 四川大学报 化学工程教育先驱张洪沅",
+          "url": "https://newspaper.scu.edu.cn/info/1879/3959.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "张铨",
+      "field": "皮革科学与工程教育",
+      "bio": "皮革教育和研究的重要先驱，推动皮革工艺课程、教材与人才培养，倡导术德兼修、手脑并用。",
+      "note": "把实验、生产与工程教育结合，不只背学科名称。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P400–P403"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C09] 四川大学新闻网 皮革教育宗师张铨",
+          "url": "https://news.scu.edu.cn/info/1142/20495.htm"
+        }
+      ],
+      "facts": [],
+      "quotes": [
+        {
+          "text": "术德兼修，手脑并用。",
+          "source": {
+            "url": "https://news.scu.edu.cn/info/1142/20495.htm",
+            "title": "四川大学·张铨"
+          }
+        }
+      ]
+    },
+    {
+      "name": "方文培",
+      "field": "植物分类与标本",
+      "bio": "长期在四川大学从事植物分类研究和教学，重视野外采集、标本整理及植物资源研究。",
+      "note": "野外调查和准确鉴定构成求实精神的具体方法。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P404–P407"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C10] 四川大学档案馆 方文培 学心托杜鹃",
+          "url": "https://archives.scu.edu.cn/info/1015/1985.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "方文培在川大的研究侧重____分类及标本、资源整理。",
+          "answer": "植物",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "刘承钊",
+      "field": "两栖动物与华西校史",
+      "bio": "两栖爬行动物学研究重要奠基人，曾任华西大学校长、四川医学院院长，推动生物学研究与教育。",
+      "note": "与赵尔宓形成学术传承线；与陈志潜、陈文贵区分。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P408–P411"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C11] 四川大学校史宣传片 刘承钊与华西医学等",
+          "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "刘承钊是我国____爬行动物学研究的重要奠基人。",
+          "answer": "两栖",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "赵尔宓",
+      "field": "两栖爬行动物分类",
+      "bio": "1951年毕业于原华西大学生物系，在刘承钊等指导下开展两栖爬行动物分类研究，长期从事科研、教学。",
+      "note": "既是华西系统校友，也是相关学科重要学者。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P412–P415"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C12] 四川大学生命科学学院 赵尔宓院士生平",
+          "url": "https://life.scu.edu.cn/info/1020/1120.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "陈志潜",
+      "field": "农村公共卫生与定县模式",
+      "bio": "华西医学先贤，研究和实践农村卫生保健，推动定县卫生实验、基层保健员培养和分级卫生服务。",
+      "note": "从服务整个社区出发，而非仅治疗到院就诊的病人。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P416–P419"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C13] 四川大学档案馆 陈志潜与定县模式",
+          "url": "https://archives.scu.edu.cn/info/1015/2793.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "陈志潜推动的农村卫生保健实验，常以“____模式”概括。",
+          "answer": "定县",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "陈文贵",
+      "field": "微生物学与鼠疫研究",
+      "bio": "华西校友、微生物学家，从事鼠疫防治、调查和相关实验研究，1941年赴湖南常德开展鼠疫调查。",
+      "note": "与陈文新根瘤菌、陈志潜公共卫生区分；历史事实以正式传记为准。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P420–P423"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C14] 四川大学华西医院 陈文贵",
+          "url": "https://www.wchscu.cn/ysg/social_responsibility/59164.html"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "陈文贵是微生物学家，曾于1941年赴湖南常德调查____。",
+          "answer": "鼠疫",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "乐以成",
+      "field": "现代妇产科学",
+      "bio": "华西医学杰出校友和医学教育家，是我国现代妇产科学的重要开拓者。",
+      "note": "与华西口腔、公共卫生等特色学科共同构成川大医学传统。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P424–P427"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C15] 四川大学校史宣传片 乐以成等杰出校友",
+          "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "华西医学先贤乐以成是我国现代____科学的重要开拓者。",
+          "answer": "妇产",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "王方定",
+      "field": "放射化学与核事业",
+      "bio": "1953年毕业于四川化工学院，投身放射化学、核燃料相关研究及国防科研，为核事业发展作出贡献。",
+      "note": "参与核事业不等于获23人两弹一星功勋奖章；两类名单必须分开。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P428–P431"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C16] 四川大学化学工程学院 王方定院士",
+          "url": "https://ce.scu.edu.cn/info/1038/2699.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "川大相关校友王方定长期从事____化学与核燃料相关研究。",
+          "answer": "放射",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "傅依备",
+      "field": "核材料与核化学工程",
+      "bio": "1953年毕业于四川化工学院，长期从事核材料、核化学化工及国防科研工作，推动相关技术与人才培养。",
+      "note": "与王方定同为1953届相关校友，但姓名、研究重点分别记。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P432–P435"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C17] 四川大学化学工程学院 傅依备院士",
+          "url": "https://ce.scu.edu.cn/info/1038/2698.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "彭堃墀",
+      "field": "量子光学与量子信息",
+      "bio": "1961年毕业于四川大学物理系，长期从事量子光学研究，开展连续变量量子信息等基础实验。",
+      "note": "与同届的张兴栋形成“物理到光学／物理到生物材料”对照。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P436–P439"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C18] 四川大学物理学院 彭堃墀",
+          "url": "https://physics.scu.edu.cn/info/1079/3643.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "彭堃墀的主要研究领域是量子____，并拓展连续变量量子信息实验。",
+          "answer": "光学",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "张兴栋",
+      "field": "组织诱导性生物材料",
+      "bio": "1961年毕业于四川大学物理系，推动生物材料研究，提出组织诱导性生物材料概念，研究材料诱导组织再生。",
+      "note": "医工交叉典型：无生命材料的设计可影响组织再生过程。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P440–P443"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C19] 四川大学人事处 张兴栋",
+          "url": "https://rsc.scu.edu.cn/info/1185/1796.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "张兴栋提出的____性生物材料概念，强调材料可以诱导组织再生。",
+          "answer": "组织诱导",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "魏于全",
+      "field": "肿瘤生物治疗",
+      "bio": "华西医学系统校友和科研工作者，长期研究肿瘤生物治疗、基因治疗和创新药物等。",
+      "note": "与秦川动物模型、陈孝平肝胆手术区别记忆。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P444–P447"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C20] 四川大学 创新2035先导计划与科学家研究方向",
+          "url": "https://wlb.scu.edu.cn/info/1014/3788.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "魏于全长期开展____生物治疗、基因治疗与创新药物研究。",
+          "answer": "肿瘤",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "石碧",
+      "field": "制革清洁技术与生物质",
+      "bio": "川大皮革学科重要科学家，研究皮革化学工程、制革清洁技术和生物质资源利用。",
+      "note": "把传统优势产业与绿色发展、循环利用联系起来。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P448–P451"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C20] 四川大学 创新2035先导计划与科学家研究方向",
+          "url": "https://wlb.scu.edu.cn/info/1014/3788.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "石碧研究制革____技术，推动皮革产业绿色发展。（填两个字）",
+          "answer": "清洁",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "冯小明",
+      "field": "手性催化与不对称合成",
+      "bio": "四川大学化学学院科学家，发展手性双氮氧配体与催化体系，相关体系被称为冯催化剂，推动不对称合成研究。",
+      "note": "川大任教经历与毕业学校不是同一概念，不能把所有教师都写成本科校友。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P452–P455"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C21] 四川大学化学学院 冯小明与冯催化剂",
+          "url": "https://chem.scu.edu.cn/info/1036/5573.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "冯小明发展的手性双氮氧配体与催化体系，常称为“____催化剂”。",
+          "answer": "冯",
+          "aliases": [
+            "冯氏"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "王玉忠",
+      "field": "阻燃与可降解高分子",
+      "bio": "四川大学化学学院科学家，研究无卤阻燃、生物基与生物降解高分子、材料循环利用等。",
+      "note": "高分子材料既要好用，也要考虑火灾、环境和资源问题。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P456–P459"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C22] 四川大学化学学院 院士研究方向",
+          "url": "https://chem.scu.edu.cn/ys.jsp?urltype=tree.TreeTempUrl&wbtreeid=1257"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "王玉忠的重要研究方向包括无卤____、生物基和可降解高分子。",
+          "answer": "阻燃",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "谢和平",
+      "field": "岩石力学与交叉创新",
+      "bio": "岩石力学、深地科学相关专家，曾任四川大学校长，开展跨学科研究；学校2026年报道以海水直接制氢说明交叉创新。",
+      "note": "不要把曾任川大校长直接等同于川大毕业校友。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P460–P463"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C23] 四川大学新闻网 2026年思政课与交叉科研",
+          "url": "https://news.scu.edu.cn/info/1135/54506.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "邱蔚六",
+      "field": "口腔颌面外科",
+      "bio": "原四川医学院口腔医学系统杰出校友，长期从事口腔颌面外科临床、研究和教育。",
+      "note": "与郑树森肝胆外科、陈灏珠心血管病学区分。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P464–P467"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C24] 四川大学新闻网 三校历史与杰出校友",
+          "url": "https://news.scu.edu.cn/info/1142/20471.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "邱蔚六长期从事____颌面外科研究、临床与教育。",
+          "answer": "口腔",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "郑树森",
+      "field": "肝胆外科与肝移植",
+      "bio": "华西医学系统杰出校友，长期从事肝胆外科和肝移植相关研究与临床工作。",
+      "note": "同一专业方向可能有多位科学家，要用学校经历和贡献进一步区分。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "handbook",
+          "location": "P468–P471"
+        }
+      ],
+      "links": [
+        {
+          "title": "[C24] 四川大学新闻网 三校历史与杰出校友",
+          "url": "https://news.scu.edu.cn/info/1142/20471.htm"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "郑树森在肝胆外科领域的重要临床与研究方向之一是肝____。",
+          "answer": "移植",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "name": "杨振宁",
+      "field": "理论物理",
+      "bio": "与李政道共同提出弱相互作用中宇称不守恒理论，获1957年诺贝尔物理学奖。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2021,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2022/03/03/ARTI1646317489465248.shtml",
+          "title": "感动中国2021年度人物·事迹（2022年公布）"
+        },
+        {
+          "url": "https://www.12371.cn/2022/03/06/VIDE1646558702940367.shtml",
+          "title": "感动中国2021年度人物盛典"
+        }
+      ],
+      "facts": [],
+      "work": "与李政道共同提出弱相互作用中宇称不守恒理论，获1957年诺贝尔物理学奖"
+    },
+    {
+      "name": "彭士禄",
+      "field": "核动力工程",
+      "bio": "担任我国第一代核潜艇首任总设计师，推动核动力事业发展。",
+      "note": "我国第一代核潜艇首任总设计师是彭士禄；黄旭华也曾任第一代核潜艇工程总设计师。人物职责应结合任职时期区分。",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2021,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2022/03/03/ARTI1646317489465248.shtml",
+          "title": "感动中国2021年度人物·事迹（2022年公布）"
+        },
+        {
+          "url": "https://www.12371.cn/2022/03/06/VIDE1646558702940367.shtml",
+          "title": "感动中国2021年度人物盛典"
+        }
+      ],
+      "facts": [],
+      "work": "担任我国第一代核潜艇首任总设计师，推动核动力事业发展"
+    },
+    {
+      "name": "顾诵芬",
+      "field": "飞机气动设计",
+      "bio": "参与和主持歼8等飞机气动布局设计，解决飞机抖振等关键问题。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2021,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2022/03/03/ARTI1646317489465248.shtml",
+          "title": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "参与和主持歼8等飞机气动布局设计，解决飞机抖振等关键问题"
+    },
+    {
+      "name": "吴天一",
+      "field": "高原医学",
+      "bio": "建立高原病防治体系，为青藏铁路建设者健康保障作出贡献。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2021,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2022/03/03/ARTI1646317489465248.shtml",
+          "title": "感动中国2021年度人物·事迹（2022年公布）"
+        },
+        {
+          "url": "https://www.12371.cn/2022/03/06/VIDE1646558702940367.shtml",
+          "title": "感动中国2021年度人物盛典"
+        }
+      ],
+      "facts": [],
+      "work": "建立高原病防治体系，为青藏铁路建设者健康保障作出贡献"
+    },
+    {
+      "name": "江梦南",
+      "field": "药物研究与自强求学",
+      "bio": "在失聪后通过读唇学习，考入清华大学生命科学学院攻读博士。",
+      "note": "按科研求学与励志人物收录；不把获评时的在读身份写成院士，也不将求学事迹等同于已获重大科研成果。",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2021,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2022/03/03/ARTI1646317489465248.shtml",
+          "title": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "在失聪后通过读唇学习，考入清华大学生命科学学院攻读博士"
+    },
+    {
+      "name": "苏炳添",
+      "field": "田径短跑",
+      "bio": "东京奥运会男子100米半决赛跑出9秒83，刷新亚洲纪录。",
+      "note": "按用户指定范围，作为特别知名的非科研人物代表保留，考体育项目、代表成绩与荣誉年度。",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2021,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2022/03/03/ARTI1646317489465248.shtml",
+          "title": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "东京奥运会男子100米半决赛跑出9秒83，刷新亚洲纪录"
+    },
+    {
+      "name": "中国航天人",
+      "field": "航天工程与太空探索",
+      "bio": "在2021年中国空间站建设和深空探索等航天任务中协同攻关。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2021,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2022/03/03/ARTI1646317489465248.shtml",
+          "title": "感动中国2021年度人物·事迹（2022年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "在2021年中国空间站建设和深空探索等航天任务中协同攻关"
+    },
+    {
+      "name": "钱七虎",
+      "field": "防护工程",
+      "bio": "创建我国防护工程学科，研究核武器和常规武器的工程防护问题。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2022,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+          "title": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "钱七虎创建的工程学科以抵御武器毁伤、保障人员和设施安全为目的，称为____工程。",
+          "answer": "防护",
+          "aliases": []
+        }
+      ],
+      "work": "创建我国防护工程学科，研究核武器和常规武器的工程防护问题",
+      "quotes": [
+        {
+          "text": "为国家和人民安全贡献心血，有价值。",
+          "source": {
+            "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+            "title": "共产党员网·钱七虎"
+          }
+        }
+      ]
+    },
+    {
+      "name": "沈忠芳",
+      "field": "防空导弹工程",
+      "bio": "担任我国第三代防空武器系统总指挥，长期投身导弹研制。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2022,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+          "title": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "担任我国第三代防空武器系统总指挥，长期投身导弹研制",
+      "quotes": [
+        {
+          "text": "人生最大的幸福，莫过于为人民的幸福奋斗。",
+          "source": {
+            "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+            "title": "共产党员网·沈忠芳"
+          }
+        }
+      ]
+    },
+    {
+      "name": "陈清泉",
+      "field": "电动汽车与电气工程",
+      "bio": "推动电动汽车电机、电控与能源系统研究，被誉为电动汽车研究的先行者。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2022,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+          "title": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "推动电动汽车电机、电控与能源系统研究，被誉为电动汽车研究的先行者"
+    },
+    {
+      "name": "林占熺",
+      "field": "菌草技术",
+      "bio": "研发以草代木栽培食药用菌的菌草技术，推动减贫国际合作。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2022,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+          "title": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "林占熺研发的以草代木栽培食药用菌技术称为____技术。",
+          "answer": "菌草",
+          "aliases": []
+        }
+      ],
+      "work": "研发以草代木栽培食药用菌的菌草技术，推动减贫国际合作"
+    },
+    {
+      "name": "徐淙祥",
+      "field": "粮食绿色高产栽培",
+      "bio": "长期开展小麦等粮食作物试验示范，带动农民科学种粮。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2022,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+          "title": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "长期开展小麦等粮食作物试验示范，带动农民科学种粮"
+    },
+    {
+      "name": "银发知播群体",
+      "field": "网络科普与知识传播",
+      "bio": "退休教师、院士等通过网络直播向公众传播科学文化知识。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2022,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2023/03/05/ARTI1677994474100428.shtml",
+          "title": "感动中国2022年度人物·事迹（2023年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "退休教师、院士等通过网络直播向公众传播科学文化知识"
+    },
+    {
+      "name": "俞鸿儒",
+      "field": "高超声速空气动力学",
+      "bio": "创建和发展激波风洞技术，推动我国高超声速地面试验能力建设。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2023,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2023年度人物·盛典（2024年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2024/04/08/VIDA1712579883203600.shtml",
+          "title": "感动中国2023年度人物·盛典（2024年公布）"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "俞鸿儒发展用于高超声速气动试验的____风洞技术。",
+          "answer": "激波",
+          "aliases": []
+        }
+      ],
+      "work": "创建和发展激波风洞技术，推动我国高超声速地面试验能力建设"
+    },
+    {
+      "name": "杨华德",
+      "field": "水稻栽培与农业援外",
+      "bio": "带领中国援布隆迪农业技术专家组，推广水稻增产技术。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2023,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2023年度人物·盛典（2024年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2024/04/08/VIDA1712579883203600.shtml",
+          "title": "感动中国2023年度人物·盛典（2024年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "带领中国援布隆迪农业技术专家组，推广水稻增产技术"
+    },
+    {
+      "name": "张连钢",
+      "field": "自动化码头工程",
+      "bio": "带领团队自主攻关，推进青岛港全自动化集装箱码头建设。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2023,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2023年度人物·盛典（2024年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2024/04/08/VIDA1712579883203600.shtml",
+          "title": "感动中国2023年度人物·盛典（2024年公布）"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "张连钢团队自主攻关的港口工程是全____集装箱码头。",
+          "answer": "自动化",
+          "aliases": []
+        }
+      ],
+      "work": "带领团队自主攻关，推进青岛港全自动化集装箱码头建设"
+    },
+    {
+      "name": "栾恩杰",
+      "field": "航天工程与月球探测",
+      "bio": "担任中国探月工程首任总指挥，推进嫦娥工程建设。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2024,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2024年度人物·盛典（2025年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2025/09/09/VIDA1757387662068268.shtml",
+          "title": "感动中国2024年度人物·盛典（2025年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "担任中国探月工程首任总指挥，推进嫦娥工程建设"
+    },
+    {
+      "name": "庞众望",
+      "field": "精密仪器与励志求学",
+      "bio": "从贫困家庭考入清华大学精密仪器系，继续深造并以自强精神激励他人。",
+      "note": "按科研求学与励志人物收录；不把获评时的在读身份写成院士，也不将求学事迹等同于已获重大科研成果。",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2024,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2024年度人物·盛典（2025年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2025/09/09/VIDA1757387662068268.shtml",
+          "title": "感动中国2024年度人物·盛典（2025年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "从贫困家庭考入清华大学精密仪器系，继续深造并以自强精神激励他人"
+    },
+    {
+      "name": "郑钦文",
+      "field": "网球运动",
+      "bio": "在巴黎奥运会夺得网球女子单打金牌。",
+      "note": "按用户指定范围，作为特别知名的非科研人物代表保留，考体育项目、代表成绩与荣誉年度。",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2024,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "感动中国2024年度人物·盛典（2025年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2025/09/09/VIDA1757387662068268.shtml",
+          "title": "感动中国2024年度人物·盛典（2025年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "在巴黎奥运会夺得网球女子单打金牌"
+    },
+    {
+      "name": "张军桥",
+      "field": "麻醉医学与援外医疗",
+      "bio": "作为援坦桑尼亚中国医疗队队长，救助落水群众时牺牲，并长期推广急救知识。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2025,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国教育电视台·感动中国2025年度人物（2026年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.centv.cn/p/598296.html",
+          "title": "中国教育电视台·感动中国2025年度人物（2026年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "作为援坦桑尼亚中国医疗队队长，救助落水群众时牺牲，并长期推广急救知识"
+    },
+    {
+      "name": "胡建",
+      "field": "饱和潜水与应急救捞",
+      "bio": "参与中国首次饱和潜水作业突破，执行重大水上应急救援和打捞任务。",
+      "note": "",
+      "groups": [
+        "感动中国"
+      ],
+      "awards": [
+        {
+          "name": "感动中国",
+          "year": 2025,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国教育电视台·感动中国2025年度人物（2026年公布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.centv.cn/p/598296.html",
+          "title": "中国教育电视台·感动中国2025年度人物（2026年公布）"
+        }
+      ],
+      "facts": [],
+      "work": "参与中国首次饱和潜水作业突破，执行重大水上应急救援和打捞任务"
+    },
+    {
+      "name": "王行环",
+      "field": "泌尿外科与医院管理",
+      "bio": "疫情中担任武汉雷神山医院院长，组织救治患者。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "疫情中担任武汉雷神山医院院长，组织救治患者"
+    },
+    {
+      "name": "李玉",
+      "field": "菌物学与食用菌",
+      "bio": "研究菌物资源和食用菌栽培，推动食用菌产业扶贫。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "研究菌物资源和食用菌栽培，推动食用菌产业扶贫"
+    },
+    {
+      "name": "陈厚群",
+      "field": "水工结构抗震",
+      "bio": "研究大坝等水工结构的地震反应和抗震安全。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "研究大坝等水工结构的地震反应和抗震安全"
+    },
+    {
+      "name": "胡郁",
+      "field": "智能语音与人工智能",
+      "bio": "推动中文语音识别等智能语音核心技术研究和产业化。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "推动中文语音识别等智能语音核心技术研究和产业化"
+    },
+    {
+      "name": "李东（火箭专家）",
+      "field": "运载火箭工程",
+      "bio": "担任长征五号运载火箭总设计师，推动大推力火箭研制。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "担任长征五号运载火箭总设计师，推动大推力火箭研制"
+    },
+    {
+      "name": "陈亮",
+      "field": "高放废物地质处置",
+      "bio": "开展高放废物地质处置研究，投身北山地下实验室建设。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "开展高放废物地质处置研究，投身北山地下实验室建设"
+    },
+    {
+      "name": "仝小林",
+      "field": "中医内科",
+      "bio": "以中医药参与重大疾病诊治和新冠肺炎防治研究。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "以中医药参与重大疾病诊治和新冠肺炎防治研究"
+    },
+    {
+      "name": "次旦央吉",
+      "field": "藏医眼科与眼病防治",
+      "bio": "长期从事藏医眼科临床与研究，推动藏西医结合眼病诊疗，服务高原群众眼健康。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.xinhuanet.com/science/dynamic/2020zmkjgzz.htm",
+          "title": "新华网·2020最美科技工作者人物事迹"
+        },
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "长期从事藏医眼科临床与研究，推动藏西医结合眼病诊疗，服务高原群众眼健康"
+    },
+    {
+      "name": "程相文",
+      "field": "玉米遗传育种",
+      "bio": "长期在田间和南繁基地开展玉米育种，培育浚单系列品种。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "长期在田间和南繁基地开展玉米育种，培育浚单系列品种"
+    },
+    {
+      "name": "郝吉明",
+      "field": "大气污染控制",
+      "bio": "研究大气复合污染防治，为我国空气质量改善提供科技支撑。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2020,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "央视·2020最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2020/12/28/ARTICeEXSG1xFZe95VvW2nNf201228.shtml",
+          "title": "央视·2020最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "研究大气复合污染防治，为我国空气质量改善提供科技支撑"
+    },
+    {
+      "name": "马玙",
+      "field": "结核病临床防治",
+      "bio": "长期研究结核病诊治，培养结核病防治人才。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "长期研究结核病诊治，培养结核病防治人才"
+    },
+    {
+      "name": "毛献群",
+      "field": "舰船总体设计",
+      "bio": "长期从事舰船总体研究设计和重大船型技术攻关。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "长期从事舰船总体研究设计和重大船型技术攻关"
+    },
+    {
+      "name": "冯益柏",
+      "field": "装甲车辆工程",
+      "bio": "长期开展坦克装甲车辆科研和技术攻关。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "长期开展坦克装甲车辆科研和技术攻关"
+    },
+    {
+      "name": "庄文颖",
+      "field": "真菌分类学",
+      "bio": "调查和整理真菌资源，研究盘菌等类群并筛选有应用潜力的木霉菌株。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "调查和整理真菌资源，研究盘菌等类群并筛选有应用潜力的木霉菌株"
+    },
+    {
+      "name": "刘家富",
+      "field": "大黄鱼人工繁育",
+      "bio": "攻克大黄鱼人工繁育和养殖技术，推动产业发展。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "攻克大黄鱼人工繁育和养殖技术，推动产业发展"
+    },
+    {
+      "name": "李德仁",
+      "field": "摄影测量与遥感",
+      "bio": "推动空间对地观测与遥感信息处理研究。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "推动空间对地观测与遥感信息处理研究"
+    },
+    {
+      "name": "吴尊友",
+      "field": "流行病学与公共卫生",
+      "bio": "长期从事艾滋病等传染病防控，并参与疫情研判。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "长期从事艾滋病等传染病防控，并参与疫情研判"
+    },
+    {
+      "name": "沙国河",
+      "field": "激光化学与化学动力学",
+      "bio": "研制化学激光器、研究分子能量传递，并投身青少年科普。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "研制化学激光器、研究分子能量传递，并投身青少年科普"
+    },
+    {
+      "name": "易志坚",
+      "field": "力学与沙漠土壤化",
+      "bio": "利用力学方法研究沙漠土壤化技术及其应用。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "利用力学方法研究沙漠土壤化技术及其应用"
+    },
+    {
+      "name": "赵淳生",
+      "field": "超声电机",
+      "bio": "开展超声电机理论和工程应用研究，推动压电驱动技术自主创新。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2021,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.im.cas.cn/xwtz/mtsm/202111/t20211105_7953551.html",
+          "title": "中国科学院·走近2021年最美科技工作者"
+        }
+      ],
+      "facts": [],
+      "work": "开展超声电机理论和工程应用研究，推动压电驱动技术自主创新"
+    },
+    {
+      "name": "马依彤",
+      "field": "心血管病学",
+      "bio": "长期在新疆开展心血管疾病诊疗与防治研究。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "长期在新疆开展心血管疾病诊疗与防治研究"
+    },
+    {
+      "name": "邓景辉",
+      "field": "直升机设计",
+      "bio": "担任中国直升机设计研究所总设计师，推进国产直升机研制。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "担任中国直升机设计研究所总设计师，推进国产直升机研制"
+    },
+    {
+      "name": "刘中民",
+      "field": "催化与煤化工",
+      "bio": "推动甲醇制烯烃技术创新和工业化，发展煤炭清洁高效利用技术。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "推动甲醇制烯烃技术创新和工业化，发展煤炭清洁高效利用技术"
+    },
+    {
+      "name": "李桂科",
+      "field": "麻风病防治",
+      "bio": "长期扎根云南洱源山石屏，开展麻风病防治与患者康复服务。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "长期扎根云南洱源山石屏，开展麻风病防治与患者康复服务"
+    },
+    {
+      "name": "李德生",
+      "field": "石油地质学",
+      "bio": "发展陆相生油与含油气盆地研究，为大庆等油气勘探提供理论支撑。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "发展陆相生油与含油气盆地研究，为大庆等油气勘探提供理论支撑"
+    },
+    {
+      "name": "陈章",
+      "field": "国防电子工程",
+      "bio": "在南京熊猫汉达科技有限公司长期从事国防电子装备项目攻关。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.12371.cn/2023/07/21/VIDE1689912002028581.shtml",
+          "title": "2022最美科技工作者发布仪式·陈章"
+        },
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "在南京熊猫汉达科技有限公司长期从事国防电子装备项目攻关"
+    },
+    {
+      "name": "范代娣",
+      "field": "生物化工与生物材料",
+      "bio": "开展类人胶原蛋白研究，推动生物材料成果转化。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://kjc.nwu.edu.cn/info/1164/7808.htm",
+          "title": "西北大学·范代娣重组胶原蛋白研究"
+        },
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "开展类人胶原蛋白研究，推动生物材料成果转化"
+    },
+    {
+      "name": "柯卫东",
+      "field": "水生蔬菜育种",
+      "bio": "长期开展莲藕等水生蔬菜种质资源研究和新品种选育。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "长期开展莲藕等水生蔬菜种质资源研究和新品种选育"
+    },
+    {
+      "name": "袁守根",
+      "field": "脐橙栽培技术",
+      "bio": "长期在江西信丰推广脐橙种植技术，服务果农增收。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "长期在江西信丰推广脐橙种植技术，服务果农增收"
+    },
+    {
+      "name": "唐立梅",
+      "field": "海洋地质与科考",
+      "bio": "开展海洋地质研究，参与深潜及极地科学考察。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2022,
+          "basis": "评选年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sastind.gov.cn/n10086200/n10086344/c10136134/content.html",
+          "title": "国防科工局·2022年最美科技工作者（2023年发布）"
+        }
+      ],
+      "facts": [],
+      "work": "开展海洋地质研究，参与深潜及极地科学考察"
+    },
+    {
+      "name": "于宗仁",
+      "field": "壁画与彩塑保护",
+      "bio": "在敦煌研究院利用文物分析、原位无损检测等技术保护壁画和彩塑。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.cast.org.cn/xw/MTBD/art/2026/art_b5281564d7914e42878625e4666c2b2e.html",
+          "title": "中国科协·于宗仁"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "于宗仁在敦煌开展文物保护，主要对象包括____和彩塑。",
+          "answer": "壁画",
+          "aliases": []
+        }
+      ],
+      "work": "在敦煌研究院利用文物分析、原位无损检测等技术保护壁画和彩塑"
+    },
+    {
+      "name": "孔海南",
+      "field": "水污染控制与湖泊治理",
+      "bio": "长期开展洱海流域水污染治理和生态修复研究。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.cast.org.cn/xw/MTBD/art/2026/art_2bf22bc17a544953945f4131ce99b13c.html",
+          "title": "中国科协·孔海南、金海族"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "孔海南团队长期开展云南____流域水污染治理与生态修复。",
+          "answer": "洱海",
+          "aliases": []
+        }
+      ],
+      "work": "长期开展洱海流域水污染治理和生态修复研究"
+    },
+    {
+      "name": "苏权科",
+      "field": "跨海桥梁工程",
+      "bio": "担任港珠澳大桥总工程师，推动跨海交通工程关键技术创新。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://jyj.gz.gov.cn/yw/ssgxdt/content/post_11014446.html",
+          "title": "广州市教育局·苏权科"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "2026年最美科技工作者苏权科，担任____大桥总工程师。",
+          "answer": "港珠澳",
+          "aliases": []
+        }
+      ],
+      "work": "担任港珠澳大桥总工程师，推动跨海交通工程关键技术创新"
+    },
+    {
+      "name": "宋仁德",
+      "field": "高原畜牧兽医",
+      "bio": "在青海玉树研究牦牛繁育、养殖和疫病防控技术，服务牧民增收。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.cast.org.cn/xw/MTBD/art/2026/art_18dd60d20b0b0c60e3aec09ee679850c.html",
+          "title": "中国科协·宋仁德、陈蕾等代表见面会"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "宋仁德在青海玉树服务高原畜牧业，重点推广____繁育和养殖技术。",
+          "answer": "牦牛",
+          "aliases": []
+        }
+      ],
+      "work": "在青海玉树研究牦牛繁育、养殖和疫病防控技术，服务牧民增收"
+    },
+    {
+      "name": "陈蕾",
+      "field": "神经病学与女性癫痫",
+      "bio": "在四川大学华西医院研究育龄期女性癫痫，建立女性癫痫诊疗本体库。",
+      "note": "",
+      "groups": [
+        "最美科技工作者",
+        "川大科学家/院士"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.wchscu.cn/comprehensive/97058.html",
+          "title": "四川大学华西医院·陈蕾"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "2026年全国最美科技工作者、川大华西医院陈蕾，重点研究育龄期女性____的诊疗。",
+          "answer": "癫痫",
+          "aliases": []
+        }
+      ],
+      "work": "在四川大学华西医院研究育龄期女性癫痫，建立女性癫痫诊疗本体库"
+    },
+    {
+      "name": "金海族",
+      "field": "新能源电池",
+      "bio": "带领团队开展高性能电池研发，推动新能源电池关键技术创新。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.cast.org.cn/xw/MTBD/art/2026/art_2bf22bc17a544953945f4131ce99b13c.html",
+          "title": "中国科协·孔海南、金海族"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "金海族扎根新能源技术研发，主要攻关对象是高性能____。",
+          "answer": "电池",
+          "aliases": []
+        }
+      ],
+      "work": "带领团队开展高性能电池研发，推动新能源电池关键技术创新"
+    },
+    {
+      "name": "赵洋",
+      "field": "载人潜水器控制",
+      "bio": "担任奋斗者号副总设计师，带领团队研制其控制系统并参与万米深潜。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://sia.cas.cn/xwzx/zhxw/202605/t20260529_8211340.html",
+          "title": "中国科学院沈阳自动化所·赵洋"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "赵洋担任副总设计师并负责控制系统的全海深载人潜水器是“____”号。",
+          "answer": "奋斗者",
+          "aliases": []
+        }
+      ],
+      "work": "担任奋斗者号副总设计师，带领团队研制其控制系统并参与万米深潜"
+    },
+    {
+      "name": "桂海潮",
+      "field": "航天器动力学与控制",
+      "bio": "作为神舟十六号载荷专家执行飞行任务，开展空间科学实验。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.csve.org.cn/34/202605/1055.html",
+          "title": "中国振动工程学会·桂海潮"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "桂海潮执行神舟十六号任务时的乘组职责是____专家。",
+          "answer": "载荷",
+          "aliases": []
+        }
+      ],
+      "work": "作为神舟十六号载荷专家执行飞行任务，开展空间科学实验"
+    },
+    {
+      "name": "徐洪杰",
+      "field": "大科学装置与先进核能",
+      "bio": "主持上海光源建设，并推动钍基熔盐堆核能系统研究。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.sinap.cas.cn/xwzx/zhxw/202609/t20260916_8283513.html",
+          "title": "中国科学院上海应物所·徐洪杰"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "徐洪杰推动的先进核能系统研究方向是____熔盐堆。（填核燃料类型）",
+          "answer": "钍基",
+          "aliases": []
+        }
+      ],
+      "work": "主持上海光源建设，并推动钍基熔盐堆核能系统研究",
+      "quotes": [
+        {
+          "text": "国家需要我必竭尽所能",
+          "source": {
+            "url": "https://www.sinap.cas.cn/xwzx/zhxw/202609/t20260916_8283513.html",
+            "title": "中国科学院上海应物所·徐洪杰信念"
+          }
+        }
+      ]
+    },
+    {
+      "name": "黄桂云",
+      "field": "珍稀植物保护",
+      "bio": "研究长江珍稀植物迁地保护和繁育技术，推动科研与生态科普融合。",
+      "note": "",
+      "groups": [
+        "最美科技工作者"
+      ],
+      "awards": [
+        {
+          "name": "全国最美科技工作者",
+          "year": 2026,
+          "basis": "发布年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.forestry.gov.cn/lyj/1/zhzs/20260605/673477.html",
+          "title": "国家林草局·黄桂云"
+        },
+        {
+          "url": "https://www.cas.cn/cm/202605/t20260529_5111182.shtml",
+          "title": "中央宣传部、中国科协·2026年5月29日发布名单"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "黄桂云长期开展长江珍稀____保护与生态科普。",
+          "answer": "植物",
+          "aliases": []
+        }
+      ],
+      "work": "研究长江珍稀植物迁地保护和繁育技术，推动科研与生态科普融合"
+    },
+    {
+      "name": "王小谟",
+      "field": "雷达与预警机",
+      "bio": "组织研制我国新型预警机，推动中国预警机事业发展。",
+      "note": "2024年被追授“人民科学家”国家荣誉称号。与王永志的“共和国勋章”、黄大年的“人民教育家”称号分清。",
+      "groups": [
+        "人民科学家"
+      ],
+      "awards": [
+        {
+          "name": "人民科学家",
+          "year": 2024,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.moe.gov.cn/jyb_xwfb/s6052/moe_838/202409/t20240913_1150860.html",
+          "title": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "王小谟推动的空中预警平台，通常称为____机。",
+          "answer": "预警",
+          "aliases": []
+        }
+      ],
+      "work": "组织研制我国新型预警机，推动中国预警机事业发展"
+    },
+    {
+      "name": "赵忠贤",
+      "field": "高温超导",
+      "bio": "在液氮温区氧化物超导和铁基高温超导研究中取得重要突破。",
+      "note": "",
+      "groups": [
+        "人民科学家"
+      ],
+      "awards": [
+        {
+          "name": "人民科学家",
+          "year": 2024,
+          "basis": "获评年度"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.iop.cas.cn/xwzx/snxw/202409/t20240929_7387415.html",
+          "title": "中国科学院物理所·赵忠贤"
+        },
+        {
+          "url": "https://www.moe.gov.cn/jyb_xwfb/s6052/moe_838/202409/t20240913_1150860.html",
+          "title": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "赵忠贤两次参与取得重大突破的物理研究领域是高温____。",
+          "answer": "超导",
+          "aliases": []
+        }
+      ],
+      "work": "在液氮温区氧化物超导和铁基高温超导研究中取得重要突破"
+    },
+    {
+      "name": "朱清时",
+      "field": "激光光谱学",
+      "bio": "激光光谱学，南科大创校校长，自主招生。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P31"
+        },
+        {
+          "document": "preparation",
+          "location": "P28"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "刘应明",
+      "field": "拓扑学与模糊数学",
+      "bio": "数学，从事拓扑学与不确定性（主要是模糊性）研究，\"中国的查德（模糊数学奠基人）\"。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P32"
+        },
+        {
+          "document": "preparation",
+          "location": "P29"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "陈霖",
+      "field": "视觉认知与脑成像",
+      "bio": "认知科学、视觉认知和脑成像，系统发展了\"大范围首先\"认知基本单元的拓扑学模型。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P35"
+        },
+        {
+          "document": "preparation",
+          "location": "P32"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "李安民",
+      "field": "微分几何",
+      "bio": "数学，几何。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P36"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "涂铭旌",
+      "field": "金属材料与稀土钒钛材料",
+      "bio": "材料，金属材料强度与断裂、稀土钒钛材料、纳米材料。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P39"
+        },
+        {
+          "document": "preparation",
+          "location": "P37"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "林祥棣",
+      "field": "光学跟踪与微光学",
+      "bio": "光学、光电、仪器，我国第一代光学跟踪测量系统\"150-1\"工程核心成员，领导和参与多项国家重大光电工程项目，并于上世纪 90 年代提出和组织开展微光学研究。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P40"
+        },
+        {
+          "document": "preparation",
+          "location": "P38"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "高洁",
+      "field": "凝聚态物理与量子物理",
+      "bio": "物理，凝聚态物理、量子物理。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P41"
+        },
+        {
+          "document": "preparation",
+          "location": "P39"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "周寿桓",
+      "field": "激光与光电子技术",
+      "bio": "电子、光电、激光。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P43"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "王琪",
+      "field": "高分子材料加工",
+      "bio": "高分子材料，塑料加工。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P47"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "许唯临",
+      "field": "水力学与水利工程",
+      "bio": "水利。",
+      "groups": [
+        "川大科学家/院士"
+      ],
+      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P48"
+        }
+      ],
+      "links": [],
+      "awards": [],
+      "facts": []
+    },
+    {
+      "name": "茅以升",
+      "field": "桥梁工程",
+      "bio": "主持钱塘江大桥建设，推动我国现代桥梁工程与工程教育。",
+      "note": "",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "upstream",
+          "location": "s12"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ldsrw.swjtu.edu.cn/",
+          "title": "立德树人中心人物专题及用户复习资料"
+        }
+      ],
+      "facts": [],
+      "work": "主持钱塘江大桥建设，推动我国现代桥梁工程与工程教育"
+    },
+    {
+      "name": "竺可桢",
+      "field": "气象学与地理学",
+      "bio": "长期开展气候、物候观测与研究，倡导求是治学精神。",
+      "note": "",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P140"
+        },
+        {
+          "document": "preparation",
+          "location": "P272"
+        },
+        {
+          "document": "preparation",
+          "location": "P273"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ldsrw.swjtu.edu.cn/",
+          "title": "立德树人中心人物专题及用户复习资料"
+        }
+      ],
+      "facts": [],
+      "work": "长期开展气候、物候观测与研究，倡导求是治学精神"
+    },
+    {
+      "name": "黄大年",
+      "field": "地球物理与地球探测",
+      "bio": "2009年回国，在吉林大学推进地球深部探测技术研究。",
+      "note": "",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "upstream",
+          "location": "f71"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.moe.gov.cn/jyb_xwfb/xw_zt/moe_357/2021/2021_zt18/mtbd/202109/t20210910_561584.html",
+          "title": "教育部·黄大年"
+        },
+        {
+          "url": "https://ldsrw.swjtu.edu.cn/",
+          "title": "立德树人中心人物专题及用户复习资料"
+        }
+      ],
+      "facts": [],
+      "work": "2009年回国，在吉林大学推进地球深部探测技术研究",
+      "quotes": [
+        {
+          "text": "振兴中华，乃我辈之责。",
+          "source": {
+            "url": "https://biaozhang.12371.cn/2017/07/05/ARTI1499188248039734.shtml",
+            "title": "共产党员网·黄大年赠言"
+          }
+        }
+      ]
+    },
+    {
+      "name": "屠呦呦",
+      "field": "药学与抗疟研究",
+      "bio": "参与青蒿素发现及抗疟研究，获2015年诺贝尔生理学或医学奖。",
+      "note": "",
+      "groups": [
+        "公众号补充人物",
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "upstream",
+          "location": "m06"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ldsrw.swjtu.edu.cn/",
+          "title": "立德树人中心人物专题及用户复习资料"
+        },
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "屠呦呦因发现____并推进抗疟研究，获2015年诺贝尔生理学或医学奖。",
+          "answer": "青蒿素",
+          "aliases": []
+        }
+      ],
+      "work": "参与青蒿素发现及抗疟研究，获2015年诺贝尔生理学或医学奖"
+    },
+    {
+      "name": "钱伟长",
+      "field": "力学与应用数学",
+      "bio": "以国家需要为导向开展力学与应用数学研究，长期投身高等教育。",
+      "note": "",
+      "groups": [
+        "公众号补充人物"
+      ],
+      "awards": [],
+      "references": [
+        {
+          "document": "integrated",
+          "location": "P146"
+        },
+        {
+          "document": "preparation",
+          "location": "P299"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ldsrw.swjtu.edu.cn/",
+          "title": "立德树人中心人物专题及用户复习资料"
+        }
+      ],
+      "facts": [],
+      "work": "以国家需要为导向开展力学与应用数学研究，长期投身高等教育",
+      "quotes": [
+        {
+          "text": "国家的需要就是我的专业。",
+          "source": {
+            "url": "https://www.cas.cn/xzfc/202108/t20210818_4802285.shtml",
+            "title": "中国科学院·钱伟长"
+          }
+        }
+      ]
+    },
+    {
+      "name": "申纪兰",
+      "field": "农业劳动与妇女权益",
+      "bio": "倡导和推动男女同工同酬，长期扎根西沟村，连续担任第一届至第十三届全国人大代表。",
+      "note": "",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "申纪兰推动妇女劳动权益的重要主张是男女____。",
+          "answer": "同工同酬",
+          "aliases": []
+        }
+      ],
+      "work": "倡导和推动男女同工同酬，长期扎根西沟村，连续担任第一届至第十三届全国人大代表"
+    },
+    {
+      "name": "李延年",
+      "field": "国防建设与战斗指挥",
+      "bio": "在抗美援朝战争中英勇作战，荣获一级英雄等荣誉。",
+      "note": "",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [],
+      "work": "在抗美援朝战争中英勇作战，荣获一级英雄等荣誉"
+    },
+    {
+      "name": "张富清",
+      "field": "革命战斗与基层奉献",
+      "bio": "战争年代屡立战功，转业后扎根湖北来凤，长期深藏功名。",
+      "note": "",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [],
+      "work": "战争年代屡立战功，转业后扎根湖北来凤，长期深藏功名"
+    },
+    {
+      "name": "黄旭华",
+      "field": "核潜艇总体设计",
+      "bio": "担任我国第一代核潜艇总设计师，推动核潜艇研制。",
+      "note": "曾任第一代核潜艇工程副总设计师和总设计师。不要与首任总设计师彭士禄混淆。",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2019,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.most.gov.cn/ztzl/kjrw/202001/t20200110_151052.html",
+          "title": "科技部·黄旭华"
+        },
+        {
+          "url": "https://www.mod.gov.cn/gfbw/qwfb/4850642.html?big=fan",
+          "title": "国家勋章和国家荣誉称号获得者名单·2019"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "黄旭华担任我国第一代____总设计师。",
+          "answer": "核潜艇",
+          "aliases": []
+        }
+      ],
+      "work": "担任我国第一代核潜艇总设计师，推动核潜艇研制"
+    },
+    {
+      "name": "钟南山",
+      "field": "呼吸病学与传染病防控",
+      "bio": "长期研究呼吸系统疾病，在抗击非典和新冠肺炎疫情中作出重要贡献。",
+      "note": "",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2020,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "2020年主席令·授予钟南山共和国勋章"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.xinhuanet.com/politics/kybjzb/wzsl.htm",
+          "title": "2020年主席令·授予钟南山共和国勋章"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "领域",
+          "question": "钟南山长期研究的医学专科是____病学。",
+          "answer": "呼吸",
+          "aliases": []
+        }
+      ],
+      "work": "长期研究呼吸系统疾病，在抗击非典和新冠肺炎疫情中作出重要贡献"
+    },
+    {
+      "name": "王永志",
+      "field": "载人航天系统工程",
+      "bio": "担任中国载人航天工程首任总设计师，统筹推进载人航天工程建设。",
+      "note": "",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2024,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.cmse.gov.cn/xwzx/202409/t20240914_55757.html",
+          "title": "中国载人航天官网·王永志"
+        },
+        {
+          "url": "https://www.moe.gov.cn/jyb_xwfb/s6052/moe_838/202409/t20240913_1150860.html",
+          "title": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "头衔",
+          "question": "中国载人航天工程首任总设计师是____。",
+          "answer": "王永志",
+          "aliases": []
+        }
+      ],
+      "work": "担任中国载人航天工程首任总设计师，统筹推进载人航天工程建设"
+    },
+    {
+      "name": "王振义",
+      "field": "血液病学",
+      "bio": "以全反式维甲酸诱导分化疗法治疗急性早幼粒细胞白血病，并推动联合治疗方案发展。",
+      "note": "",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2024,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://news.cctv.cn/2024/09/16/ARTIqPHk6CGtSVVmXJuq7GTc240916.shtml",
+          "title": "央视·共和国勋章获得者王振义"
+        },
+        {
+          "url": "https://www.moe.gov.cn/jyb_xwfb/s6052/moe_838/202409/t20240913_1150860.html",
+          "title": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "王振义将全反式____用于急性早幼粒细胞白血病诱导分化治疗。",
+          "answer": "维甲酸",
+          "aliases": []
+        }
+      ],
+      "work": "以全反式维甲酸诱导分化疗法治疗急性早幼粒细胞白血病，并推动联合治疗方案发展"
+    },
+    {
+      "name": "李振声",
+      "field": "小麦遗传与远缘杂交育种",
+      "bio": "开展小麦与偃麦草远缘杂交研究，培育小偃6号等小麦品种。",
+      "note": "",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2024,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.genetics.cas.cn/dtxw/zhxw/202409/t20240913_7362997.html",
+          "title": "中科院遗传发育所·李振声"
+        },
+        {
+          "url": "https://www.moe.gov.cn/jyb_xwfb/s6052/moe_838/202409/t20240913_1150860.html",
+          "title": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "facts": [
+        {
+          "kind": "成果",
+          "question": "李振声团队育成的代表性小麦品种是____号。",
+          "answer": "小偃6",
+          "aliases": [
+            "小偃六",
+            "小偃6号",
+            "小偃六号"
+          ]
+        }
+      ],
+      "work": "开展小麦与偃麦草远缘杂交研究，培育小偃6号等小麦品种"
+    },
+    {
+      "name": "黄宗德",
+      "field": "国防建设与战斗英雄",
+      "bio": "在抗美援朝战争中奋勇作战，荣获二级战斗英雄称号。",
+      "note": "荣获的是“二级战斗英雄”称号；朝鲜授予的是“一级国旗勋章”，二者不要混淆。",
+      "groups": [
+        "共和国勋章"
+      ],
+      "awards": [
+        {
+          "name": "共和国勋章",
+          "year": 2024,
+          "basis": "授予年份"
+        }
+      ],
+      "references": [
+        {
+          "document": "official",
+          "location": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.mod.gov.cn/gfbw/gfjy_index/16341471.html",
+          "title": "国防部·黄宗德"
+        },
+        {
+          "url": "https://www.moe.gov.cn/jyb_xwfb/s6052/moe_838/202409/t20240913_1150860.html",
+          "title": "2024年全国人大常委会授予国家勋章和国家荣誉称号决定"
+        }
+      ],
+      "facts": [],
+      "work": "在抗美援朝战争中奋勇作战，荣获二级战斗英雄称号"
+    }
+  ],
+  "selectionPolicy": {
+    "感动中国": "科研、工程、医学、农业技术、科普和科研求学人物为主；非科研仅保留苏炳添、郑钦文两位知名代表。",
+    "共和国勋章": "2019年8人、2020年1人、2024年4人，13位全部收录。",
+    "excludedGandong": [
+      "朱彦夫",
+      "陈贝儿",
+      "张顺东、李国秀夫妇",
+      "邓小岚",
+      "杨宁",
+      "徐梦桃",
+      "陆鸿",
+      "刘玲琍",
+      "孟二梅",
+      "张雨霏",
+      "牛犇",
+      "穆言灵",
+      "萧凯恩",
+      "空军航空兵某团飞行二大队",
+      "范振喜",
+      "曲亚波",
+      "吕明玉",
+      "保定学院西部支教群体",
+      "沈华忠",
+      "李东",
+      "李登月",
+      "刘老庄连",
+      "张超凡",
+      "赵兴松、谢红兰夫妇",
+      "刘名芳",
+      "龙进品",
+      "公安部打击缅北涉我犯罪专案工作组",
+      "隐蔽战线在台牺牲英烈群体"
+    ]
+  }
+}
