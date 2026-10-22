@@ -15,6 +15,8 @@
 
 川大人物已按[学校人事处历代两院院士名录](https://rsc.scu.edu.cn/szdw/lyys.htm)收窄为**20位院士（中科院8位、工程院12位）**，包含已故院士；题库、速查与两面记忆卡片共用同一名单。该专题有68题、20张人名卡、21张反向卡。一般科学家、医学先贤以及不在该官网名录中的校友、双聘人物不再作为川大人物考点；其他荣誉专题单独保留，例如陈蕾仍在“最美科技工作者”中。
 
+![当前川大历代两院院士20人范围](docs/screenshot_scu_academicians.png)
+
 ![题目目录与上次练习](docs/screenshot_directory.png)
 
 ![独立科学家人物专项](docs/screenshot_people.png)
