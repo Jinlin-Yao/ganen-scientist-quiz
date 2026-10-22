@@ -4,6 +4,8 @@
 
 [立即刷题](https://Jinlin-Yao.github.io/ganen-scientist-quiz/) · [资料覆盖](docs/COVERAGE.md) · [勘误与时效说明](docs/CORRECTIONS.md)
 
+新增 [五专题专项题库](https://jinlin-yao.github.io/ganen-scientist-quiz/#focus)：从已核对人物资料中汇集**80位人物、363题（213选择＋150填空）**，只考两弹一星、共和国勋章、人民科学家、公众号补充人物和川大历代两院院士。跨专题人物与题目去重，可按五个专题、人物、考点和题型筛选。支持未做／已做／错题、随机刷题、逐项详细解析和知识点资料；专项作答、错题、填空草稿与上次位置单独保存。
+
 新增独立的 [科学家人物专项](https://jinlin-yao.github.io/ganen-scientist-quiz/#people)：**161个人物/群体、724题（378选择＋346填空）**，按领域、成果、头衔、名言复习。涵盖两弹一星23人、人民科学家7人、全国最美科技工作者60人、共和国勋章13人全名单，以及川大、公众号补充人物。“感动中国”选收2021—2025年度科研等相关人物，非科研仅保留苏炳添、郑钦文两位知名代表。[人物范围与出处](docs/PEOPLE.md)。专题人数有交叉。
 
 人物专项支持专题、荣誉年份、人物与考点筛选，另有“人物速查”。原题库和人物专项分别保存草稿、作答位置和随机练习顺序；通用题库与模拟考试保持独立。
@@ -70,6 +72,7 @@ node scripts/test.cjs
 node scripts/test-progress.cjs
 python3 scripts/build-people.py
 node scripts/test-people.cjs
+node scripts/test-focus.cjs
 python3 scripts/build-explanations.py
 node scripts/test-explanations.cjs
 python3 scripts/build-memory.py

@@ -125,6 +125,7 @@
   .text-button{border:0;background:none;color:var(--blue);cursor:pointer}.practice-filters{margin:12px 0 18px;color:var(--sub);font-size:13px}.practice-filters[open] summary{margin-bottom:14px}.practice-nav{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.study-feedback{color:var(--green);margin-top:16px;font-size:13px}
   .knowledge-panel{margin-top:22px;padding-top:22px;border-top:1px solid var(--line)}.knowledge-heading{display:flex;gap:12px;align-items:center;margin-bottom:18px}.knowledge-heading>span{font-size:24px}.knowledge-heading h3{font-size:18px;color:var(--txt)}.knowledge-heading p{font-size:12px;color:var(--sub);margin-top:3px}.knowledge-excerpt{margin:16px 0}.knowledge-excerpt>p{white-space:pre-line;line-height:1.95;font-size:14px;margin:7px 0;overflow-wrap:anywhere}.knowledge-citation{font-size:11px;color:var(--sub);line-height:1.8}
   .people-entry{display:flex;align-items:center;gap:18px;text-decoration:none;color:var(--txt);padding:22px;margin:18px 0;border:1px solid rgba(192,132,252,.35);border-radius:18px;background:linear-gradient(110deg,rgba(192,132,252,.12),rgba(110,168,254,.06));transition:.2s}.people-entry:hover{border-color:var(--purple);background:rgba(192,132,252,.15)}.people-entry strong{display:block;font-size:20px;margin:3px 0}.people-entry small{font-size:12px;color:var(--sub)}.people-entry-icon{font-size:40px;color:var(--gold)}.people-entry-arrow{margin-left:auto;white-space:nowrap;color:var(--purple);font-size:13px}
+  .focus-entry{border-color:rgba(255,209,102,.4);background:linear-gradient(110deg,rgba(255,209,102,.12),rgba(110,168,254,.05))}.focus-entry:hover{border-color:var(--gold);background:rgba(255,209,102,.12)}.focus-entry .people-entry-arrow{color:var(--gold)}
   .option-analysis{margin-top:26px;border-top:1px solid var(--line);padding-top:24px}.analysis-summary,.analysis-memory{padding:16px 18px;border-radius:12px;background:rgba(110,168,254,.07);border:1px solid rgba(110,168,254,.18);margin:14px 0}.analysis-summary>p,.analysis-memory>p,.option-analysis-item>p{white-space:pre-line;overflow-wrap:anywhere;line-height:1.95;font-size:14px;margin-top:8px}.option-analysis-item{border:1px solid var(--line);border-radius:14px;padding:18px;margin:14px 0;background:rgba(255,255,255,.025)}.option-analysis-item.is-correct{border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.035)}.option-analysis-title{display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}.option-analysis-title h4{font-size:14px;font-weight:600;line-height:1.8;flex:1;min-width:140px;white-space:pre-line;overflow-wrap:anywhere}.analysis-letter{display:inline-flex;justify-content:center;align-items:center;width:27px;height:27px;border-radius:8px;border:1px solid var(--line);font-size:12px;color:var(--blue);flex:none}.is-correct .analysis-letter{background:rgba(74,222,128,.14);color:var(--green);border-color:rgba(74,222,128,.3)}.analysis-verdict{color:var(--sub);font-size:11px;line-height:2.4;white-space:nowrap}.is-correct .analysis-verdict{color:var(--green)}.option-analysis-item .source-details{margin-top:12px}.analysis-memory{background:rgba(255,209,102,.065);border-color:rgba(255,209,102,.22)}
   @media(max-width:560px){.option-analysis-item{padding:14px}.analysis-verdict{width:100%;padding-left:37px;line-height:1.5}.option-analysis-item>p,.analysis-summary>p,.analysis-memory>p{font-size:13.5px}.analysis-summary,.analysis-memory{padding:14px}}
   .people-header h1{font-size:31px}.people-orbit{font-size:78px;color:var(--gold);text-shadow:0 0 45px rgba(255,209,102,.3);line-height:1}.people-numbers{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--sub);font-size:12px;padding-bottom:22px;border-bottom:1px solid var(--line)}.people-numbers b{color:var(--txt);font-size:18px;margin-right:4px}.people-numbers>span:last-child{margin-left:auto;align-self:center;font-size:11px}.people-priority{margin:22px 0;padding:18px;border-left:3px solid var(--gold);background:rgba(255,209,102,.045);border-radius:0 12px 12px 0}.people-priority p{font-size:12px;color:var(--sub);margin:4px 0 12px}.people-priority .chips{margin:0}.people-groups{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0 8px}.people-groups b{font-size:10px;margin-left:5px;opacity:.7}.people-search select{flex:1;min-width:135px;max-width:205px}.people-search input{flex-basis:70%}.people-scope{margin-top:26px;padding:15px 18px;border:1px solid var(--line);border-radius:12px}.people-scope summary{font-size:13px}.people-scope p{line-height:1.9}
@@ -182,7 +183,13 @@ if(!data.rec||typeof data.rec!=='object'||Array.isArray(data.rec))data.rec={};
 if(!Array.isArray(data.wrong))data.wrong=[];
 const PEOPLE=window.PEOPLE_QUESTIONS||[];
 const KNOWLEDGE={...(window.QUESTION_KNOWLEDGE||{}),...(window.PEOPLE_KNOWLEDGE||{})};
-const allQuestions=()=>[...BANK,...PEOPLE];
+// A deduplicated subset with its own attempt IDs and continuation.
+const FOCUS_GROUPS=['两弹一星','共和国勋章','人民科学家','公众号补充人物','川大历代两院院士'];
+const FOCUS=[...new Map(PEOPLE.filter(q=>['single','fill'].includes(q.type)&&q.groups.some(g=>FOCUS_GROUPS.includes(g))).map(q=>[q.id,{...q,id:'focus_'+q.id,sourceQuestionId:q.id,module:'focus',groups:q.groups.filter(g=>FOCUS_GROUPS.includes(g))}])).values()];
+const sessionKey=module=>module==='focus'?'focusSession':module==='people'?'peopleSession':'practiceSession';
+const moduleRoute=module=>module==='focus'?'focus':module==='people'?'people':'home';
+const moduleLabel=module=>module==='focus'?'五专题专项':module==='people'?'人物专项':'题目';
+const allQuestions=()=>[...BANK,...PEOPLE,...FOCUS];
 const hasDone=q=>{const r=data.rec[q.id];return !!r&&((r.c||0)+(r.w||0)>0)};
 function save(){store.set(data)}
 function mark(id,ok){
@@ -203,7 +210,7 @@ const app=$('#app');
 
 /* ================= 路由 ================= */
 let view={name:'home'};
-function go(v){if(view.name==='practice')rememberPractice();if(view.name==='exam'&&v.name!=='exam'&&EX.timer)clearInterval(EX.timer);view=v;if(typeof location!=='undefined'&&(v.name==='people'||v.name==='home'))history.replaceState(null,'',v.name==='people'?'#people':location.pathname+location.search);render();scrollTo(0,0)}
+function go(v){if(view.name==='practice')rememberPractice();if(view.name==='exam'&&v.name!=='exam'&&EX.timer)clearInterval(EX.timer);view=v;if(typeof location!=='undefined'&&(['people','focus','home'].includes(v.name)))history.replaceState(null,'',v.name==='home'?location.pathname+location.search:'#'+v.name);render();scrollTo(0,0)}
 
 function render(){
   if(view.name==='home')renderHome();
@@ -213,18 +220,20 @@ function render(){
   else if(view.name==='examResult')renderExamResult();
   else if(view.name==='catalog')renderCatalog();
   else if(view.name==='people')renderPeople();
+  else if(view.name==='focus')renderFocus();
 }
 
 /* ================= 首页 ================= */
 function resumeCard(module='main'){
- const saved=module==='people'?data.peopleSession:data.practiceSession;if(!saved)return '';
+ const saved=data[sessionKey(module)];if(!saved)return '';
  const q=allQuestions().find(q=>q.id===saved.currentId);if(!q)return '';
- return `<section class="resume-card"><div><span class="eyebrow">${module==='people'?'人物专项 · ':''}上次练习</span><h3>${escapeHTML(q.question)}</h3><p>${escapeHTML(q.topic)} · 第 ${Math.max(1,saved.ids.indexOf(q.id)+1)} / ${saved.ids.length} 题 · ${saved.draft?.answered?'已查看答案，可继续复习':'尚未完成作答'}</p></div><button class="btn btn-main" onclick="resumePractice('${module}')">继续上次练习 →</button></section>`;
+ return `<section class="resume-card"><div><span class="eyebrow">${module==='main'?'':moduleLabel(module)+' · '}上次练习</span><h3>${escapeHTML(q.question)}</h3><p>${escapeHTML(q.topic)} · 第 ${Math.max(1,saved.ids.indexOf(q.id)+1)} / ${saved.ids.length} 题 · ${saved.draft?.answered?'已查看答案，可继续复习':'尚未完成作答'}</p></div><button class="btn btn-main" onclick="resumePractice('${module}')">继续上次练习 →</button></section>`;
 }
 function renderHome(){
  const st=stats();
  app.innerHTML=`<header class="directory-header"><div><p class="eyebrow">四川大学 · 感恩奖助学金复习</p><h1>我的题目目录</h1><p>逐题练习，做完再回看知识点。</p></div><span class="total-pill">${BANK.length} 题</span></header>
  ${resumeCard()}
+ ${FOCUS.length?`<a class="people-entry focus-entry" href="#focus" onclick="event.preventDefault();openFocus()"><span class="people-entry-icon">✧</span><span><span class="eyebrow">五个专题 · 选择 + 填空</span><strong>五专题专项题库</strong><small>${new Set(FOCUS.map(q=>q.person)).size} 位人物 · ${FOCUS.length} 题 · 两弹一星、共和国勋章、人民科学家、公众号、川大院士</small></span><span class="people-entry-arrow">进入 →</span></a>`:''}
  ${PEOPLE.length?`<a class="people-entry" href="#people" onclick="event.preventDefault();openPeople()"><span class="people-entry-icon">✦</span><span><span class="eyebrow">独立题库 · 选择 + 填空</span><strong>科学家人物专项</strong><small>${window.PEOPLE_META.entries} 个人物 / 群体 · ${PEOPLE.length} 题 · 领域、成果、头衔、名言</small></span><span class="people-entry-arrow">进入 →</span></a>`:''}
  <div class="stats"><div class="stat"><div class="num">${st.total-st.done}</div><div class="lbl">未做过</div></div><div class="stat"><div class="num">${st.done}</div><div class="lbl">已做过</div></div><div class="stat"><div class="num">${st.wrongCount}</div><div class="lbl">待复习错题</div></div></div>
  <nav class="quick-modes"><a class="chip" href="memory.html#names" style="text-decoration:none">人物记忆卡片 ⇄</a><button class="chip" onclick="startPractice(false)">顺序刷题</button><button class="chip" onclick="startPractice(true)">随机刷题</button><button class="chip" onclick="startExam()">模拟考试</button><button class="chip" onclick="go({name:'wrongbook'})">错题本</button><button class="chip" onclick="startPending()">待核查题</button></nav>
@@ -238,12 +247,12 @@ function resetDraft(){P.answered=false;P.reviewOnly=false;P.sel=[];P.selfChecked
 function rememberPractice(){
  if(!P.list?.length)return;
  const q=P.list[P.i];if(!q)return;
- data[P.module==='people'?'peopleSession':'practiceSession']={version:2,module:P.module||'main',ids:P.list.map(q=>q.id),currentId:q.id,random:!!P.random,filter:{...P.filter},query:P.query||'',draft:{answered:!!P.answered,reviewOnly:!!P.reviewOnly,sel:[...(P.sel||[])],fillValue:P.fillValue||'',autoGrade:P.autoGrade,beforeGrade:P.beforeGrade,beforeSelf:P.beforeSelf,manualGrade:P.manualGrade},savedAt:Date.now()};save();
+ data[sessionKey(P.module)]={version:2,module:P.module||'main',ids:P.list.map(q=>q.id),currentId:q.id,random:!!P.random,filter:{...P.filter},query:P.query||'',draft:{answered:!!P.answered,reviewOnly:!!P.reviewOnly,sel:[...(P.sel||[])],fillValue:P.fillValue||'',autoGrade:P.autoGrade,beforeGrade:P.beforeGrade,beforeSelf:P.beforeSelf,manualGrade:P.manualGrade},savedAt:Date.now()};save();
 }
 function resumePractice(module='main'){
- const key=module==='people'?'peopleSession':'practiceSession',snap=data[key];if(!snap)return go({name:module==='people'?'people':'home'});
- const byId=new Map((module==='people'?PEOPLE:BANK).map(q=>[q.id,q]));const list=snap.ids.map(id=>byId.get(id)).filter(Boolean);
- if(!list.length){delete data[key];save();return go({name:module==='people'?'people':'home'})}
+ const key=sessionKey(module),snap=data[key];if(!snap)return go({name:moduleRoute(module)});
+ const byId=new Map((module==='focus'?FOCUS:module==='people'?PEOPLE:BANK).map(q=>[q.id,q]));const list=snap.ids.map(id=>byId.get(id)).filter(Boolean);
+ if(!list.length){delete data[key];save();return go({name:moduleRoute(module)})}
  const index=Math.max(0,list.findIndex(q=>q.id===snap.currentId));
  // Do not let go() overwrite the saved session with the practice being left.
  view={name:'home'};
@@ -251,7 +260,7 @@ function resumePractice(module='main'){
 }
 function startPractice(random,pool){
  if(view.name==='practice')rememberPractice();
- const qs=pool||BANK;P={module:qs[0]?.module==='people'?'people':'main',qs:[...qs],i:0,filter:{sec:'all',type:'all',topic:'all',status:'study'},query:'',random,pool:!!pool};applyFilter();go({name:'practice'});
+ const qs=pool||BANK;P={module:['people','focus'].includes(qs[0]?.module)?qs[0].module:'main',qs:[...qs],i:0,filter:{sec:'all',type:'all',topic:'all',status:'study'},query:'',random,pool:!!pool};applyFilter();go({name:'practice'});
 }
 function applyFilter(){
  const base=P.pool?P.qs:BANK;
@@ -261,7 +270,7 @@ function applyFilter(){
 window.resumePractice=resumePractice;
 window.practiceDraft=value=>{P.fillValue=value;rememberPractice()};
 function chipRow(){
-  if(P.module==='people')return `<p>本轮来自人物专项的筛选分组，共 ${P.qs.length} 题。</p><button class="chip" onclick="practiceDirectory()">返回人物目录调整筛选</button>`;
+  if(['people','focus'].includes(P.module))return `<p>本轮来自${moduleLabel(P.module)}的筛选分组，共 ${P.qs.length} 题。</p><button class="chip" onclick="practiceDirectory()">返回${moduleLabel(P.module)}目录调整筛选</button>`;
   const secs=[['all','全部'],['scientist','🌌 科学家普适']];
   if(HAS_SCHOOL)secs.push(['school',`🏫 ${META.school}校情`]);
   const topics=[...new Set(BANK.map(q=>q.topic))];
@@ -281,11 +290,11 @@ function renderPractice(){
   const q=list[P.i];rememberPractice();
   app.innerHTML=topbar(P.random?'随机刷题':'逐题练习')+`<details class="practice-filters"><summary>筛选题型与专题</summary>${chipRow()}</details>`+`
     <div class="progress-line"><span>第 ${P.i+1} / ${list.length} 题</span><div class="bar"><i style="width:${(P.i+1)/list.length*100}%"></i></div><span>${Math.round((P.i+1)/list.length*100)}%</span></div>
-    <div class="qcard" id="qbox">${questionHTML(q,true)}</div><div class="practice-nav"><button class="btn btn-ghost" onclick="practiceDirectory()">返回${P.module==='people'?'人物专项':'题目'}目录</button>${!P.answered&&window.OPTION_EXPLANATIONS?.[q.id]?'<button class="btn btn-ghost" onclick="reviewExplanation()">查看解析（不计分）</button>':''}${!P.answered&&P.i>0?'<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>':''}${!P.answered&&P.i<P.list.length-1?'<button class="btn btn-ghost" onclick="nextQ()">暂跳过，下一题 →</button>':''}</div>`;
+    <div class="qcard" id="qbox">${questionHTML(q,true)}</div><div class="practice-nav"><button class="btn btn-ghost" onclick="practiceDirectory()">返回${moduleLabel(P.module)}目录</button>${!P.answered&&window.OPTION_EXPLANATIONS?.[q.sourceQuestionId||q.id]?'<button class="btn btn-ghost" onclick="reviewExplanation()">查看解析（不计分）</button>':''}${!P.answered&&P.i>0?'<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>':''}${!P.answered&&P.i<P.list.length-1?'<button class="btn btn-ghost" onclick="nextQ()">暂跳过，下一题 →</button>':''}</div>`;
 }
-window.practiceDirectory=()=>go({name:P.module==='people'?'people':'home'});
+window.practiceDirectory=()=>go({name:moduleRoute(P.module)});
 function topbar(title,extra=''){
-  if(view.name==='practice'&&P.module==='people')return `<div class="topbar"><button class="back" onclick="practiceDirectory()">← 人物专项</button><h2>人物专项 · ${title}</h2>${extra}</div>`;
+  if(view.name==='practice'&&['people','focus'].includes(P.module))return `<div class="topbar"><button class="back" onclick="practiceDirectory()">← ${moduleLabel(P.module)}</button><h2>${moduleLabel(P.module)} · ${title}</h2>${extra}</div>`;
   return `<div class="topbar"><button class="back" onclick="go({name:'home'})">← 题目目录</button><h2>${title}</h2>${extra}</div>`;
 }
 function escapeHTML(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
@@ -528,20 +537,21 @@ function openCatalogQuestion(id){
 window.openCatalogQuestion=openCatalogQuestion;
 window.practiceCatalog=()=>{const rows=catalogRows();if(rows.length)openCatalogQuestion(rows[0].id)};
 function optionExplanationsHTML(q,selection=[]){
- const info=window.OPTION_EXPLANATIONS?.[q.id];if(!info)return '';
+ const info=window.OPTION_EXPLANATIONS?.[q.sourceQuestionId||q.id];if(!info)return '';
  const names={official:'官方资料',handbook:'川大版复习手册',integrated:'复习整合资料',preparation:'奖学金准备',elan:'ELAN整理版',upstream:'原项目题库'};
  return `<section class="option-analysis" aria-label="逐项解析"><div class="knowledge-heading"><span>🔎</span><div><h3>逐项解析</h3><p>每个选项都看一遍，把易混知识一起记住。</p></div></div><div class="analysis-summary"><span class="eyebrow">本题关键</span><p>${escapeHTML(info.summary)}</p></div>${info.options.map((item,i)=>`<article class="option-analysis-item ${item.correct?'is-correct':''}"><div class="option-analysis-title"><span class="analysis-letter">${String.fromCharCode(65+i)}</span><h4>${escapeHTML(q.options[i])}</h4><span class="analysis-verdict">${item.correct?'✓ 应选':'本题不选'}${selection?.includes(i)?' · 你选了此项':''}</span></div>${item.paragraphs.map(p=>`<p>${escapeHTML(p)}</p>`).join('')}<details class="source-details"><summary>本项依据与来源</summary><p>${item.references.map(r=>escapeHTML(names[r.document]||r.document)+' · '+escapeHTML(r.location)).join('；')}</p>${item.links.map(l=>`<p><a href="${escapeHTML(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(l.title)} ↗</a></p>`).join('')}</details></article>`).join('')}<aside class="analysis-memory"><span class="eyebrow">对照记忆</span><p>${escapeHTML(info.memory)}</p></aside></section>`;
 }
 function knowledgeHTML(q){
- const materials=KNOWLEDGE[q.id];if(!materials)return '';
+ const materials=KNOWLEDGE[q.sourceQuestionId||q.id];if(!materials)return '';
  const sourceNames={handbook:'川大版复习手册',integrated:'复习整合资料',preparation:'奖学金准备',elan:'ELAN整理版',upstream:'原项目题库'};
  return `<section class="knowledge-panel"><div class="knowledge-heading"><span>📖</span><div><h3>知识点资料</h3><p>做完这一题，把相关知识一起记住。</p></div></div>${materials.paragraphs.map(item=>`<div class="knowledge-excerpt"><span class="eyebrow">${escapeHTML(item.kind)}</span><p>${escapeHTML(item.text)}</p><div class="knowledge-citation">${(item.references||[]).slice(0,3).map(r=>`${sourceNames[r.document]||r.document} · ${escapeHTML(r.location)}`).join('；')}${(item.links||[]).slice(0,1).map(link=>` · <a href="${escapeHTML(link.url)}" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>`).join('')}</div></div>`).join('')}</section>`;
 }
 
 /* 启动：先合并可选校情题，再渲染（详见 README「接入自己学校的校情题」） */
-window.__boot=()=>{mergeSchoolBank();const errors=QuizCore.validateBank(allQuestions());if(errors.length){app.textContent="题库校验失败，请查看控制台。";console.error(errors);return}if(typeof location!=='undefined'&&location.hash==='#people')view={name:'people'};render()};
+window.__boot=()=>{mergeSchoolBank();const errors=QuizCore.validateBank(allQuestions());if(errors.length){app.textContent="题库校验失败，请查看控制台。";console.error(errors);return}if(typeof location!=='undefined'&&['#people','#focus'].includes(location.hash))view={name:location.hash.slice(1)};render()};
 </script>
-<script src="people-ui.js?v=20261023-scu20"></script>
+<script src="people-ui.js?v=20261023-focus5"></script>
+<script src="focus-ui.js?v=20261023-focus5"></script>
 <script>window.__boot();</script>
 </body>
 </html>
