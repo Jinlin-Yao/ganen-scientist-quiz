@@ -20,18 +20,18 @@ assert.equal(core.checkFill({answer:'5',matchMode:'groups',keywordGroups:[['5']]
 // Drive the app state through practice, overrides, wrongbook and complete mock exams.
 const app={innerHTML:''};let input='';const saved={};let timerCount=0;
 const c={console,window:null,document:{querySelector:s=>s==='#fillIn'?{value:input}:app},localStorage:{getItem:k=>saved[k]??null,setItem:(k,v)=>saved[k]=v},scrollTo(){},setInterval(){timerCount++;return timerCount},clearInterval(){},setTimeout(){}};c.window=c;vm.createContext(c);
-for(const file of ['core.js','questions.js','my-school.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);
+for(const file of ['core.js','questions.js','my-school.js','knowledge.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
 vm.runInContext(scripts[0].slice(scripts[0].indexOf('const META=')),c);vm.runInContext('window.__boot()',c);
 const run=s=>vm.runInContext(s,c);
-assert.equal(run('BANK.length'),bank.length);assert.match(app.innerHTML,/搜索题库与考点/);
+assert.equal(run('BANK.length'),bank.length);assert.match(app.innerHTML,/我的题目目录/);
 run('startPractice(false,[BANK.find(q=>q.type==="fill"&&q.examEligible)])');
 const fillID=run('P.list[0].id');input=run('P.list[0].answer');run('gradeFill()');assert.equal(run(`data.rec[${JSON.stringify(fillID)}].c`),1);
 run('selfMark(true)');assert.equal(run(`data.rec[${JSON.stringify(fillID)}].c`),1,'self-confirmation is not double-counted');
 run('startPractice(false,[BANK.find(q=>q.type==="fill"&&q.examEligible)])');input='错误回答';run('gradeFill()');run('selfMark(true)');assert.equal(run(`data.rec[${JSON.stringify(fillID)}].w`),0,'self override restores previous state');
 run('startPending()');assert.ok(run('P.list.length>0&&P.list.every(q=>q.status==="pending")'));
-run('C.query="甲种分离膜";renderCatalog()');assert.match(app.innerHTML,/吴自良/);
+run('C.query="甲种分离膜";C.completion="all";renderCatalog()');assert.match(app.innerHTML,/吴自良/);
 for(let i=0;i<10;i++){
  run('startExam()');assert.equal(run('EX.list.length'),37);assert.ok(run('EX.list.every(q=>q.status!=="pending"&&q.examEligible!==false)'));
  run('for(const q of EX.list){EX.ans[q.id]=q.type==="single"?{sel:[q.answer]}:q.type==="multiple"?{sel:[...q.answer]}:q.type==="fill"?{text:q.answer}:{text:"口述"}};submitExam()');
