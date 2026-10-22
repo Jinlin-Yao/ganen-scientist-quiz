@@ -125,6 +125,8 @@
   .text-button{border:0;background:none;color:var(--blue);cursor:pointer}.practice-filters{margin:12px 0 18px;color:var(--sub);font-size:13px}.practice-filters[open] summary{margin-bottom:14px}.practice-nav{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.study-feedback{color:var(--green);margin-top:16px;font-size:13px}
   .knowledge-panel{margin-top:22px;padding-top:22px;border-top:1px solid var(--line)}.knowledge-heading{display:flex;gap:12px;align-items:center;margin-bottom:18px}.knowledge-heading>span{font-size:24px}.knowledge-heading h3{font-size:18px;color:var(--txt)}.knowledge-heading p{font-size:12px;color:var(--sub);margin-top:3px}.knowledge-excerpt{margin:16px 0}.knowledge-excerpt>p{white-space:pre-line;line-height:1.95;font-size:14px;margin:7px 0;overflow-wrap:anywhere}.knowledge-citation{font-size:11px;color:var(--sub);line-height:1.8}
   .people-entry{display:flex;align-items:center;gap:18px;text-decoration:none;color:var(--txt);padding:22px;margin:18px 0;border:1px solid rgba(192,132,252,.35);border-radius:18px;background:linear-gradient(110deg,rgba(192,132,252,.12),rgba(110,168,254,.06));transition:.2s}.people-entry:hover{border-color:var(--purple);background:rgba(192,132,252,.15)}.people-entry strong{display:block;font-size:20px;margin:3px 0}.people-entry small{font-size:12px;color:var(--sub)}.people-entry-icon{font-size:40px;color:var(--gold)}.people-entry-arrow{margin-left:auto;white-space:nowrap;color:var(--purple);font-size:13px}
+  .option-analysis{margin-top:26px;border-top:1px solid var(--line);padding-top:24px}.analysis-summary,.analysis-memory{padding:16px 18px;border-radius:12px;background:rgba(110,168,254,.07);border:1px solid rgba(110,168,254,.18);margin:14px 0}.analysis-summary>p,.analysis-memory>p,.option-analysis-item>p{white-space:pre-line;overflow-wrap:anywhere;line-height:1.95;font-size:14px;margin-top:8px}.option-analysis-item{border:1px solid var(--line);border-radius:14px;padding:18px;margin:14px 0;background:rgba(255,255,255,.025)}.option-analysis-item.is-correct{border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.035)}.option-analysis-title{display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}.option-analysis-title h4{font-size:14px;font-weight:600;line-height:1.8;flex:1;min-width:140px;white-space:pre-line;overflow-wrap:anywhere}.analysis-letter{display:inline-flex;justify-content:center;align-items:center;width:27px;height:27px;border-radius:8px;border:1px solid var(--line);font-size:12px;color:var(--blue);flex:none}.is-correct .analysis-letter{background:rgba(74,222,128,.14);color:var(--green);border-color:rgba(74,222,128,.3)}.analysis-verdict{color:var(--sub);font-size:11px;line-height:2.4;white-space:nowrap}.is-correct .analysis-verdict{color:var(--green)}.option-analysis-item .source-details{margin-top:12px}.analysis-memory{background:rgba(255,209,102,.065);border-color:rgba(255,209,102,.22)}
+  @media(max-width:560px){.option-analysis-item{padding:14px}.analysis-verdict{width:100%;padding-left:37px;line-height:1.5}.option-analysis-item>p,.analysis-summary>p,.analysis-memory>p{font-size:13.5px}.analysis-summary,.analysis-memory{padding:14px}}
   .people-header h1{font-size:31px}.people-orbit{font-size:78px;color:var(--gold);text-shadow:0 0 45px rgba(255,209,102,.3);line-height:1}.people-numbers{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--sub);font-size:12px;padding-bottom:22px;border-bottom:1px solid var(--line)}.people-numbers b{color:var(--txt);font-size:18px;margin-right:4px}.people-numbers>span:last-child{margin-left:auto;align-self:center;font-size:11px}.people-priority{margin:22px 0;padding:18px;border-left:3px solid var(--gold);background:rgba(255,209,102,.045);border-radius:0 12px 12px 0}.people-priority p{font-size:12px;color:var(--sub);margin:4px 0 12px}.people-priority .chips{margin:0}.people-groups{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0 8px}.people-groups b{font-size:10px;margin-left:5px;opacity:.7}.people-search select{flex:1;min-width:135px;max-width:205px}.people-search input{flex-basis:70%}.people-scope{margin-top:26px;padding:15px 18px;border:1px solid var(--line);border-radius:12px}.people-scope summary{font-size:13px}.people-scope p{line-height:1.9}
   @media(max-width:560px){.people-entry{gap:12px;padding:16px}.people-entry strong{font-size:17px}.people-entry-icon{font-size:29px}.people-entry-arrow{font-size:11px}.people-header h1{font-size:24px}.people-orbit{font-size:46px}.people-numbers>span:last-child{margin-left:0}.people-search select{min-width:110px;max-width:none}.people-search input{min-width:100%}.directory-title{gap:10px;flex-wrap:wrap}}
   @media(max-width:560px){.directory-header h1{font-size:25px}.resume-card{align-items:stretch;flex-direction:column;gap:12px;padding:16px}.resume-card button{align-self:flex-start}.completion-tab{padding:10px 9px;font-size:13px}.question-row{gap:9px;padding:15px 12px}.question-number{min-width:22px}.question-title{font-size:13px}.row-arrow{display:none}.done-badge{font-size:10px;padding:3px 6px}.directory-bottom .btns .btn{padding:9px 13px;font-size:12px}}
@@ -140,6 +142,7 @@
 <script src="knowledge.js"></script>
 <script src="my-school.js"></script>
 <script src="people.js"></script>
+<script src="explanations.js"></script>
 <script>
 /* ================= 星空背景 ================= */
 (function(){
@@ -231,11 +234,11 @@ function renderHome(){
 
 /* ================= 刷题 ================= */
 let P={};
-function resetDraft(){P.answered=false;P.sel=[];P.selfChecked=false;P.autoGrade=undefined;P.fillValue='';P.beforeGrade=undefined;P.beforeSelf=undefined;P.manualGrade=undefined;}
+function resetDraft(){P.answered=false;P.reviewOnly=false;P.sel=[];P.selfChecked=false;P.autoGrade=undefined;P.fillValue='';P.beforeGrade=undefined;P.beforeSelf=undefined;P.manualGrade=undefined;}
 function rememberPractice(){
  if(!P.list?.length)return;
  const q=P.list[P.i];if(!q)return;
- data[P.module==='people'?'peopleSession':'practiceSession']={version:2,module:P.module||'main',ids:P.list.map(q=>q.id),currentId:q.id,random:!!P.random,filter:{...P.filter},query:P.query||'',draft:{answered:!!P.answered,sel:[...(P.sel||[])],fillValue:P.fillValue||'',autoGrade:P.autoGrade,beforeGrade:P.beforeGrade,beforeSelf:P.beforeSelf,manualGrade:P.manualGrade},savedAt:Date.now()};save();
+ data[P.module==='people'?'peopleSession':'practiceSession']={version:2,module:P.module||'main',ids:P.list.map(q=>q.id),currentId:q.id,random:!!P.random,filter:{...P.filter},query:P.query||'',draft:{answered:!!P.answered,reviewOnly:!!P.reviewOnly,sel:[...(P.sel||[])],fillValue:P.fillValue||'',autoGrade:P.autoGrade,beforeGrade:P.beforeGrade,beforeSelf:P.beforeSelf,manualGrade:P.manualGrade},savedAt:Date.now()};save();
 }
 function resumePractice(module='main'){
  const key=module==='people'?'peopleSession':'practiceSession',snap=data[key];if(!snap)return go({name:module==='people'?'people':'home'});
@@ -278,7 +281,7 @@ function renderPractice(){
   const q=list[P.i];rememberPractice();
   app.innerHTML=topbar(P.random?'随机刷题':'逐题练习')+`<details class="practice-filters"><summary>筛选题型与专题</summary>${chipRow()}</details>`+`
     <div class="progress-line"><span>第 ${P.i+1} / ${list.length} 题</span><div class="bar"><i style="width:${(P.i+1)/list.length*100}%"></i></div><span>${Math.round((P.i+1)/list.length*100)}%</span></div>
-    <div class="qcard" id="qbox">${questionHTML(q,true)}</div><div class="practice-nav"><button class="btn btn-ghost" onclick="practiceDirectory()">返回${P.module==='people'?'人物专项':'题目'}目录</button>${!P.answered&&P.i>0?'<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>':''}${!P.answered&&P.i<P.list.length-1?'<button class="btn btn-ghost" onclick="nextQ()">暂跳过，下一题 →</button>':''}</div>`;
+    <div class="qcard" id="qbox">${questionHTML(q,true)}</div><div class="practice-nav"><button class="btn btn-ghost" onclick="practiceDirectory()">返回${P.module==='people'?'人物专项':'题目'}目录</button>${!P.answered&&window.OPTION_EXPLANATIONS?.[q.id]?'<button class="btn btn-ghost" onclick="reviewExplanation()">查看解析（不计分）</button>':''}${!P.answered&&P.i>0?'<button class="btn btn-ghost" onclick="prevQ()">← 上一题</button>':''}${!P.answered&&P.i<P.list.length-1?'<button class="btn btn-ghost" onclick="nextQ()">暂跳过，下一题 →</button>':''}</div>`;
 }
 window.practiceDirectory=()=>go({name:P.module==='people'?'people':'home'});
 function topbar(title,extra=''){
@@ -334,9 +337,10 @@ function questionHTML(q,interactive,examState){
   }
   let ans='';
   if((interactive&&P.answered)||E.showAns){
-    ans=`<div class="ansbox"><b>参考答案</b><br>${answerText(q)}</div>${knowledgeHTML(q)}`;
+    ans=`<div class="ansbox"><b>参考答案</b><br>${answerText(q)}</div>${optionExplanationsHTML(q,interactive?P.sel:E.sel)}${knowledgeHTML(q)}`;
     if(interactive){
-      if(q.status==='pending'){ans+='<p class="flash-hint">本题待核查，不记入掌握或错题。</p>';}
+      if(P.reviewOnly){ans+='<p class="flash-hint">正在复习解析，本题不新增作答记录。</p><button class="btn btn-ghost" onclick="retryReviewedQuestion()">重新作答</button>';}
+      else if(q.status==='pending'){ans+='<p class="flash-hint">本题待核查，不记入掌握或错题。</p>';}
       else if(q.type==='fill'||q.type==='flash'){
         if(P.manualGrade!==undefined)ans+=`<p class="study-feedback">${P.manualGrade?'✓ 已标记为掌握':'已加入错题，稍后再复习'}，可以先阅读知识点资料，再进入下一题。</p>`;
         ans+=`<div class="btns"><button class="btn btn-green" onclick="selfMark(true)">✓ 我答对了</button><button class="btn btn-red" onclick="selfMark(false)">✗ 没答上来</button></div>`;
@@ -369,6 +373,8 @@ window.reveal=()=>{
   }
   render();
 };
+window.reviewExplanation=()=>{if(view.name!=='practice'||P.answered)return;P.reviewOnly=true;P.answered=true;render()};
+window.retryReviewedQuestion=()=>{if(!P.reviewOnly)return;resetDraft();render()};
 window.gradeFill=()=>{
   if(P.answered)return;
   const q=currentQ();P.fillValue=$('#fillIn').value||'';
@@ -381,7 +387,7 @@ function restoreGrade(q,snapshot){
   data.wrong=data.wrong.filter(id=>id!==q.id);if(snapshot.wrong)data.wrong.push(q.id);
 }
 window.selfMark=ok=>{
- const q=currentQ();if(q.status==='pending'||P.manualGrade===!!ok)return;
+ const q=currentQ();if(P.reviewOnly||q.status==='pending'||P.manualGrade===!!ok)return;
  if(P.autoGrade!==undefined){restoreGrade(q,P.beforeGrade);mark(q.id,ok)}
  else{if(!P.beforeSelf)P.beforeSelf={record:data.rec[q.id]?{...data.rec[q.id]}:null,wrong:data.wrong.includes(q.id)};else restoreGrade(q,P.beforeSelf);mark(q.id,ok)}
  P.manualGrade=!!ok;render();
@@ -465,7 +471,7 @@ function renderExamResult(){
   const flashPending=EX.review.filter(r=>r.got===null).length;
   const rows=EX.review.map((r,i)=>{
     const g=r.got===null?`<span style="color:var(--sub)">待自评</span>`:(r.ok?`<span style="color:var(--green)">+${r.got}</span>`:`<span style="color:var(--red)">0</span>`);
-    return `<div class="opt" style="cursor:default"><span class="key">${i+1}</span><span style="flex:1">${r.q.question.slice(0,38)}${r.q.question.length>38?'…':''}</span><span>${g}/${r.max}</span></div><details class="qcard" style="margin-bottom:12px"><summary>查看本题答案与解析</summary><p>${r.q.question}</p><div class="ansbox">${answerText(r.q)}${r.q.note?`<p class="note">${r.q.note}</p>`:''}</div>${knowledgeHTML(r.q)}${sourceHTML(r.q)}</details>`;
+    return `<div class="opt" style="cursor:default"><span class="key">${i+1}</span><span style="flex:1">${r.q.question.slice(0,38)}${r.q.question.length>38?'…':''}</span><span>${g}/${r.max}</span></div><details class="qcard" style="margin-bottom:12px"><summary>查看本题答案与解析</summary><p>${r.q.question}</p><div class="ansbox">${answerText(r.q)}${r.q.note?`<p class="note">${r.q.note}</p>`:''}</div>${optionExplanationsHTML(r.q,EX.ans[r.q.id]?.sel)}${knowledgeHTML(r.q)}${sourceHTML(r.q)}</details>`;
   }).join('');
   const flashCards=EX.review.map((r,i)=>({r,i})).filter(x=>x.r.q.type==='flash').map(({r,i})=>`
     <div class="qcard" style="margin-top:14px">${metaBadges(r.q)}<div class="qtext">${r.q.question}</div>
@@ -521,6 +527,11 @@ function openCatalogQuestion(id){
 }
 window.openCatalogQuestion=openCatalogQuestion;
 window.practiceCatalog=()=>{const rows=catalogRows();if(rows.length)openCatalogQuestion(rows[0].id)};
+function optionExplanationsHTML(q,selection=[]){
+ const info=window.OPTION_EXPLANATIONS?.[q.id];if(!info)return '';
+ const names={official:'官方资料',handbook:'川大版复习手册',integrated:'复习整合资料',preparation:'奖学金准备',elan:'ELAN整理版',upstream:'原项目题库'};
+ return `<section class="option-analysis" aria-label="逐项解析"><div class="knowledge-heading"><span>🔎</span><div><h3>逐项解析</h3><p>每个选项都看一遍，把易混知识一起记住。</p></div></div><div class="analysis-summary"><span class="eyebrow">本题关键</span><p>${escapeHTML(info.summary)}</p></div>${info.options.map((item,i)=>`<article class="option-analysis-item ${item.correct?'is-correct':''}"><div class="option-analysis-title"><span class="analysis-letter">${String.fromCharCode(65+i)}</span><h4>${escapeHTML(q.options[i])}</h4><span class="analysis-verdict">${item.correct?'✓ 应选':'本题不选'}${selection?.includes(i)?' · 你选了此项':''}</span></div>${item.paragraphs.map(p=>`<p>${escapeHTML(p)}</p>`).join('')}<details class="source-details"><summary>本项依据与来源</summary><p>${item.references.map(r=>escapeHTML(names[r.document]||r.document)+' · '+escapeHTML(r.location)).join('；')}</p>${item.links.map(l=>`<p><a href="${escapeHTML(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(l.title)} ↗</a></p>`).join('')}</details></article>`).join('')}<aside class="analysis-memory"><span class="eyebrow">对照记忆</span><p>${escapeHTML(info.memory)}</p></aside></section>`;
+}
 function knowledgeHTML(q){
  const materials=KNOWLEDGE[q.id];if(!materials)return '';
  const sourceNames={handbook:'川大版复习手册',integrated:'复习整合资料',preparation:'奖学金准备',elan:'ELAN整理版',upstream:'原项目题库'};

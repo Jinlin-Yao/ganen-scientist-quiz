@@ -8,6 +8,8 @@
 
 人物专项支持专题、荣誉年份、人物与考点筛选，另有“人物速查”。原题库和人物专项分别保存草稿、作答位置和随机练习顺序；原1191题及模拟考试保持独立。
 
+两套题库共 **485道选择/判断题、1920个选项** 均有逐项解析：本题关键、每项人物/概念说明、应选或排除理由、来源及对照记忆。选择后自动展开全部选项解析；模拟卷交卷后也可查看。点击“查看解析（不计分）”可直接复习，不新增作答或错题记录，想作答时点“重新作答”。
+
 ![题目目录与上次练习](docs/screenshot_directory.png)
 
 ![独立科学家人物专项](docs/screenshot_people.png)
@@ -57,11 +59,15 @@ node scripts/test.cjs
 node scripts/test-progress.cjs
 python3 scripts/build-people.py
 node scripts/test-people.cjs
+python3 scripts/build-explanations.py
+node scripts/test-explanations.cjs
 ```
 
 通用题输出到 `questions.js`，川大题输出到 `my-school.js`；保留 `school.example.js` 作为其他学校模板。题目ID稳定保存，追加新题请使用新的唯一ID。不要将旧题ID转用于其他题目，以免错题进度串题。
 
 `data/coverage.json` 保存逐段对应关系；`data/source-catalog.json` 保存文档目录及手册原有官方参考链接；`data/corrections.json` 保存原项目结构化修订。修改时应同时维护相关记录。
+
+逐项解析的数据源为 `data/option-explanations-source.json` 与已有人物资料；生成的 `data/option-explanations.json` 和 `explanations.js` 按稳定题目ID关联，选项顺序与正误标记有完整校验。人物干扰项说明各自真实领域，不将“本题不选”写成“此人没有科学贡献”；跨专题荣誉按具体名称与年份区别。修改题目或人物资料后，最后运行 `scripts/build-explanations.py` 重新生成解析。
 
 ## 原项目与署名
 
