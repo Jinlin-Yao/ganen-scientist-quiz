@@ -20,7 +20,7 @@ assert.ok(t.run('FOCUS.every(q=>q.module==="focus"&&["single","fill"].includes(q
 assert.ok(t.run('FOCUS.every(q=>PEOPLE.some(p=>p.id===q.sourceQuestionId&&p.question===q.question))'));
 assert.equal(t.run('PEOPLE.filter(q=>q.groups.some(g=>FOCUS_GROUPS.includes(g))).length'),363,'the entire five-group union is included once');
 for(const [g,n] of [['两弹一星',23],['共和国勋章',13],['人民科学家',7],['公众号补充人物',22],['川大历代两院院士',20]]){
- t.run(`focusGroup(${JSON.stringify(g)})`);assert.equal(t.run('new Set(focusRows().map(q=>q.person)).size'),n,g);
+ t.run(`selectFocusTopic(${JSON.stringify(g)})`);assert.equal(t.run('new Set(focusRows().map(q=>q.person)).size'),n,g);
 }
 assert.ok(!t.run('FOCUS.some(q=>q.person==="陈蕾")'),'non-academician SCU scientist outside five groups is excluded');
 assert.ok(t.run('FOCUS.every(q=>KNOWLEDGE[q.sourceQuestionId]?.paragraphs.length)'));

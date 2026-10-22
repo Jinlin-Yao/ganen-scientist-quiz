@@ -14,7 +14,7 @@ function renderFocus(){
  const tabs=[['todo','未做过',base.filter(q=>!hasDone(q)).length],['done','已做过',base.filter(hasDone).length],['wrong','错题',base.filter(q=>data.wrong.includes(q.id)).length],['all','全部',base.length]];
  app.innerHTML=`${topbar('五专题专项题库')}<header class="directory-header people-header"><div><p class="eyebrow">集中冲刺 · 五个专题</p><h1>五专题专项题库</h1><p>选择题 + 填空题 · 领域、成果、头衔、名言。</p></div><span class="people-orbit" aria-hidden="true">✧</span></header>
  <div class="people-numbers"><span><b>${focusProfiles.length}</b> 位人物</span><span><b>${FOCUS.filter(q=>q.type==='single').length}</b> 选择题</span><span><b>${FOCUS.filter(q=>q.type==='fill').length}</b> 填空题</span><span>跨专题题目已去重</span></div>
- <nav class="people-groups" aria-label="五专题分组"><button class="chip ${FC.group==='all'?'on':''}" onclick="focusGroup('all')">全部五专题 <b>${focusProfiles.length}</b></button>${FOCUS_GROUPS.map(g=>`<button class="chip ${FC.group===g?'on':''}" onclick="focusGroup('${g}')">${escapeHTML(g)} <b>${focusProfiles.filter(p=>p.groups.includes(g)).length}</b></button>`).join('')}</nav>
+ <nav class="people-groups" aria-label="五专题分组"><button class="chip ${FC.group==='all'?'on':''}" onclick="window.selectFocusTopic('all')">全部五专题 <b>${focusProfiles.length}</b></button>${FOCUS_GROUPS.map(g=>`<button class="chip ${FC.group===g?'on':''}" onclick="window.selectFocusTopic('${g}')">${escapeHTML(g)} <b>${focusProfiles.filter(p=>p.groups.includes(g)).length}</b></button>`).join('')}</nav>
  ${resumeCard('focus')}
  <div class="stats"><div class="stat"><div class="num">${FOCUS.length-done}</div><div class="lbl">专项未做</div></div><div class="stat"><div class="num">${done}</div><div class="lbl">专项已做</div></div><div class="stat"><div class="num">${FOCUS.filter(q=>data.wrong.includes(q.id)).length}</div><div class="lbl">专项错题</div></div></div>
  <section class="directory"><div class="directory-title"><h2>专项题目目录</h2><span>共 ${FOCUS.length} 题 · 进度独立保存</span></div>
@@ -27,7 +27,7 @@ function renderFocus(){
  <footer class="study-footer">进度保存在当前浏览器 · 每题附知识点资料与来源<br><a href="#people" onclick="event.preventDefault();openPeople()">全部科学家人物专项 →</a> · <a href="memory.html#names">人物记忆卡片 ⇄</a></footer>`;
 }
 window.openFocus=()=>go({name:'focus'});
-window.focusGroup=group=>{Object.assign(FC,{group,person:'all',page:0});render()};
+window.selectFocusTopic=group=>{Object.assign(FC,{group,person:'all',page:0});render()};
 window.focusSearch=form=>{for(const k of ['query','person','kind','type'])FC[k]=form.elements[k].value;FC.page=0;render()};
 window.focusReset=()=>{Object.assign(FC,{group:'all',person:'all',kind:'all',type:'all',query:'',page:0});render()};
 window.focusTab=completion=>{FC.completion=completion;FC.page=0;render()};
