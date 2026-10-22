@@ -4,7 +4,7 @@
 
 [立即刷题](https://Jinlin-Yao.github.io/ganen-scientist-quiz/) · [资料覆盖](docs/COVERAGE.md) · [勘误与时效说明](docs/CORRECTIONS.md)
 
-![四川大学扩充版首页](docs/screenshot_home_scu.png)
+![题目目录与上次练习](docs/screenshot_directory.png)
 
 ## 使用
 
