@@ -10,7 +10,7 @@ assert.equal(groups('两弹一星').length,23);assert.equal(groups('人民科学
 const medals=groups('共和国勋章').flatMap(p=>p.awards.filter(a=>a.name==='共和国勋章'));
 assert.equal(medals.filter(a=>a.year===2019).length,8);assert.equal(medals.filter(a=>a.year===2020).length,1);assert.equal(medals.filter(a=>a.year===2024).length,4);
 assert.ok(!bank.some(q=>source.selectionPolicy.excludedGandong.some(n=>q.person===n)));
-assert.ok(bank.some(q=>q.person==='陈蕾'&&q.groups.includes('川大科学家/院士')&&q.groups.includes('最美科技工作者')));
+assert.ok(bank.some(q=>q.person==='陈蕾'&&q.groups.includes('最美科技工作者')&&!q.groups.includes('川大历代两院院士')));
 assert.ok(!JSON.stringify(source.people.find(p=>p.name==='黄宗德')).includes('一级战斗英雄'));
 for(const q of bank){if(q.type==='fill'){assert.ok(core.checkFill(q,q.answer));assert.ok(!core.checkFill(q,''));assert.ok(!core.checkFill(q,'不是'+q.answer));}else{assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4)}}
 const storage={};let input='';
@@ -20,7 +20,7 @@ function boot(){
  const inline=[...fs.readFileSync(path.join(root,'index.html'),'utf8').matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1];vm.runInContext(inline.slice(inline.indexOf('const META=')),c);
  vm.runInContext(fs.readFileSync(path.join(root,'people-ui.js'),'utf8'),c);vm.runInContext('__boot()',c);return {run:s=>vm.runInContext(s,c),app};
 }
-let t=boot();assert.equal(t.run('BANK.length'),1191);assert.equal(t.run('PEOPLE.length'),bank.length);assert.match(t.app.innerHTML,/科学家人物专项/);
+let t=boot();assert.equal(t.run('BANK.length'),require('../data/bank.json').filter(q=>!q.studyExcluded).length);assert.equal(t.run('PEOPLE.length'),bank.length);assert.match(t.app.innerHTML,/科学家人物专项/);
 const originalSession=()=>t.run('JSON.stringify(Object.fromEntries(Object.entries(data.practiceSession).filter(([k])=>k!=="savedAt")))');
 t.run('openCatalogQuestion("f46");practiceDraft("甲种")');const original=originalSession();
 t.run('practiceDirectory();openPeople()');assert.match(t.app.innerHTML,/人物题目目录/);
@@ -34,7 +34,7 @@ input=t.run('currentQ().answer');t.run('gradeFill()');assert.match(t.app.innerHT
 t=boot();t.run('resumePractice("people")');assert.equal(t.run('P.answered'),true);assert.equal(t.run('JSON.stringify(data.rec[currentQ().id])'),rec);t.run('gradeFill()');assert.equal(t.run('JSON.stringify(data.rec[currentQ().id])'),rec,'reload and repeat submission never double score');
 t.run('practiceDirectory();PC.type="all";peopleTab("done")');assert.equal(t.run('peopleRows().length'),1);t.run('peopleTab("todo")');assert.equal(t.run('peopleRows().some(q=>q.id===data.peopleSession.currentId)'),false);
 t.run('resumePractice()');assert.equal(t.run('currentQ().id'),'f46');assert.equal(t.run('P.fillValue'),'甲种');
-t.run('openPeople();peopleReset();peopleTab("all");PC.kind="名言";renderPeople()');assert.equal(t.run('peopleRows().length'),28);
+t.run('openPeople();peopleReset();peopleTab("all");PC.kind="名言";renderPeople()');assert.equal(t.run('peopleRows().length'),26);
 t.run('peopleMode("profiles")');assert.match(t.app.innerHTML,/人物速查/);assert.match(t.app.innerHTML,/话语出处/);
 t.run('peopleReset();PC.mode="questions";practicePeople(true)');assert.ok(t.run('P.list.every(q=>q.module==="people")'));t.run('startExam()');assert.ok(t.run('EX.list.every(q=>q.module!=="people")'));
 assert.ok(t.run('PEOPLE.every(q=>KNOWLEDGE[q.id]?.paragraphs.length>0)'));

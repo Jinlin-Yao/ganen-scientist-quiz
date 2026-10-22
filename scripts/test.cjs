@@ -2,7 +2,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const core=require(path.join(root,'core.js'));
-const bank=JSON.parse(fs.readFileSync(path.join(root,'data/bank.json')));
+const bank=JSON.parse(fs.readFileSync(path.join(root,'data/bank.json'))).filter(q=>!q.studyExcluded);
 assert.deepEqual(core.validateBank(bank),[]);
 assert.equal(new Set(bank.map(q=>q.id)).size,bank.length);
 const sourceCount=(doc,prefix)=>new Set(bank.flatMap(q=>q.references.filter(r=>r.document===doc&&r.location.startsWith(prefix)).map(r=>r.location))).size;

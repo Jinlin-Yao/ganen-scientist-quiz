@@ -8,6 +8,8 @@ import collections, hashlib, json, pathlib, random, re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 dataset=json.loads((ROOT/'data/people.json').read_text())
 persons=dataset['people']; questions=[]; knowledge={}
+scu=json.loads((ROOT/'data/scu-academicians.json').read_text())
+assert {p['name'] for p in persons if scu['group'] in p['groups']}=={p['name'] for p in scu['roster']}, 'SCU profiles must match the reviewed official roster'
 def ident(name,key):return 'person_'+hashlib.sha256((name+'|'+key).encode()).hexdigest()[:14]
 def clean(text,name):
  return re.sub(r'[。；]+$','',text.replace(name,'这位人物'))
@@ -17,6 +19,7 @@ def add(p,key,kind,question,answer,options=None,aliases=None,links=None):
  else:q['acceptedAnswers']=list(dict.fromkeys([answer]+(aliases or [])))
  questions.append(q)
  paragraphs=[{'kind':'人物速记','text':p['name']+'｜'+p['field']+'\n'+p['bio'],'references':p['references'],'links':p['links']}]
+ if p.get('titles'):paragraphs.append({'kind':'院士头衔','text':'；'.join(p['titles']),'references':p['references'],'links':p['links']})
  if p.get('note'):paragraphs.append({'kind':'辨析与复习','text':p['note'],'references':p['references'],'links':p['links']})
  if p['awards']:
   text='；'.join(str(a['year'])+'年 · '+a['name']+'（'+a['basis']+'）' for a in p['awards'])
@@ -84,7 +87,7 @@ summary={'updated':dataset['updated'],'entries':len(persons),'questions':len(que
  '感动中国：选收2021—2025年度的科研、工程、医学、农业技术、科普及科研求学人物；非科研仅保留苏炳添、郑钦文两位知名代表。2025年度于2026年公布。',
  '全国最美科技工作者：2018—2022年度及2026年发布的10人；2022年度于2023年发布。未核实的中间年度不补造名单，不混入省市同名荣誉。',
  '共和国勋章：2019年8人、2020年1人、2024年4人，13位全部收录。人民科学家：2019年5人、2024年2人；两弹一星：1999年23人。',
- '川大与公众号人物以用户提供的复习资料为范围；校友、任教、双聘按条目说明分清。',
+ '川大历代两院院士：仅按四川大学人事处官网名录收录20人，包含已故院士；不把一般科学家、医学先贤及全部院士校友混入该名录。公众号人物仍按用户资料。',
  '公众号尚未取得的文章/海报不宣称已完整覆盖。名言依所附来源措辞出题，不将颁奖辞认作人物原话。']}
 (ROOT/'data/people-bank.json').write_text(json.dumps(questions,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'data/people-coverage.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
@@ -105,7 +108,7 @@ for group in summary['groups']:
  doc+='## '+group+'\n\n| 人物/群体 | 领域 | 荣誉年份 | 资料依据 |\n|---|---|---|---|\n'
  for p in persons:
   if group not in p['groups']:continue
-  awards='；'.join(str(a['year'])+' '+a['name'] for a in p['awards']) or '用户资料人物专题'
+  awards='；'.join([*(str(a['year'])+' '+a['name'] for a in p['awards']),*p.get('titles',[])]) or '用户资料人物专题'
   src='；'.join(f'{r["document"]} {r["location"]}' for r in p['references'])
   if p['links']:src+=f' · [来源]({p["links"][0]["url"]})'
   doc+=f'| {p["name"]} | {p["field"]} | {awards} | {src} |\n'

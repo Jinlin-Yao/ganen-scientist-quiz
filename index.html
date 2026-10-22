@@ -138,11 +138,11 @@
 <div class="foot" style="position:relative;z-index:1">问天求索，星河一叶 · 感恩中国近现代科学家奖助学金笔试刷题舱 · 数据仅供学习交流</div>
 
 <script src="core.js"></script>
-<script src="questions.js"></script>
-<script src="knowledge.js"></script>
-<script src="my-school.js"></script>
-<script src="people.js"></script>
-<script src="explanations.js"></script>
+<script src="questions.js?v=20261023-scu20"></script>
+<script src="knowledge.js?v=20261023-scu20"></script>
+<script src="my-school.js?v=20261023-scu20"></script>
+<script src="people.js?v=20261023-scu20"></script>
+<script src="explanations.js?v=20261023-scu20"></script>
 <script>
 /* ================= 星空背景 ================= */
 (function(){
@@ -541,7 +541,7 @@ function knowledgeHTML(q){
 /* 启动：先合并可选校情题，再渲染（详见 README「接入自己学校的校情题」） */
 window.__boot=()=>{mergeSchoolBank();const errors=QuizCore.validateBank(allQuestions());if(errors.length){app.textContent="题库校验失败，请查看控制台。";console.error(errors);return}if(typeof location!=='undefined'&&location.hash==='#people')view={name:'people'};render()};
 </script>
-<script src="people-ui.js"></script>
+<script src="people-ui.js?v=20261023-scu20"></script>
 <script>window.__boot();</script>
 </body>
 </html>

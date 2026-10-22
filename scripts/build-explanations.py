@@ -8,7 +8,7 @@ import json,pathlib,re,collections
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 read=lambda file:json.loads((ROOT/file).read_text())
 source=read('data/option-explanations-source.json')
-main=read('data/bank.json'); people_bank=read('data/people-bank.json')
+main=[q for q in read('data/bank.json') if not q.get('studyExcluded')]; people_bank=read('data/people-bank.json')
 people={p['name']:p for p in read('data/people.json')['people']}
 profiles={**people,**source['extraPeople']}
 def clean(text,name):return re.sub(r'[。；]+$','',text.replace(name,'这位人物'))

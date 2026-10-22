@@ -9271,7 +9271,9 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_691a811a56e7",
@@ -9293,7 +9295,9 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_e84f38b5486b",
@@ -9315,7 +9319,9 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_4ed7ebd9dc2e",
@@ -10061,8 +10067,8 @@
     "section": "school",
     "topic": "论述面试",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P595",
-    "question": "任选一位川大科学家，说明其科研贡献如何回应社会需要。",
-    "answer": "可用陈志潜农村卫生、张兴栋生物材料、王玉忠阻燃降解或石碧清洁制革。写研究对象、成果意义和科学家精神，避免空泛称赞。",
+    "question": "任选一位川大历代两院院士，说明其科研贡献如何回应社会需要。",
+    "answer": "可用张兴栋组织诱导性生物材料、王玉忠阻燃降解高分子或石碧清洁制革。写清研究对象、成果意义和科学家精神。",
     "references": [
       {
         "document": "handbook",
@@ -10106,7 +10112,7 @@
     "topic": "论述面试",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P597",
     "question": "有人认为只有做出重大科研成果才能体现科学家精神，你怎样理解？",
-    "answer": "肯定重大成果的价值，同时说明严谨求实、团队合作、科普育人和服务基层都可体现相关精神。用黄才发、陶文铨或陈志潜事例支撑，并落到日常行动。",
+    "answer": "肯定重大成果的价值，同时说明严谨求实、团队合作、科普育人和服务基层都可体现相关精神。用黄才发或陶文铨事例支撑，并落到日常行动。",
     "references": [
       {
         "document": "handbook",
@@ -13413,7 +13419,7 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": "与陈志潜的公共卫生、陈文贵的微生物学、陈灏珠的心血管病学分开记。",
+    "note": "与陈灏珠的心血管病学分开记忆。",
     "links": [
       {
         "title": "[S51] 北京大学期刊平台 陈孝平先进事迹",
@@ -15628,7 +15634,9 @@
         "title": "[C08] 四川大学报 化学工程教育先驱张洪沅",
         "url": "https://newspaper.scu.edu.cn/info/1879/3959.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_180e281cd4f4",
@@ -15659,7 +15667,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_a432612ff354",
@@ -15683,7 +15693,9 @@
         "title": "[C09] 四川大学新闻网 皮革教育宗师张铨",
         "url": "https://news.scu.edu.cn/info/1142/20495.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_9fdc8dcba06f",
@@ -15714,7 +15726,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_9871a180c469",
@@ -15738,7 +15752,9 @@
         "title": "[C10] 四川大学档案馆 方文培 学心托杜鹃",
         "url": "https://archives.scu.edu.cn/info/1015/1985.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_4a62e5b2398d",
@@ -15769,7 +15785,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_e1206c48b211",
@@ -15793,7 +15811,9 @@
         "title": "[C11] 四川大学校史宣传片 刘承钊与华西医学等",
         "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_c0edbb5731c6",
@@ -15824,7 +15844,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_56050f7e1c4c",
@@ -15833,7 +15855,7 @@
     "topic": "四川大学",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P413",
     "question": "赵尔宓有哪些代表性工作？请说明“两栖爬行动物分类”这一记忆线索。",
-    "answer": "1951年毕业于原华西大学生物系，在刘承钊等指导下开展两栖爬行动物分类研究，长期从事科研、教学。",
+    "answer": "1951年毕业于原华西大学生物系，长期从事两栖爬行动物分类、动物地理学研究和科研教学，合著《中国两栖爬行动物学》。",
     "references": [
       {
         "document": "handbook",
@@ -15887,7 +15909,7 @@
     "section": "school",
     "topic": "四川大学",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P413",
-    "question": "赵尔宓专题填空：____毕业于原华西大学生物系，在刘承钊等指导下开展两栖爬行动物分类研究，长期从事科研、教学。",
+    "question": "赵尔宓专题填空：____毕业于原华西大学生物系，长期从事两栖爬行动物分类研究和科研教学。",
     "answer": "1951年",
     "references": [
       {
@@ -15935,7 +15957,9 @@
         "title": "[C13] 四川大学档案馆 陈志潜与定县模式",
         "url": "https://archives.scu.edu.cn/info/1015/2793.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_63f24f24084b",
@@ -15966,7 +15990,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_51f3a871c7d7",
@@ -15997,7 +16023,9 @@
         "url": "https://archives.scu.edu.cn/info/1015/2793.htm"
       }
     ],
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_03cfb9627cd3",
@@ -16021,7 +16049,9 @@
         "title": "[C14] 四川大学华西医院 陈文贵",
         "url": "https://www.wchscu.cn/ysg/social_responsibility/59164.html"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_6837e9a3a136",
@@ -16052,7 +16082,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_a6c96aded98c",
@@ -16084,7 +16116,9 @@
         "url": "https://www.wchscu.cn/ysg/social_responsibility/59164.html"
       }
     ],
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_28144e4765bc",
@@ -16108,7 +16142,9 @@
         "title": "[C15] 四川大学校史宣传片 乐以成等杰出校友",
         "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_1fdcb6c91535",
@@ -16139,7 +16175,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_16403478db5f",
@@ -16163,7 +16201,9 @@
         "title": "[C16] 四川大学化学工程学院 王方定院士",
         "url": "https://ce.scu.edu.cn/info/1038/2699.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_93f39b9ac447",
@@ -16194,7 +16234,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_0a5ede5d1d0e",
@@ -16226,7 +16268,9 @@
         "url": "https://ce.scu.edu.cn/info/1038/2699.htm"
       }
     ],
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_a4a7a5cc7f45",
@@ -16257,7 +16301,9 @@
         "url": "https://ce.scu.edu.cn/info/1038/2699.htm"
       }
     ],
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_fd65c3f2ef67",
@@ -16281,7 +16327,9 @@
         "title": "[C17] 四川大学化学工程学院 傅依备院士",
         "url": "https://ce.scu.edu.cn/info/1038/2698.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_59f01208f2cc",
@@ -16312,7 +16360,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_936b23c68452",
@@ -16344,7 +16394,9 @@
         "url": "https://ce.scu.edu.cn/info/1038/2698.htm"
       }
     ],
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_a520b7fcd268",
@@ -16368,7 +16420,9 @@
         "title": "[C18] 四川大学物理学院 彭堃墀",
         "url": "https://physics.scu.edu.cn/info/1079/3643.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_42836ca83275",
@@ -16399,7 +16453,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_dea34a269e6f",
@@ -16431,7 +16487,9 @@
         "url": "https://physics.scu.edu.cn/info/1079/3643.htm"
       }
     ],
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_6d84f4c5d5ff",
@@ -16462,7 +16520,9 @@
         "url": "https://physics.scu.edu.cn/info/1079/3643.htm"
       }
     ],
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_91cb81e337cc",
@@ -16973,7 +17033,9 @@
         "title": "[C24] 四川大学新闻网 三校历史与杰出校友",
         "url": "https://news.scu.edu.cn/info/1142/20471.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_192d7803fa50",
@@ -17004,7 +17066,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_7cc70d91df7e",
@@ -17028,7 +17092,9 @@
         "title": "[C24] 四川大学新闻网 三校历史与杰出校友",
         "url": "https://news.scu.edu.cn/info/1142/20471.htm"
       }
-    ]
+    ],
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_a6b096eaa52d",
@@ -17059,7 +17125,9 @@
       }
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_6ed937391ee7",
@@ -17592,7 +17660,7 @@
     "topic": "论述面试",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · T2R2",
     "question": "怎样用人物事迹解释并践行科学家精神中的“爱国”？",
-    "answer": "规范表述：胸怀祖国 服务人民。事例：钱学森归国  陈志潜农村卫生。行动示例：专业选择联系国家和社会需要。",
+    "answer": "规范表述：胸怀祖国 服务人民。事例：钱学森归国报国。行动示例：专业选择联系国家和社会需要。",
     "references": [
       {
         "document": "handbook",
@@ -17664,7 +17732,7 @@
     "topic": "论述面试",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · T2R4",
     "question": "怎样用人物事迹解释并践行科学家精神中的“求实”？",
-    "answer": "规范表述：追求真理 严谨治学。事例：周光召理论核算  方文培标本调查。行动示例：保存原始记录 核对数据 明确不确定性。",
+    "answer": "规范表述：追求真理 严谨治学。事例：周光召理论核算。行动示例：保存原始记录 核对数据 明确不确定性。",
     "references": [
       {
         "document": "handbook",
@@ -18999,7 +19067,9 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_1b7481153628",
@@ -19249,7 +19319,9 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_3bebfb9a5ba7",
@@ -19278,7 +19350,9 @@
       "朱清时"
     ],
     "matchMode": "exact",
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_91ce20b3b947",
@@ -28466,7 +28540,9 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_17253af3e824",
@@ -29193,7 +29269,7 @@
     "topic": "四川大学",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P383",
     "question": "川大办学人物与不同前身的关系？",
-    "answer": "鹿传霖与四川中西学堂创建直接相关；吴玉章、张澜、任鸿隽等曾在学校历史上主持办学；刘承钊与华西大学、四川医学院校史相连。题目若问任职，应按具体学校前身和时期作答，不把不同前身混成同一时点。",
+    "answer": "鹿传霖与四川中西学堂创建直接相关；吴玉章、张澜、任鸿隽等曾在学校历史上主持办学。题目若问任职，应按具体学校前身和时期作答，不把不同前身混成同一时点。",
     "references": [
       {
         "document": "handbook",
@@ -29227,7 +29303,9 @@
       "华西"
     ],
     "note": "刘承钊与华西大学、四川医学院校史相连",
-    "matchMode": "exact"
+    "matchMode": "exact",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_5dc20ab95cc0",
@@ -29245,7 +29323,9 @@
     ],
     "status": "study",
     "examEligible": true,
-    "note": ""
+    "note": "",
+    "studyExcluded": true,
+    "exclusionReason": "按用户要求，川大人物考点仅保留官网历代两院院士名录；本条归档，不出现在目录、搜索、练习或考试中。"
   },
   {
     "id": "q_cfc2353a750b",
@@ -29333,7 +29413,7 @@
     "topic": "人物事迹",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P485",
     "question": "易错科学家姓名应怎样书写？",
-    "answer": "黄纬禄，不是黄伟禄；王杜娟，不是王杜鹃；屠守锷的锷为金字旁；杨嘉墀的墀为土字旁；彭堃墀注意堃与墀；程镕时注意镕；陈灏珠注意灏；柯召与周光召均为召；吴自良与吴中伟是两位人物。",
+    "answer": "黄纬禄，不是黄伟禄；王杜娟，不是王杜鹃；屠守锷的锷为金字旁；杨嘉墀的墀为土字旁；程镕时注意镕；陈灏珠注意灏；柯召与周光召均为召；吴自良与吴中伟是两位人物。",
     "references": [
       {
         "document": "handbook",

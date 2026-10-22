@@ -4,7 +4,7 @@ No raw legacy paragraphs are re-imported, so previous corrections are retained.
 import json,re,math,collections
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-bank=json.loads((root/'data/bank.json').read_text())
+bank=[q for q in json.loads((root/'data/bank.json').read_text()) if not q.get('studyExcluded')]
 def textanswer(q):
  if q['type']=='single':return q['options'][q['answer']]
  if q['type']=='multiple':return '、'.join(q['options'][i] for i in q['answer'])

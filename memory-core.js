@@ -26,7 +26,8 @@
   for(const [id,value] of Object.entries(raw.known||{}))if(ids.has(id)&&value===true)out.known[id]=true;
   for(const mode of ['names','clues']){
    const v=raw.views?.[mode]||{},deckIds=new Set(decks[mode].map(c=>c.id));
-   out.views[mode]={group:groups.has(v.group)?v.group:'all',kind:mode==='clues'&&['work','quote'].includes(v.kind)?v.kind:'all',query:typeof v.query==='string'?v.query.slice(0,200):'',status:['known','review'].includes(v.status)?v.status:'all',order:[...new Set((Array.isArray(v.order)?v.order:[]).filter(id=>deckIds.has(id)))],last:deckIds.has(v.last)?v.last:null};
+   const group=v.group==='川大科学家/院士'?'川大历代两院院士':v.group;
+   out.views[mode]={group:groups.has(group)?group:'all',kind:mode==='clues'&&['work','quote'].includes(v.kind)?v.kind:'all',query:typeof v.query==='string'?v.query.slice(0,200):'',status:['known','review'].includes(v.status)?v.status:'all',order:[...new Set((Array.isArray(v.order)?v.order:[]).filter(id=>deckIds.has(id)))],last:deckIds.has(v.last)?v.last:null};
   }
   return out;
  }

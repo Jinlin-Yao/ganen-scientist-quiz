@@ -1,0 +1,150 @@
+{
+  "updated": "2026-10-23",
+  "group": "川大历代两院院士",
+  "previousGroup": "川大科学家/院士",
+  "source": {
+    "title": "四川大学人事处·两院院士",
+    "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+  },
+  "roster": [
+    {
+      "name": "柯召",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "徐僖",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "刘应明",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "赵尔宓",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "魏于全",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "陈霖",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "李安民",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "冯小明",
+      "academy": "中国科学院"
+    },
+    {
+      "name": "涂铭旌",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "林祥棣",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "高洁",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "谢和平",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "周寿桓",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "张兴栋",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "石碧",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "李言荣",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "王玉忠",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "王琪",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "许唯临",
+      "academy": "中国工程院"
+    },
+    {
+      "name": "王红宁",
+      "academy": "中国工程院"
+    }
+  ],
+  "removedFromPreviousGroup": [
+    "张洪沅",
+    "张铨",
+    "方文培",
+    "刘承钊",
+    "陈志潜",
+    "陈文贵",
+    "乐以成",
+    "王方定",
+    "傅依备",
+    "彭堃墀",
+    "邱蔚六",
+    "郑树森",
+    "陈蕾",
+    "朱清时"
+  ],
+  "retiredMainQuestionIds": [
+    "q_5ec801d4ca5e",
+    "q_691a811a56e7",
+    "q_e84f38b5486b",
+    "q_eb1582742483",
+    "q_180e281cd4f4",
+    "q_a432612ff354",
+    "q_9fdc8dcba06f",
+    "q_9871a180c469",
+    "q_4a62e5b2398d",
+    "q_e1206c48b211",
+    "q_c0edbb5731c6",
+    "q_3c29977f255a",
+    "q_63f24f24084b",
+    "q_51f3a871c7d7",
+    "q_03cfb9627cd3",
+    "q_6837e9a3a136",
+    "q_a6c96aded98c",
+    "q_28144e4765bc",
+    "q_1fdcb6c91535",
+    "q_16403478db5f",
+    "q_93f39b9ac447",
+    "q_0a5ede5d1d0e",
+    "q_a4a7a5cc7f45",
+    "q_fd65c3f2ef67",
+    "q_59f01208f2cc",
+    "q_936b23c68452",
+    "q_a520b7fcd268",
+    "q_42836ca83275",
+    "q_dea34a269e6f",
+    "q_6d84f4c5d5ff",
+    "q_1257aa67f50c",
+    "q_192d7803fa50",
+    "q_7cc70d91df7e",
+    "q_a6b096eaa52d",
+    "q_af95990ae738",
+    "q_fd9eff149250",
+    "q_3bebfb9a5ba7",
+    "q_aa584745d670",
+    "q_f03871a7f1fa",
+    "q_5dc20ab95cc0"
+  ],
+  "scope": "川大官网历代两院院士名录，包含已故院士；不同于当前在职院士人数，也不同于全部院士校友。"
+}

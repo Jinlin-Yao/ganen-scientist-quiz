@@ -9387,7 +9387,7 @@ window.QUESTION_BANK = [
     "topic": "论述面试",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P597",
     "question": "有人认为只有做出重大科研成果才能体现科学家精神，你怎样理解？",
-    "answer": "肯定重大成果的价值，同时说明严谨求实、团队合作、科普育人和服务基层都可体现相关精神。用黄才发、陶文铨或陈志潜事例支撑，并落到日常行动。",
+    "answer": "肯定重大成果的价值，同时说明严谨求实、团队合作、科普育人和服务基层都可体现相关精神。用黄才发或陶文铨事例支撑，并落到日常行动。",
     "references": [
       {
         "document": "handbook",
@@ -12694,7 +12694,7 @@ window.QUESTION_BANK = [
     ],
     "status": "study",
     "examEligible": true,
-    "note": "与陈志潜的公共卫生、陈文贵的微生物学、陈灏珠的心血管病学分开记。",
+    "note": "与陈灏珠的心血管病学分开记忆。",
     "links": [
       {
         "title": "[S51] 北京大学期刊平台 陈孝平先进事迹",
@@ -15159,7 +15159,7 @@ window.QUESTION_BANK = [
     "topic": "论述面试",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · T2R2",
     "question": "怎样用人物事迹解释并践行科学家精神中的“爱国”？",
-    "answer": "规范表述：胸怀祖国 服务人民。事例：钱学森归国  陈志潜农村卫生。行动示例：专业选择联系国家和社会需要。",
+    "answer": "规范表述：胸怀祖国 服务人民。事例：钱学森归国报国。行动示例：专业选择联系国家和社会需要。",
     "references": [
       {
         "document": "handbook",
@@ -15231,7 +15231,7 @@ window.QUESTION_BANK = [
     "topic": "论述面试",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · T2R4",
     "question": "怎样用人物事迹解释并践行科学家精神中的“求实”？",
-    "answer": "规范表述：追求真理 严谨治学。事例：周光召理论核算  方文培标本调查。行动示例：保存原始记录 核对数据 明确不确定性。",
+    "answer": "规范表述：追求真理 严谨治学。事例：周光召理论核算。行动示例：保存原始记录 核对数据 明确不确定性。",
     "references": [
       {
         "document": "handbook",
@@ -15929,24 +15929,6 @@ window.QUESTION_BANK = [
       {
         "document": "handbook",
         "location": "T5R9"
-      }
-    ],
-    "status": "study",
-    "examEligible": true,
-    "note": ""
-  },
-  {
-    "id": "q_af95990ae738",
-    "type": "flash",
-    "section": "scientist",
-    "topic": "易混辨析",
-    "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · T5R10",
-    "question": "比较以下易混对象：陈文贵／陈文新／陈志潜。",
-    "answer": "鼠疫与微生物／根瘤菌／农村公共卫生",
-    "references": [
-      {
-        "document": "handbook",
-        "location": "T5R10"
       }
     ],
     "status": "study",
@@ -23435,24 +23417,6 @@ window.QUESTION_BANK = [
     "note": ""
   },
   {
-    "id": "q_aa584745d670",
-    "type": "flash",
-    "section": "scientist",
-    "topic": "论述面试",
-    "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P47",
-    "question": "如何分析陈志潜与定县实践的精神事例？",
-    "answer": "例子：陈志潜的定县实践，不只是“救死扶伤”。他把研究对象扩展到整个农村社区，通过调查、基层人员培训和分级服务回应卫生资源不足，体现服务人民、实事求是和育人。",
-    "references": [
-      {
-        "document": "handbook",
-        "location": "P47"
-      }
-    ],
-    "status": "study",
-    "examEligible": true,
-    "note": ""
-  },
-  {
     "id": "q_17253af3e824",
     "type": "flash",
     "section": "scientist",
@@ -23785,7 +23749,7 @@ window.QUESTION_BANK = [
     "topic": "人物事迹",
     "source": "感恩中国近现代科学家奖助学金笔试复习手册_四川大学版.docx · P485",
     "question": "易错科学家姓名应怎样书写？",
-    "answer": "黄纬禄，不是黄伟禄；王杜娟，不是王杜鹃；屠守锷的锷为金字旁；杨嘉墀的墀为土字旁；彭堃墀注意堃与墀；程镕时注意镕；陈灏珠注意灏；柯召与周光召均为召；吴自良与吴中伟是两位人物。",
+    "answer": "黄纬禄，不是黄伟禄；王杜娟，不是王杜鹃；屠守锷的锷为金字旁；杨嘉墀的墀为土字旁；程镕时注意镕；陈灏珠注意灏；柯召与周光召均为召；吴自良与吴中伟是两位人物。",
     "references": [
       {
         "document": "handbook",

@@ -1,6 +1,6 @@
 # 科学家人物专项
 
-更新：2026-10-22。去重后 172 个人物/群体，768 道题，其中选择题 401 道、填空题 367 道。不同题型可从正向、反向考查同一知识点；题量不等于独立事实数量。
+更新：2026-10-23。去重后 161 个人物/群体，724 道题，其中选择题 378 道、填空题 346 道。不同题型可从正向、反向考查同一知识点；题量不等于独立事实数量。
 
 独立入口：[人物专项](https://jinlin-yao.github.io/ganen-scientist-quiz/#people)。按人物、专题、荣誉年份、考点、题型筛选，支持未做/已做/错题、随机练习、人物速查、逐题知识资料。原题库与专项各自保存练习位置、草稿与随机顺序，不互相覆盖；仅当前浏览器保存，不含跨设备同步。
 
@@ -9,7 +9,7 @@
 - 感动中国：选收2021—2025年度的科研、工程、医学、农业技术、科普及科研求学人物；非科研仅保留苏炳添、郑钦文两位知名代表。2025年度于2026年公布。
 - 全国最美科技工作者：2018—2022年度及2026年发布的10人；2022年度于2023年发布。未核实的中间年度不补造名单，不混入省市同名荣誉。
 - 共和国勋章：2019年8人、2020年1人、2024年4人，13位全部收录。人民科学家：2019年5人、2024年2人；两弹一星：1999年23人。
-- 川大与公众号人物以用户提供的复习资料为范围；校友、任教、双聘按条目说明分清。
+- 川大历代两院院士：仅按四川大学人事处官网名录收录20人，包含已故院士；不把一般科学家、医学先贤及全部院士校友混入该名录。公众号人物仍按用户资料。
 - 公众号尚未取得的文章/海报不宣称已完整覆盖。名言依所附来源措辞出题，不将颁奖辞认作人物原话。
 
 ## 专题人数
@@ -22,7 +22,7 @@
 | 最美科技工作者 | 60 |
 | 感动中国 | 22 |
 | 公众号补充人物 | 22 |
-| 川大科学家/院士 | 32 |
+| 川大历代两院院士 | 20 |
 
 同一人物可属于多个专题。
 
@@ -203,42 +203,30 @@
 | 屠呦呦 | 药学与抗疟研究 | 2019 共和国勋章 | upstream m06 · [来源](https://ldsrw.swjtu.edu.cn/) |
 | 钱伟长 | 力学与应用数学 | 用户资料人物专题 | integrated P146；preparation P299 · [来源](https://ldsrw.swjtu.edu.cn/) |
 
-## 川大科学家/院士
+## 川大历代两院院士
 
 | 人物/群体 | 领域 | 荣誉年份 | 资料依据 |
 |---|---|---|---|
-| 柯召 | 数论与川大数学 | 用户资料人物专题 | handbook P388–P391 · [来源](https://archives.scu.edu.cn/info/1015/1995.htm) |
-| 徐僖 | 高分子材料与塑料教育 | 用户资料人物专题 | handbook P392–P395 · [来源](https://www.scu.edu.cn/info/1892/35184.htm) |
-| 张洪沅 | 化学工程教育 | 用户资料人物专题 | handbook P396–P399 · [来源](https://newspaper.scu.edu.cn/info/1879/3959.htm) |
-| 张铨 | 皮革科学与工程教育 | 用户资料人物专题 | handbook P400–P403 · [来源](https://news.scu.edu.cn/info/1142/20495.htm) |
-| 方文培 | 植物分类与标本 | 用户资料人物专题 | handbook P404–P407 · [来源](https://archives.scu.edu.cn/info/1015/1985.htm) |
-| 刘承钊 | 两栖动物与华西校史 | 用户资料人物专题 | handbook P408–P411 · [来源](https://xgb.scu.edu.cn/info/1088/2950.htm) |
-| 赵尔宓 | 两栖爬行动物分类 | 用户资料人物专题 | handbook P412–P415 · [来源](https://life.scu.edu.cn/info/1020/1120.htm) |
-| 陈志潜 | 农村公共卫生与定县模式 | 用户资料人物专题 | handbook P416–P419 · [来源](https://archives.scu.edu.cn/info/1015/2793.htm) |
-| 陈文贵 | 微生物学与鼠疫研究 | 用户资料人物专题 | handbook P420–P423 · [来源](https://www.wchscu.cn/ysg/social_responsibility/59164.html) |
-| 乐以成 | 现代妇产科学 | 用户资料人物专题 | handbook P424–P427 · [来源](https://xgb.scu.edu.cn/info/1088/2950.htm) |
-| 王方定 | 放射化学与核事业 | 用户资料人物专题 | handbook P428–P431 · [来源](https://ce.scu.edu.cn/info/1038/2699.htm) |
-| 傅依备 | 核材料与核化学工程 | 用户资料人物专题 | handbook P432–P435 · [来源](https://ce.scu.edu.cn/info/1038/2698.htm) |
-| 彭堃墀 | 量子光学与量子信息 | 用户资料人物专题 | handbook P436–P439 · [来源](https://physics.scu.edu.cn/info/1079/3643.htm) |
-| 张兴栋 | 组织诱导性生物材料 | 用户资料人物专题 | handbook P440–P443 · [来源](https://rsc.scu.edu.cn/info/1185/1796.htm) |
-| 魏于全 | 肿瘤生物治疗 | 用户资料人物专题 | handbook P444–P447 · [来源](https://wlb.scu.edu.cn/info/1014/3788.htm) |
-| 石碧 | 制革清洁技术与生物质 | 用户资料人物专题 | handbook P448–P451 · [来源](https://wlb.scu.edu.cn/info/1014/3788.htm) |
-| 冯小明 | 手性催化与不对称合成 | 用户资料人物专题 | handbook P452–P455 · [来源](https://chem.scu.edu.cn/info/1036/5573.htm) |
-| 王玉忠 | 阻燃与可降解高分子 | 用户资料人物专题 | handbook P456–P459 · [来源](https://chem.scu.edu.cn/ys.jsp?urltype=tree.TreeTempUrl&wbtreeid=1257) |
-| 谢和平 | 岩石力学与交叉创新 | 用户资料人物专题 | handbook P460–P463 · [来源](https://news.scu.edu.cn/info/1135/54506.htm) |
-| 邱蔚六 | 口腔颌面外科 | 用户资料人物专题 | handbook P464–P467 · [来源](https://news.scu.edu.cn/info/1142/20471.htm) |
-| 郑树森 | 肝胆外科与肝移植 | 用户资料人物专题 | handbook P468–P471 · [来源](https://news.scu.edu.cn/info/1142/20471.htm) |
-| 陈蕾 | 神经病学与女性癫痫 | 2026 全国最美科技工作者 | official 中央宣传部、中国科协·2026年5月29日发布名单 · [来源](https://www.wchscu.cn/comprehensive/97058.html) |
-| 朱清时 | 激光光谱学 | 用户资料人物专题 | integrated P31；preparation P28 |
-| 刘应明 | 拓扑学与模糊数学 | 用户资料人物专题 | integrated P32；preparation P29 |
-| 陈霖 | 视觉认知与脑成像 | 用户资料人物专题 | integrated P35；preparation P32 |
-| 李安民 | 微分几何 | 用户资料人物专题 | integrated P36 |
-| 涂铭旌 | 金属材料与稀土钒钛材料 | 用户资料人物专题 | integrated P39；preparation P37 |
-| 林祥棣 | 光学跟踪与微光学 | 用户资料人物专题 | integrated P40；preparation P38 |
-| 高洁 | 凝聚态物理与量子物理 | 用户资料人物专题 | integrated P41；preparation P39 |
-| 周寿桓 | 激光与光电子技术 | 用户资料人物专题 | integrated P43 |
-| 王琪 | 高分子材料加工 | 用户资料人物专题 | integrated P47 |
-| 许唯临 | 水力学与水利工程 | 用户资料人物专题 | integrated P48 |
+| 柯召 | 数论与川大数学 | 中国科学院院士 | handbook P388–P391；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://archives.scu.edu.cn/info/1015/1995.htm) |
+| 徐僖 | 高分子材料与塑料教育 | 中国科学院院士 | handbook P392–P395；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://www.scu.edu.cn/info/1892/35184.htm) |
+| 赵尔宓 | 两栖爬行动物分类 | 中国科学院院士 | handbook P412–P415；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://life.scu.edu.cn/info/1020/1120.htm) |
+| 张兴栋 | 组织诱导性生物材料 | 中国工程院院士 | handbook P440–P443；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/info/1185/1796.htm) |
+| 魏于全 | 肿瘤生物治疗 | 中国科学院院士 | handbook P444–P447；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://wlb.scu.edu.cn/info/1014/3788.htm) |
+| 石碧 | 制革清洁技术与生物质 | 中国工程院院士 | handbook P448–P451；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://wlb.scu.edu.cn/info/1014/3788.htm) |
+| 冯小明 | 手性催化与不对称合成 | 中国科学院院士 | handbook P452–P455；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://chem.scu.edu.cn/info/1036/5573.htm) |
+| 王玉忠 | 阻燃与可降解高分子 | 中国工程院院士 | handbook P456–P459；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://chem.scu.edu.cn/ys.jsp?urltype=tree.TreeTempUrl&wbtreeid=1257) |
+| 谢和平 | 岩石力学与交叉创新 | 中国工程院院士 | handbook P460–P463；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://news.scu.edu.cn/info/1135/54506.htm) |
+| 刘应明 | 拓扑学与模糊数学 | 中国科学院院士；数学家 | integrated P32；preparation P29；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 陈霖 | 视觉认知与脑成像 | 中国科学院院士（2003年当选）；认知科学家 | integrated P35；preparation P32；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 李安民 | 微分几何 | 中国科学院院士（2009年当选）；第十八届华罗庚数学奖获得者 | integrated P36；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 涂铭旌 | 金属材料与稀土钒钛材料 | 中国工程院院士（1995年当选）；金属材料专家 | integrated P39；preparation P37；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 林祥棣 | 光学跟踪与微光学 | 中国工程院院士（1997年当选）；光电技术与工程专家 | integrated P40；preparation P38；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 高洁 | 凝聚态物理与量子物理 | 中国工程院院士（1999年当选）；量子物理计量与凝聚态物理学家 | integrated P41；preparation P39；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 周寿桓 | 激光与光电子技术 | 中国工程院院士（2003年当选）；激光与光电子技术专家 | integrated P43；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 王琪 | 高分子材料加工 | 中国工程院院士（2017年当选）；塑料加工工程专家 | integrated P47；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 许唯临 | 水力学与水利工程 | 中国工程院院士（2021年当选）；高坝水力学专家 | integrated P48；official 四川大学人事处·两院院士名录（含已故院士） · [来源](https://rsc.scu.edu.cn/szdw/lyys.htm) |
+| 李言荣 | 电子薄膜材料与电子元器件 | 中国工程院院士（2011年当选） | official 四川大学人事处·李言荣 · [来源](https://rsc.scu.edu.cn/info/1185/3080.htm) |
+| 王红宁 | 动物疫病防控与畜禽细菌病 | 中国工程院院士（2025年当选） | official 四川大学人事处·王红宁 · [来源](https://rsc.scu.edu.cn/info/1185/2942.htm) |
 
 ## 维护与校验
 

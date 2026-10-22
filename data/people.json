@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "people": [
     {
       "name": "于敏",
@@ -2239,22 +2239,40 @@
       "bio": "曾任四川大学校长、名誉校长，长期从事数论等研究，推动川大数学学科与研究机构建设。",
       "note": "不惧难题、重视学术队伍和青年成长；与校史中的治校经历结合。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P388–P391"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C06] 四川大学档案馆 不惧难题的柯召",
           "url": "https://archives.scu.edu.cn/info/1015/1995.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国科学院院士"
+      ]
     },
     {
       "name": "徐僖",
@@ -2262,19 +2280,27 @@
       "bio": "川大高分子材料科学重要奠基人，推动我国高校高分子材料专业和研究发展，常被称为“中国塑料之父”。",
       "note": "记高分子学科创建、科研报国和教学育人。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P392–P395"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C07] 四川大学 徐僖 人生乐趣在于无私奉献",
           "url": "https://www.scu.edu.cn/info/1892/35184.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
       "facts": [
@@ -2293,317 +2319,57 @@
             "title": "四川大学高分子研究所·徐僖"
           }
         }
-      ]
-    },
-    {
-      "name": "张洪沅",
-      "field": "化学工程教育",
-      "bio": "我国化学工程教育先驱，长期在川大及前身学校任教，重视化工单元操作、课程和教材建设。",
-      "note": "年长后仍学习外语获取新知识，体现终身学习。",
-      "groups": [
-        "川大科学家/院士"
       ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P396–P399"
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
-      ],
-      "links": [
-        {
-          "title": "[C08] 四川大学报 化学工程教育先驱张洪沅",
-          "url": "https://newspaper.scu.edu.cn/info/1879/3959.htm"
-        }
-      ],
-      "facts": []
-    },
-    {
-      "name": "张铨",
-      "field": "皮革科学与工程教育",
-      "bio": "皮革教育和研究的重要先驱，推动皮革工艺课程、教材与人才培养，倡导术德兼修、手脑并用。",
-      "note": "把实验、生产与工程教育结合，不只背学科名称。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P400–P403"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C09] 四川大学新闻网 皮革教育宗师张铨",
-          "url": "https://news.scu.edu.cn/info/1142/20495.htm"
-        }
-      ],
-      "facts": [],
-      "quotes": [
-        {
-          "text": "术德兼修，手脑并用。",
-          "source": {
-            "url": "https://news.scu.edu.cn/info/1142/20495.htm",
-            "title": "四川大学·张铨"
-          }
-        }
-      ]
-    },
-    {
-      "name": "方文培",
-      "field": "植物分类与标本",
-      "bio": "长期在四川大学从事植物分类研究和教学，重视野外采集、标本整理及植物资源研究。",
-      "note": "野外调查和准确鉴定构成求实精神的具体方法。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P404–P407"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C10] 四川大学档案馆 方文培 学心托杜鹃",
-          "url": "https://archives.scu.edu.cn/info/1015/1985.htm"
-        }
-      ],
-      "facts": [
-        {
-          "kind": "领域",
-          "question": "方文培在川大的研究侧重____分类及标本、资源整理。",
-          "answer": "植物",
-          "aliases": []
-        }
-      ]
-    },
-    {
-      "name": "刘承钊",
-      "field": "两栖动物与华西校史",
-      "bio": "两栖爬行动物学研究重要奠基人，曾任华西大学校长、四川医学院院长，推动生物学研究与教育。",
-      "note": "与赵尔宓形成学术传承线；与陈志潜、陈文贵区分。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P408–P411"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C11] 四川大学校史宣传片 刘承钊与华西医学等",
-          "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
-        }
-      ],
-      "facts": [
-        {
-          "kind": "领域",
-          "question": "刘承钊是我国____爬行动物学研究的重要奠基人。",
-          "answer": "两栖",
-          "aliases": []
-        }
+      },
+      "titles": [
+        "中国科学院院士"
       ]
     },
     {
       "name": "赵尔宓",
       "field": "两栖爬行动物分类",
-      "bio": "1951年毕业于原华西大学生物系，在刘承钊等指导下开展两栖爬行动物分类研究，长期从事科研、教学。",
+      "bio": "1951年毕业于原华西大学生物系，长期从事两栖爬行动物分类、动物地理学研究和科研教学，合著《中国两栖爬行动物学》。",
       "note": "既是华西系统校友，也是相关学科重要学者。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P412–P415"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C12] 四川大学生命科学学院 赵尔宓院士生平",
           "url": "https://life.scu.edu.cn/info/1020/1120.htm"
-        }
-      ],
-      "facts": []
-    },
-    {
-      "name": "陈志潜",
-      "field": "农村公共卫生与定县模式",
-      "bio": "华西医学先贤，研究和实践农村卫生保健，推动定县卫生实验、基层保健员培养和分级卫生服务。",
-      "note": "从服务整个社区出发，而非仅治疗到院就诊的病人。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
+        },
         {
-          "document": "handbook",
-          "location": "P416–P419"
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
-      "links": [
-        {
-          "title": "[C13] 四川大学档案馆 陈志潜与定县模式",
-          "url": "https://archives.scu.edu.cn/info/1015/2793.htm"
+      "facts": [],
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
-      ],
-      "facts": [
-        {
-          "kind": "成果",
-          "question": "陈志潜推动的农村卫生保健实验，常以“____模式”概括。",
-          "answer": "定县",
-          "aliases": []
-        }
-      ]
-    },
-    {
-      "name": "陈文贵",
-      "field": "微生物学与鼠疫研究",
-      "bio": "华西校友、微生物学家，从事鼠疫防治、调查和相关实验研究，1941年赴湖南常德开展鼠疫调查。",
-      "note": "与陈文新根瘤菌、陈志潜公共卫生区分；历史事实以正式传记为准。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P420–P423"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C14] 四川大学华西医院 陈文贵",
-          "url": "https://www.wchscu.cn/ysg/social_responsibility/59164.html"
-        }
-      ],
-      "facts": [
-        {
-          "kind": "领域",
-          "question": "陈文贵是微生物学家，曾于1941年赴湖南常德调查____。",
-          "answer": "鼠疫",
-          "aliases": []
-        }
-      ]
-    },
-    {
-      "name": "乐以成",
-      "field": "现代妇产科学",
-      "bio": "华西医学杰出校友和医学教育家，是我国现代妇产科学的重要开拓者。",
-      "note": "与华西口腔、公共卫生等特色学科共同构成川大医学传统。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P424–P427"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C15] 四川大学校史宣传片 乐以成等杰出校友",
-          "url": "https://xgb.scu.edu.cn/info/1088/2950.htm"
-        }
-      ],
-      "facts": [
-        {
-          "kind": "领域",
-          "question": "华西医学先贤乐以成是我国现代____科学的重要开拓者。",
-          "answer": "妇产",
-          "aliases": []
-        }
-      ]
-    },
-    {
-      "name": "王方定",
-      "field": "放射化学与核事业",
-      "bio": "1953年毕业于四川化工学院，投身放射化学、核燃料相关研究及国防科研，为核事业发展作出贡献。",
-      "note": "参与核事业不等于获23人两弹一星功勋奖章；两类名单必须分开。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P428–P431"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C16] 四川大学化学工程学院 王方定院士",
-          "url": "https://ce.scu.edu.cn/info/1038/2699.htm"
-        }
-      ],
-      "facts": [
-        {
-          "kind": "领域",
-          "question": "川大相关校友王方定长期从事____化学与核燃料相关研究。",
-          "answer": "放射",
-          "aliases": []
-        }
-      ]
-    },
-    {
-      "name": "傅依备",
-      "field": "核材料与核化学工程",
-      "bio": "1953年毕业于四川化工学院，长期从事核材料、核化学化工及国防科研工作，推动相关技术与人才培养。",
-      "note": "与王方定同为1953届相关校友，但姓名、研究重点分别记。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P432–P435"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C17] 四川大学化学工程学院 傅依备院士",
-          "url": "https://ce.scu.edu.cn/info/1038/2698.htm"
-        }
-      ],
-      "facts": []
-    },
-    {
-      "name": "彭堃墀",
-      "field": "量子光学与量子信息",
-      "bio": "1961年毕业于四川大学物理系，长期从事量子光学研究，开展连续变量量子信息等基础实验。",
-      "note": "与同届的张兴栋形成“物理到光学／物理到生物材料”对照。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P436–P439"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C18] 四川大学物理学院 彭堃墀",
-          "url": "https://physics.scu.edu.cn/info/1079/3643.htm"
-        }
-      ],
-      "facts": [
-        {
-          "kind": "领域",
-          "question": "彭堃墀的主要研究领域是量子____，并拓展连续变量量子信息实验。",
-          "answer": "光学",
-          "aliases": []
-        }
+      },
+      "titles": [
+        "中国科学院院士"
       ]
     },
     {
@@ -2612,19 +2378,27 @@
       "bio": "1961年毕业于四川大学物理系，推动生物材料研究，提出组织诱导性生物材料概念，研究材料诱导组织再生。",
       "note": "医工交叉典型：无生命材料的设计可影响组织再生过程。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P440–P443"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C19] 四川大学人事处 张兴栋",
           "url": "https://rsc.scu.edu.cn/info/1185/1796.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
       "facts": [
@@ -2634,6 +2408,16 @@
           "answer": "组织诱导",
           "aliases": []
         }
+      ],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士"
       ]
     },
     {
@@ -2642,19 +2426,27 @@
       "bio": "华西医学系统校友和科研工作者，长期研究肿瘤生物治疗、基因治疗和创新药物等。",
       "note": "与秦川动物模型、陈孝平肝胆手术区别记忆。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P444–P447"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C20] 四川大学 创新2035先导计划与科学家研究方向",
           "url": "https://wlb.scu.edu.cn/info/1014/3788.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
       "facts": [
@@ -2664,6 +2456,16 @@
           "answer": "肿瘤",
           "aliases": []
         }
+      ],
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国科学院院士"
       ]
     },
     {
@@ -2672,19 +2474,27 @@
       "bio": "川大皮革学科重要科学家，研究皮革化学工程、制革清洁技术和生物质资源利用。",
       "note": "把传统优势产业与绿色发展、循环利用联系起来。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P448–P451"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C20] 四川大学 创新2035先导计划与科学家研究方向",
           "url": "https://wlb.scu.edu.cn/info/1014/3788.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
       "facts": [
@@ -2694,6 +2504,16 @@
           "answer": "清洁",
           "aliases": []
         }
+      ],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士"
       ]
     },
     {
@@ -2702,19 +2522,27 @@
       "bio": "四川大学化学学院科学家，发展手性双氮氧配体与催化体系，相关体系被称为冯催化剂，推动不对称合成研究。",
       "note": "川大任教经历与毕业学校不是同一概念，不能把所有教师都写成本科校友。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P452–P455"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C21] 四川大学化学学院 冯小明与冯催化剂",
           "url": "https://chem.scu.edu.cn/info/1036/5573.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
       "facts": [
@@ -2726,6 +2554,16 @@
             "冯氏"
           ]
         }
+      ],
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国科学院院士"
       ]
     },
     {
@@ -2734,19 +2572,27 @@
       "bio": "四川大学化学学院科学家，研究无卤阻燃、生物基与生物降解高分子、材料循环利用等。",
       "note": "高分子材料既要好用，也要考虑火灾、环境和资源问题。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P456–P459"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C22] 四川大学化学学院 院士研究方向",
           "url": "https://chem.scu.edu.cn/ys.jsp?urltype=tree.TreeTempUrl&wbtreeid=1257"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
       "facts": [
@@ -2756,6 +2602,16 @@
           "answer": "阻燃",
           "aliases": []
         }
+      ],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士"
       ]
     },
     {
@@ -2764,81 +2620,39 @@
       "bio": "岩石力学、深地科学相关专家，曾任四川大学校长，开展跨学科研究；学校2026年报道以海水直接制氢说明交叉创新。",
       "note": "不要把曾任川大校长直接等同于川大毕业校友。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "awards": [],
       "references": [
         {
           "document": "handbook",
           "location": "P460–P463"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
       "links": [
         {
           "title": "[C23] 四川大学新闻网 2026年思政课与交叉科研",
           "url": "https://news.scu.edu.cn/info/1135/54506.htm"
-        }
-      ],
-      "facts": []
-    },
-    {
-      "name": "邱蔚六",
-      "field": "口腔颌面外科",
-      "bio": "原四川医学院口腔医学系统杰出校友，长期从事口腔颌面外科临床、研究和教育。",
-      "note": "与郑树森肝胆外科、陈灏珠心血管病学区分。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
+        },
         {
-          "document": "handbook",
-          "location": "P464–P467"
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
       ],
-      "links": [
-        {
-          "title": "[C24] 四川大学新闻网 三校历史与杰出校友",
-          "url": "https://news.scu.edu.cn/info/1142/20471.htm"
+      "facts": [],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
         }
-      ],
-      "facts": [
-        {
-          "kind": "领域",
-          "question": "邱蔚六长期从事____颌面外科研究、临床与教育。",
-          "answer": "口腔",
-          "aliases": []
-        }
-      ]
-    },
-    {
-      "name": "郑树森",
-      "field": "肝胆外科与肝移植",
-      "bio": "华西医学系统杰出校友，长期从事肝胆外科和肝移植相关研究与临床工作。",
-      "note": "同一专业方向可能有多位科学家，要用学校经历和贡献进一步区分。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "awards": [],
-      "references": [
-        {
-          "document": "handbook",
-          "location": "P468–P471"
-        }
-      ],
-      "links": [
-        {
-          "title": "[C24] 四川大学新闻网 三校历史与杰出校友",
-          "url": "https://news.scu.edu.cn/info/1142/20471.htm"
-        }
-      ],
-      "facts": [
-        {
-          "kind": "成果",
-          "question": "郑树森在肝胆外科领域的重要临床与研究方向之一是肝____。",
-          "answer": "移植",
-          "aliases": []
-        }
+      },
+      "titles": [
+        "中国工程院院士"
       ]
     },
     {
@@ -4611,8 +4425,7 @@
       "bio": "在四川大学华西医院研究育龄期女性癫痫，建立女性癫痫诊疗本体库。",
       "note": "",
       "groups": [
-        "最美科技工作者",
-        "川大科学家/院士"
+        "最美科技工作者"
       ],
       "awards": [
         {
@@ -4940,33 +4753,11 @@
       "work": "在液氮温区氧化物超导和铁基高温超导研究中取得重要突破"
     },
     {
-      "name": "朱清时",
-      "field": "激光光谱学",
-      "bio": "激光光谱学，南科大创校校长，自主招生。",
-      "groups": [
-        "川大科学家/院士"
-      ],
-      "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
-      "references": [
-        {
-          "document": "integrated",
-          "location": "P31"
-        },
-        {
-          "document": "preparation",
-          "location": "P28"
-        }
-      ],
-      "links": [],
-      "awards": [],
-      "facts": []
-    },
-    {
       "name": "刘应明",
       "field": "拓扑学与模糊数学",
-      "bio": "数学，从事拓扑学与不确定性（主要是模糊性）研究，\"中国的查德（模糊数学奠基人）\"。",
+      "bio": "研究拓扑学与不确定性的数学处理，尤其是模糊数学；提出和研究模糊拓扑学的新型邻近构造，推动相关理论发展。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
@@ -4977,18 +4768,38 @@
         {
           "document": "preparation",
           "location": "P29"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国科学院院士",
+        "数学家"
+      ]
     },
     {
       "name": "陈霖",
       "field": "视觉认知与脑成像",
-      "bio": "认知科学、视觉认知和脑成像，系统发展了\"大范围首先\"认知基本单元的拓扑学模型。",
+      "bio": "从事视觉认知与脑成像研究，提出并系统发展“大范围首先”的拓扑性质知觉理论，研究视觉系统如何优先感知物体的整体拓扑性质。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
@@ -4999,36 +4810,76 @@
         {
           "document": "preparation",
           "location": "P32"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国科学院院士（2003年当选）",
+        "认知科学家"
+      ]
     },
     {
       "name": "李安民",
       "field": "微分几何",
-      "bio": "数学，几何。",
+      "bio": "长期研究整体微分几何、辛几何和辛拓扑；与合作者建立相对格罗莫夫—维滕不变量理论，在辛几何和整体仿射微分几何等方向作出重要贡献。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
         {
           "document": "integrated",
           "location": "P36"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国科学院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国科学院院士（2009年当选）",
+        "第十八届华罗庚数学奖获得者"
+      ]
     },
     {
       "name": "涂铭旌",
       "field": "金属材料与稀土钒钛材料",
-      "bio": "材料，金属材料强度与断裂、稀土钒钛材料、纳米材料。",
+      "bio": "研究金属材料的强度与断裂、耐寒高强钢低温脆断和重大机械装备失效分析；在四川大学开展稀土功能材料及纳米材料的研究与应用。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
@@ -5039,18 +4890,38 @@
         {
           "document": "preparation",
           "location": "P37"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士（1995年当选）",
+        "金属材料专家"
+      ]
     },
     {
       "name": "林祥棣",
       "field": "光学跟踪与微光学",
-      "bio": "光学、光电、仪器，我国第一代光学跟踪测量系统\"150-1\"工程核心成员，领导和参与多项国家重大光电工程项目，并于上世纪 90 年代提出和组织开展微光学研究。",
+      "bio": "光学与光电跟踪测量系统工程开拓者之一，我国第一代光学跟踪测量系统核心成员；研究光电跟踪误差分析与实时校正，并组织开展微光学研究。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
@@ -5061,18 +4932,38 @@
         {
           "document": "preparation",
           "location": "P38"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士（1997年当选）",
+        "光电技术与工程专家"
+      ]
     },
     {
       "name": "高洁",
       "field": "凝聚态物理与量子物理",
-      "bio": "物理，凝聚态物理、量子物理。",
+      "bio": "长期研究量子物理计量与凝聚态物理，利用超导约瑟夫森效应研究国家伏特基准，负责完成约瑟夫森结阵列电压基准等工作。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
@@ -5083,65 +4974,145 @@
         {
           "document": "preparation",
           "location": "P39"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士（1999年当选）",
+        "量子物理计量与凝聚态物理学家"
+      ]
     },
     {
       "name": "周寿桓",
       "field": "激光与光电子技术",
-      "bio": "电子、光电、激光。",
+      "bio": "从事固体激光工程及应用研究，重点研究新型激光器、全固体激光器、高亮度和高光束质量激光器以及非线性频率变换器。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
         {
           "document": "integrated",
           "location": "P43"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士（2003年当选）",
+        "激光与光电子技术专家"
+      ]
     },
     {
       "name": "王琪",
       "field": "高分子材料加工",
-      "bio": "高分子材料，塑料加工。",
+      "bio": "研究塑料加工的新原理、新技术与新装备；发明固相力化学加工、塑料管旋转挤出和聚乙烯醇热塑加工等技术，推动废弃塑料橡胶高值回收利用。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
         {
           "document": "integrated",
           "location": "P47"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士（2017年当选）",
+        "塑料加工工程专家"
+      ]
     },
     {
       "name": "许唯临",
       "field": "水力学与水利工程",
-      "bio": "水利。",
+      "bio": "长期研究高坝水力学，建立细观水力学分析理论，提出分级防冲防蚀和突变段水流控制技术，成果用于锦屏一级、向家坝、溪洛渡等水电工程的泄洪安全。",
       "groups": [
-        "川大科学家/院士"
+        "川大历代两院院士"
       ],
       "note": "此处按提供的川大人物复习资料收录。任教、双聘与毕业校友是不同关系，不据此认定均为川大毕业校友。",
       "references": [
         {
           "document": "integrated",
           "location": "P48"
+        },
+        {
+          "document": "official",
+          "location": "四川大学人事处·两院院士名录（含已故院士）"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
       "awards": [],
-      "facts": []
+      "facts": [],
+      "academician": {
+        "academy": "中国工程院",
+        "source": {
+          "title": "四川大学人事处·历代两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      },
+      "titles": [
+        "中国工程院院士（2021年当选）",
+        "高坝水力学专家"
+      ]
     },
     {
       "name": "茅以升",
@@ -5650,6 +5621,82 @@
       ],
       "facts": [],
       "work": "在抗美援朝战争中奋勇作战，荣获二级战斗英雄称号"
+    },
+    {
+      "name": "李言荣",
+      "field": "电子薄膜材料与电子元器件",
+      "bio": "长期研究电子薄膜材料及微波器件、传感器件和集成电子器件，曾任电子科技大学、四川大学校长。",
+      "note": "电子材料与元器件，对应薄膜、微波、传感和集成器件。",
+      "groups": [
+        "川大历代两院院士"
+      ],
+      "awards": [],
+      "titles": [
+        "中国工程院院士（2011年当选）"
+      ],
+      "academician": {
+        "academy": "中国工程院",
+        "year": 2011,
+        "source": {
+          "title": "四川大学人事处·李言荣",
+          "url": "https://rsc.scu.edu.cn/info/1185/3080.htm"
+        }
+      },
+      "references": [
+        {
+          "document": "official",
+          "location": "四川大学人事处·李言荣"
+        }
+      ],
+      "links": [
+        {
+          "title": "四川大学人事处·李言荣",
+          "url": "https://rsc.scu.edu.cn/info/1185/3080.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "name": "王红宁",
+      "field": "动物疫病防控与畜禽细菌病",
+      "bio": "开展动物疫病防控基础和应用研究，推动猪、鸡主产区畜禽细菌病生物安全防控与绿色发展。",
+      "note": "研究对象是畜禽动物疫病，不要与人类临床医学混淆。",
+      "groups": [
+        "川大历代两院院士"
+      ],
+      "awards": [],
+      "titles": [
+        "中国工程院院士（2025年当选）"
+      ],
+      "academician": {
+        "academy": "中国工程院",
+        "year": 2025,
+        "source": {
+          "title": "四川大学人事处·王红宁",
+          "url": "https://rsc.scu.edu.cn/info/1185/2942.htm"
+        }
+      },
+      "references": [
+        {
+          "document": "official",
+          "location": "四川大学人事处·王红宁"
+        }
+      ],
+      "links": [
+        {
+          "title": "四川大学人事处·王红宁",
+          "url": "https://rsc.scu.edu.cn/info/1185/2942.htm"
+        },
+        {
+          "title": "四川大学人事处·两院院士名录",
+          "url": "https://rsc.scu.edu.cn/szdw/lyys.htm"
+        }
+      ],
+      "facts": []
     }
   ],
   "selectionPolicy": {
@@ -5684,6 +5731,11 @@
       "龙进品",
       "公安部打击缅北涉我犯罪专案工作组",
       "隐蔽战线在台牺牲英烈群体"
-    ]
+    ],
+    "scuAcademicians": {
+      "group": "川大历代两院院士",
+      "source": "https://rsc.scu.edu.cn/szdw/lyys.htm",
+      "rule": "仅收录四川大学人事处两院院士名录中的历代院士，包含已故院士；一般科学家、医学先贤及仅作为校友或双聘收录而不在该名录者不纳入本专题。其他独立荣誉专题按各自标准保留。"
+    }
   }
 }

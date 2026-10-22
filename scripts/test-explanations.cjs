@@ -1,9 +1,9 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
-const root=path.resolve(__dirname,'..'),bank=[...require('../data/bank.json'),...require('../data/people-bank.json')],details=require('../data/option-explanations.json'),sources=require('../data/option-explanations-source.json');
+const root=path.resolve(__dirname,'..'),bank=[...require('../data/bank.json').filter(q=>!q.studyExcluded),...require('../data/people-bank.json')],details=require('../data/option-explanations.json'),sources=require('../data/option-explanations-source.json');
 const choices=bank.filter(q=>['single','multiple'].includes(q.type));
-assert.equal(choices.length,485);assert.equal(Object.keys(details).length,choices.length);
-assert.equal(choices.reduce((n,q)=>n+q.options.length,0),1920);
+assert.equal(choices.length,462);assert.equal(Object.keys(details).length,choices.length);
+assert.equal(Object.values(details).reduce((n,d)=>n+d.options.length,0),choices.reduce((n,q)=>n+q.options.length,0));
 for(const q of choices){
  const d=details[q.id];assert.ok(d,q.id);assert.equal(d.options.length,q.options.length,q.id+' all options');
  assert.ok(d.summary.length>15&&d.memory.length>8,q.id+' summary and memory');
@@ -42,4 +42,4 @@ assert.match(details[qian.id].options[qian.options.indexOf('国家杰出贡献�
 const reverse=choices.find(q=>q.id==='q_606769b5dfb6');assert.match(details[reverse.id].options[0].paragraphs.join(''),/本题问“不属于”/);
 assert.equal(bank.find(q=>q.id==='s01').options[0],'中子弹');assert.match(bank.find(q=>q.id==='s31').note,/孙友宏/);
 assert.ok(sources.reviewAdjustments.length===4);
-console.log('PASS: 485 choice questions / 1920 aligned option explanations; cited sources; all HTML renders; no pre-answer leaks; selected-option marks; no scoring side effects; exam review; genuine cross-honors; reverse questions; ambiguity corrections.');
+console.log('PASS: all active choice questions / aligned option explanations; cited sources; all HTML renders; no pre-answer leaks; selected-option marks; no scoring side effects; exam review; genuine cross-honors; reverse questions; ambiguity corrections.');

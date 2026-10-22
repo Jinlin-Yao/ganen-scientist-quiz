@@ -1,6 +1,6 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
-const root=path.resolve(__dirname,'..');const bank=require('../data/bank.json'),knowledge=require('../data/knowledge.json');
+const root=path.resolve(__dirname,'..');const bank=require('../data/bank.json').filter(q=>!q.studyExcluded),knowledge=require('../data/knowledge.json');
 const storage={};let input='';
 function boot(){
  const app={innerHTML:''};
@@ -35,4 +35,4 @@ assert.ok(!knowledge.q_a785a877879d.paragraphs.some(p=>p.text.includes('樊锦�
 assert.ok(!knowledge.q_34a6b89ef841.paragraphs.some(p=>p.text.includes('2007 年 10 月 24 日')),'do not confuse Chang’e-1 and Chang’e-2 dates');
 // An obsolete question ID cannot break continuation after a future bank update.
 const state=JSON.parse(storage.wentian_v1);state.practiceSession.ids.unshift('removed-question');storage.wentian_v1=JSON.stringify(state);t=boot();t.run('resumePractice()');assert.ok(t.run('P.list.every(q=>q&&q.id)'));
-console.log('PASS: legacy migration; done/todo tabs; direct question entry; text and checkbox drafts; reload continuation; shuffle order; no repeat scoring; flash self assessment; all 1191 review materials; removed-ID recovery.');
+console.log('PASS: legacy migration; done/todo tabs; direct question entry; text and checkbox drafts; reload continuation; shuffle order; no repeat scoring; flash self assessment; all active review materials; removed-ID recovery.');

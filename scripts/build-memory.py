@@ -4,7 +4,7 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
 source = json.loads((root / 'data/people.json').read_text())
-fields = ('name', 'field', 'bio', 'note', 'groups', 'awards', 'quotes', 'references', 'links')
+fields = ('name', 'field', 'bio', 'note', 'groups', 'awards', 'quotes', 'references', 'links', 'academician', 'titles')
 payload = {'updated': source['updated'], 'people': [{k: p[k] for k in fields if k in p} for p in source['people']]}
 additions = json.loads((root / 'data/memory-additions.json').read_text())
 for person in payload['people']:
