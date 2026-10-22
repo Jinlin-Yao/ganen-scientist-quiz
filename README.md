@@ -4,6 +4,8 @@
 
 [立即刷题](https://Jinlin-Yao.github.io/ganen-scientist-quiz/) · [资料覆盖](docs/COVERAGE.md) · [勘误与时效说明](docs/CORRECTIONS.md)
 
+![四川大学扩充版首页](docs/screenshot_home_scu.png)
+
 ## 使用
 
 顺序刷题、随机刷题、专题筛选、人物与考点搜索、题库目录、模拟考试、错题本。进度保存在浏览器本地，无需账号或后端。填空支持规范答案、预设同义答案及原题关键词；可自评修正判分，避免合理答案因表达差异被误记。
