@@ -14,6 +14,8 @@
 
 ![独立科学家人物专项](docs/screenshot_people.png)
 
+![逐项详解与对照记忆](docs/screenshot_option_analysis.png)
+
 ## 使用
 
 首页为可点击的题目目录，按“未做过／已做过／错题／全部”分组，可按专题、题型和关键词筛选。每道题均配有作答后显示的知识点资料。
